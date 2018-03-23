@@ -16,15 +16,27 @@
 </section>
 
 
-<section id="porello">
+<section id="porello-inequitativas">
     <div class="flex">
         <p>Por ello, si bien creemos en la vocación altruista de asistir a las personas que lo necesitan en particular, y prueba de ello son las asesorías y los casos que de manera gratuita (pro bono) hemos llevado a efecto de solventar las necesidades jurídicas de personas sin recursos económicos o que se encontraban en desigualdad de género para defenderse; si bien es así, también creemos en la necesidad de presentar amicus curiae o tomar casos que tengan como objetivo impulsar el estado de las cosas hacia adelante, tanto en México, como en los diversos mecanismos internacionales, como por ejemplo la Corte Internacional de Justicia, la Comisión Interamericana de Derechos Humanos o la Corte Interamericana de Derechos Humanos.</p>
     </div>
 </section>
 
+<section id="ennuestra-general">
+    <div class="flex">
+        <div class="columna">
+            <p>En nuestra firma creemos que a través del litigio constitucional y en los diversos mecanismos internacionales, podemos incentivar el avance de las estructuras de las instituciones y de los procesos utilizados por los Estados para realizar sus funciones, además de generar consciencia respecto a las necesidades de la colectividad y de grupos particulares en posiciones inequitativas, por parte de aquellas personas encargadas de impartir justicia, de legislar y de ejecutar normas.</p>
+        </div>
+        <div class="columna">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/probono/proshadow.png" alt="sombra de PROBONO">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/probono/probono.png" alt="PROBONO">    
+        </div>
+    </div>
+    <div class="flex">
+        <p></p>
+    </div>
+</section>
 
-
-section#nuestra_firma>
 
 <section id="candidatos">
     

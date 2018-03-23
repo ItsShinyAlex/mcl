@@ -26,7 +26,7 @@
             <p class="inf">Al ser de esa manera, en Magna Carta Lex estamos en la posición de defender derechos humanos ante las comisiones de derechos humanos dentro de México, pero también ante los sistemas internacionales, e incluso pro bono, pues creemos que tal encomienda impulsa el estado de las cosas hacia adelante, y concientiza y humaniza a las instituciones de los Estados.
             </p>
         </div>
-        <div class="columna-menor"><img src="/img/proDerechos/arquitecturaInglesa.png" alt="Palacio británico"></div>
+        <div class="columna-menor"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/proDerechos/arquitecturaInglesa.png" alt="Palacio británico"></div>
     </div>
 </section>
 
