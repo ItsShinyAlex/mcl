@@ -1,0 +1,8 @@
+<?php
+    /* Template Name:  */ 
+    get_headers();
+?>
+
+<?php 
+    get_footer();
+?>

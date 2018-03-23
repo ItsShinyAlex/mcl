@@ -1,6 +1,6 @@
 <?php
     /* Template Name: Principal */ 
-    get_headers();
+    get_header();
 ?>
 
 <section id="amparo">

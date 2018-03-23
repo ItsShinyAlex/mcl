@@ -1,6 +1,6 @@
 <?php
     /* Template Name: Acciones de inconstitucionalidad */ 
-    get_headers();
+    get_header();
 ?>
 
 <section id="constitucional">

@@ -1,6 +1,6 @@
 <?php
     /* Template Name: Intro */ 
-    get_headers();
+    get_header();
 ?>
 
 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="MCL" class="logo">
