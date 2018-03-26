@@ -1,6 +1,6 @@
 <?php
     /* Template Name: Probono */ 
-    get_headers();
+    get_header();
 ?>
 
 <section id="probono">

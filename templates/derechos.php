@@ -1,6 +1,6 @@
 <?php
-    /* Template Name:  */ 
-    get_headers();
+    /* Template Name: Derechos Humanos */ 
+    get_header();
 ?>
 
 <section id="human">
