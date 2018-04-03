@@ -607,11 +607,15 @@ section.estilo-uno .flex .columna {
    Contacto
    ========================================================================== */
 #contacto .padding-60 {
-  padding: 0 60px;
+  padding: 0 30px;
 }
 #contacto h1 {
-  font-size: 43px;
+  font-size: 38px;
   text-align: center;
+}
+#contacto img.contacto {
+  width: 95%;
+  max-width: 400px;
 }
 #contacto form input[type="text"],
 #contacto form input[type="email"],
@@ -648,6 +652,9 @@ section.estilo-uno .flex .columna {
 }
 #contacto p.aviso-legal strong {
   color: #6a2c6d;
+}
+#contacto .info-contacto {
+  background: url(../img/MCL.png) no-repeat center;
 }
 #contacto .info-contacto .flex,
 #contacto .info-direccion .flex {
