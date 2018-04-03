@@ -25,8 +25,9 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
 
 ?>
 
-
+<?php if ( $mk_options['disable_footer'] == 'true' && ! $footer_status ) : ?>
     <footer id="footer" class="template-section padding-50">
+       
         <div class="contenedor">
             <div class="redes flex">
                 <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/facebook.png" alt="Facebook"></a>
@@ -48,7 +49,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
             <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" title="Diseño profesional de Sitios Web" class="esbrillante">Sitio Web diseñado por Esbrillante</a>
         </div>
     </footer>
-
+<?php endif; ?>
 
     </div>
     <?php
