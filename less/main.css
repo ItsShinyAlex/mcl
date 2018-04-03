@@ -29,3 +29,61 @@
   font-weight: bold;
   font-style: normal;
 }
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex.center-h {
+  justify-content: center;
+}
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+.flex .columna {
+  width: 50%;
+  padding: 0px 20px;
+}
+.flex .columna.align-self-end {
+  align-self: flex-end;
+}
+/* ==========================================================================
+   IDIOMA
+   ========================================================================== */
+.page-template-intro {
+  background: url(../img/fondoInicio.png) center top;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+#idioma {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: block;
+  height: 420px;
+}
+#idioma img.logo {
+  max-width: 546px;
+  margin: 0 auto;
+  display: block;
+}
+#idioma .idiomas {
+  max-width: 660px;
+  margin: 0 auto;
+}
+#idioma .idiomas a {
+  font-family: 'Bell MT';
+  font-size: 48px;
+  font-weight: 600;
+  padding: 20px 40px;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+}
+#idioma .idiomas a:first-letter {
+  font-size: 1.2em;
+}
+#idioma .idiomas a:hover {
+  color: #000;
+}
