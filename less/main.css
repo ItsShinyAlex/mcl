@@ -90,15 +90,16 @@ input[type="submit"].azul:hover {
   max-width: 1100px;
   margin: 0 auto;
 }
-.template-section h1,
-.template-section h2,
-.template-section h3,
-.template-section h4,
-.template-section h5,
-.template-section h6,
-.template-section p,
-.template-section a,
-.template-section input {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span input {
   font-family: 'Bell MT';
   color: #000;
 }
@@ -170,7 +171,7 @@ input[type="submit"].azul:hover {
   font-size: 1.2em;
 }
 #idioma .idiomas a:hover {
-  color: #000;
+  color: #6a2c6d;
 }
 .mk-header-toolbar {
   padding: 0;
@@ -288,6 +289,10 @@ input[type="submit"].azul:hover {
 #footer .flex.redes a {
   margin: 0 10px;
   display: block;
+}
+#footer .flex.redes a img {
+  max-width: 45px;
+  width: 100%;
 }
 #footer .flex.redes a img:hover {
   transform: scale(1.1);
@@ -557,11 +562,11 @@ section.estilo-uno .flex .columna {
 /* ==========================================================================
    AMPARO
    ========================================================================== */
-#amparo {
+#amparo-intro {
   background: url(../img/amparo/intro.jpg) no-repeat center;
   padding: 150px 0;
 }
-#amparo h1 {
+#amparo-intro h1 {
   text-align: center;
   color: #fff;
   font-size: 72px;
@@ -696,4 +701,10 @@ section.estilo-uno .flex .columna {
   font-size: 18px;
   color: #000;
   font-weight: normal;
+}
+/* ==========================================================================
+   Blog
+   ========================================================================== */
+.mk-blog-modern-item .mk-blog-meta-wrapper {
+  font-size: 18px;
 }
