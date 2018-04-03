@@ -1,7 +1,10 @@
 <?php
     /* Template Name: Acciones de inconstitucionalidad */ 
-    get_headers();
+    get_header();
 ?>
+<head>
+<link rel="stylesheet" type="text/css" href="../main.css">
+</head>
 
 <section id="constitucional">
     <div class="flex">
