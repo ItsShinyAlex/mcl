@@ -29,6 +29,9 @@
   font-weight: bold;
   font-style: normal;
 }
+.mk-desktop-logo.dark-logo {
+  height: 80%;
+}
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -42,9 +45,85 @@
 .flex .columna {
   width: 50%;
   padding: 0px 20px;
+  box-sizing: border-box;
+}
+.flex .columna.align-self-center {
+  align-self: center;
 }
 .flex .columna.align-self-end {
   align-self: flex-end;
+}
+.boton,
+input[type="submit"] {
+  display: inline-block;
+  padding: 15px 20px;
+  font-size: 2em;
+  font-weight: 600px;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  font-weight: 600;
+}
+.boton.azul,
+input[type="submit"].azul {
+  background-color: #254e9c;
+  color: #fff;
+}
+.boton.azul:hover,
+input[type="submit"].azul:hover {
+  background-color: #5b175e;
+}
+.padding-100 {
+  padding: 100px 0;
+}
+.padding-50 {
+  padding: 50px 0;
+}
+.text-center {
+  text-align: center;
+}
+.contenedor {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.template-section h1,
+.template-section h2,
+.template-section h3,
+.template-section h4,
+.template-section h5,
+.template-section h6,
+.template-section p,
+.template-section a,
+.template-section input {
+  font-family: 'Bell MT';
+  color: #000;
+}
+.template-section h1,
+.template-section h2,
+.template-section h3,
+.template-section h4,
+.template-section h5,
+.template-section h6 {
+  font-weight: 600;
+}
+.template-section h2 {
+  font-size: 48px;
+}
+.template-section p,
+.template-section input {
+  font-size: 24px;
+  line-height: 1.2em;
+  margin-bottom: 15px;
+}
+.template-section p.justify,
+.template-section input.justify {
+  text-align: justify;
+}
+.template-section img {
+  transition: all 0.3s ease-in-out;
+}
+.template-section img.center {
+  display: block;
+  margin: 0 auto;
 }
 /* ==========================================================================
    IDIOMA
@@ -86,4 +165,144 @@
 }
 #idioma .idiomas a:hover {
   color: #000;
+}
+.mk-header-toolbar {
+  padding: 0;
+}
+.mk-header-toolbar .mk-header-toolbar-holder {
+  padding: 0;
+}
+.mk-header-toolbar .enlaces {
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+.mk-header-toolbar .enlaces a {
+  padding: 0px;
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+}
+.mk-header-toolbar .enlaces a:after {
+  content: '|';
+  color: #254e9c;
+  padding: 0 10px;
+}
+.mk-header-toolbar .enlaces a:last-child {
+  border-right: none;
+}
+.mk-header-toolbar .enlaces a:last-child:after {
+  content: "";
+  padding-right: 0;
+}
+/* ==========================================================================
+   PRINCIPÁL
+   ========================================================================== */
+#amparo {
+  background: #eeeeee;
+  text-align: center;
+}
+#amparo .flex img {
+  float: right;
+}
+#amparo a.boton {
+  margin-top: 30px;
+}
+#mcl {
+  background: #f9f8f8;
+}
+#mcl .flex .columna {
+  padding: 0;
+}
+#mcl .flex .columna:first-child {
+  padding: 10px;
+}
+#mcl .flex .columna:first-child article {
+  max-width: 500px;
+  float: right;
+}
+#mcl .flex .columna:first-child img {
+  padding: 20px;
+  max-width: 220px;
+}
+#mcl .flex .columna:first-child h2 {
+  padding: 20px;
+}
+#mcl .flex .columna:first-child p {
+  padding: 0px 20px;
+}
+#mcl .flex .columna:last-child {
+  background: url(../img/mcl/rey.png) no-repeat;
+  background-size: cover;
+}
+#pro h2 i {
+  display: block;
+}
+#pro p {
+  max-width: 700px;
+  margin: 10px auto;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+#suscribir {
+  background: url(../img/mcl/suscribete.jpg) no-repeat center;
+  background-size: cover;
+}
+#suscribir input[type="email"] {
+  background: none;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #bfbfbf;
+  text-align: center;
+}
+#suscribir input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+}
+#footer {
+  background: #254e9c;
+  text-align: center;
+}
+#footer .flex {
+  justify-content: center;
+}
+#footer .flex.redes {
+  margin-bottom: 15px;
+}
+#footer .flex.redes a {
+  margin: 0 10px;
+  display: block;
+}
+#footer .flex.redes a img:hover {
+  transform: scale(1.1);
+}
+#footer .flex.enlaces {
+  margin-bottom: 15px;
+}
+#footer .flex.enlaces a {
+  padding: 0 10px;
+  display: block;
+  font-weight: 400;
+  border-right: 2px solid #fff;
+}
+#footer .flex.enlaces a:last-child {
+  border-right: none;
+}
+#footer a {
+  color: #fff;
+  font-size: 1.5em;
+}
+#footer a:hover {
+  color: #1ba8e4;
+}
+#footer p {
+  color: #fff;
+}
+#footer .copyright p {
+  font-size: 18px;
+}
+#footer a.esbrillante {
+  font-size: 14px;
 }
