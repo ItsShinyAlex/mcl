@@ -48,10 +48,10 @@
     </div>
 </section>
 
-<section id="objetivos" class="template-section padding-100">
-   
-        <p>Somos conscientes que la mejor forma de trabajar es a través del forjamiento de objetivos claros y mesurables, y por eso nuestra operatividad es a través del método de fijación y cumplimiento de objetivos.</p>
-   
+<section id="objetivos" class="template-section padding-100 seccion-azul">
+       <div class="contenedor">
+                <p>Somos conscientes que la mejor forma de trabajar es a través del forjamiento de objetivos claros y mesurables, y por eso nuestra operatividad es a través del método de fijación y cumplimiento de objetivos.</p>
+       </div>
 </section>
 
 <section id="valores" class="template-section padding-100">

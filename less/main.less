@@ -144,6 +144,8 @@ input[type="submit"]{
         }
     }
     
+    
+    
     img{
         transition: all 0.3s ease-in-out;
         &.center{
@@ -217,7 +219,7 @@ input[type="submit"]{
                 padding: 0px;
                 display: block;
                 font-weight: 400;
-                font-size: 18px;
+                font-size: 16px;
                
                 &:after{
                     content: '|';
@@ -239,6 +241,12 @@ input[type="submit"]{
         }
 }
 
+/*Menu*/
+
+.menu-hover-style-2 .main-navigation-ul > li.current-menu-item > a.menu-item-link,
+.menu-hover-style-2 .main-navigation-ul > li.current-menu-ancestor > a.menu-item-link{
+    font-weight: 600;
+}
 /* ==========================================================================
    PRINCIPÁL
    ========================================================================== */
@@ -465,19 +473,33 @@ input[type="submit"]{
     }
 }
 
+section{
+    &.estilo-uno{
+        .flex{
+        .columna{
+            padding: @padding-texto; 
+            }
+        }
+    }
+}
+
+
 @ancho-parrafo: 1000px;
 
-#objetivos{
-    background: @marino;    
+
+.seccion-azul{
+     background: @marino;    
   
         p{
             color: #fff;
-            text-align: center;
-            max-width: @ancho-parrafo;
+            text-align: center;           
             margin: 0 auto;
-            font-style: italic;
+            font-style: italic;  
+            
+            &.medio{
+                font-size: 36px;
+            }
         }
-    
 }
 
 
@@ -501,5 +523,365 @@ input[type="submit"]{
         max-width: @ancho-parrafo;
         margin: 0 auto;
         font-style: italic;
+    }
+}
+
+/* ==========================================================================
+   PRO BONO Y EQUIDAD DE GÉNERO
+   ========================================================================== */
+
+#probono{
+    background: url(../img/probono/intro.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 80px 0 250px;
+    h1{
+        text-align: center;
+        font-size: 72px;
+        i{
+            font-weight: 400;   
+        }
+    }
+}
+
+#firma{
+    background: url(../img/probono/logo.jpg) no-repeat center;
+    background-size: 400px;
+    p{
+            
+            max-width: @ancho-parrafo;
+            margin: 0 auto;
+        }
+}
+
+#altruista{
+    background: url(../img/probono/fondo.jpg) no-repeat center top;
+    background-size: contain;
+    padding-bottom: 0;
+    p{
+        max-width: @ancho-parrafo;
+        margin: 0 auto;
+    }
+    
+    .flex{
+        margin-top: 190px;
+        .probono{
+            position: relative;
+            top: -100px;
+        }
+    }
+    .blanco{
+        background: #fff;
+        padding: 80px;
+        p{
+            max-width: 485px;
+            
+        }
+    }
+}
+
+#candidatos{
+     p{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .foto{
+        margin-top: 50px;
+        background: url(../img/probono/pie.jpg) no-repeat center top;
+        background-size: cover;
+        display: block;
+        width: 100%;
+        height: 600px;
+    }
+}
+
+.seccion-morada{
+    background: @moradoFondo;
+    
+    p{
+        color: #fff;
+        font-style: italic;
+        font-size: 36px;
+        span{
+            font-style: normal;
+        }
+    }
+}
+
+
+/* ==========================================================================
+   Medios de control constitucional
+   ========================================================================== */
+
+#constitucional{
+    background: url(../img/control/intro.jpg) no-repeat center;
+    padding: 150px 0;
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 72px;
+    }
+}
+
+#acciones{
+     background: url(../img/probono/logo.jpg) no-repeat center 180px;
+    background-size: 220px;
+    h2{
+        color: @marino;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    p{
+        max-width: 673px;
+        margin: 0 auto;
+    }
+}
+
+#ademas{
+     background: url(../img/control/mexico.jpg) no-repeat center;
+    padding: 150px 0;
+    p{
+        width: 658px;
+        margin: 25px auto;
+    }
+}
+
+#controversias{
+    background: @grisFondo;
+    h2{
+        color: @marino;
+        text-align: center;
+    }
+    
+    .fondo{
+        background: url(../img/control/reloj.jpg) no-repeat center;
+        background-size: cover;
+    }
+    
+    .flex{
+        .columna{
+             padding: @padding-texto;
+        }
+    }
+}
+
+/* ==========================================================================
+   Derechos humanos y conflictos supranacionales
+   ========================================================================== */
+
+#human{
+    background: url(../img/derechos/intro.jpg) no-repeat center;
+    padding: 150px 0;
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 72px;
+    }
+}
+
+#proteccion{
+    h2{
+        color: @moradoLetras;
+        text-align: center;
+    }
+    
+    p{
+        max-width: 673px;
+        margin: 25px auto;
+    }
+}
+
+#especialistas{
+    .flex{
+        .columna{
+            &:first-child{
+                background: @moradoFondo;
+                padding: @padding-texto;
+                p{
+                    color: #fff;
+                }
+            }
+            
+            &:last-child{
+                background: url(../img/derechos/especialistas.jpg) no-repeat center;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+#conflictos{
+    h2{
+        text-align: center;
+        color: @moradoLetras;
+    }
+}
+
+/* ==========================================================================
+   AMPARO
+   ========================================================================== */
+
+#amparo{
+    background: url(../img/amparo/intro.jpg) no-repeat center;
+    padding: 150px 0;
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 72px;
+    }
+}
+
+#que-es-amparo{
+    p{
+        max-width: 673px;
+        margin: 25px auto;
+    }
+}
+
+#pretende{
+    background: #fff;
+    .fondo{
+        background: url(../img/amparo/amparo.jpg) center no-repeat;
+        background-size: cover;
+    }
+}
+
+#tramita{
+    background: @grisFondo;
+    .fondo{
+        background: url(../img/amparo/amparo2.jpg) center no-repeat;
+         background-size: cover;
+    }
+}
+
+#complejo{
+    .fondo{
+        background: url(../img/amparo/mano.jpg) center no-repeat;
+         background-size: contain;
+    }
+}
+
+#amparo-indirecto{
+    background: url(../img/amparo/fondo.jpg) center no-repeat;
+    background-attachment: fixed;
+    padding: 200px 0;
+    
+    p{
+        color: #fff;
+    }
+}
+
+#redaccion{
+    background: @grisFondo;
+    .fondo{
+        background: url(../img/amparo/sillon.jpg) center no-repeat;
+        background-size: cover;
+    }
+}
+
+/* ==========================================================================
+   Contacto
+   ========================================================================== */
+
+#contacto{
+    
+    .padding-60{
+        padding: 0 60px; 
+    }   
+  
+    h1{
+        font-size: 43px;
+        text-align: center;
+    }
+    
+    form{
+        input[type="text"],
+        input[type="email"],
+        textarea{
+            background: @grisFondo;
+            font-family: 'Bell MT';
+            font-size: 24px;           
+        }
+        
+       input[type="text"],
+        input[type="email"]{           
+            height: 45px;
+        }
+        .checkbox-inline{
+            font-family: 'Bell MT';
+            font-size: 18px;
+            strong{
+                color: @moradoLetras;
+            }
+        }
+        input[type="submit"]{
+            font-size: 1.8em;
+             font-family: 'Bell MT';
+            font-weight: 600;
+            margin: 10px auto;
+            display: block;
+            padding: 5px 40px;
+            &:hover{
+                color: #fff;
+            }
+        }
+    }
+    
+    p.aviso-legal{
+        font-size: 18px;
+        margin-top: 25px;
+        strong{
+            color: @moradoLetras;
+        }
+    }
+    
+    
+    .info-contacto,
+    .info-direccion{
+        .flex{
+            margin-bottom: 20px;
+            .columna{
+                &:first-child{
+                    width: 80px;
+                    img{
+                        max-width: 50px;
+                        width: 100%;
+                    }
+                }
+                &:last-child{
+                    width: 80%;
+                    p,a{
+                        font-size: 25px;
+                        color: @marino;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    
+    hr{
+        background: @marino;
+        height: 3px;
+        margin: 40px 0;
+    }
+    
+    .info-direccion{
+        .flex{
+            .columna{
+                h3{
+                    color: @marino;
+                }
+                &:last-child{
+                    width: 80%;
+                    p{
+                        font-size: 18px;
+                        color: #000;
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
     }
 }
