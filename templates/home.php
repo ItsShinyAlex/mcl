@@ -56,11 +56,7 @@
 
     <section id="blog" class="template-section padding-100">
         <h2 class="text-center">Blog</h2>
-        <div class="flex">
-            <div class="columna"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mcl/law.png" alt="libro de leyes y martillo de juez"></div>
-            <div class="columna"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mcl/librosFeosApilados.png" alt="libros apilados"></div>
-            <div class="columna"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mcl/martilloColor.png" alt="martillo de juez"></div>
-        </div>
+       
     </section>
 
     <section id="suscribir" class="template-section padding-100">

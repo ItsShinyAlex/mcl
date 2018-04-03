@@ -118,14 +118,18 @@ input[type="submit"]{
     max-width: 1100px;
     margin: 0 auto;
 }
-.template-section{
-    
-    //Fuentes
-    h1,h2,h3,h4,h5,h6, p, a,
+
+
+  //Fuentes
+    h1,h2,h3,h4,h5,h6, p, a, div, span
     input{
     font-family: 'Bell MT';  
     color: #000;
     }
+
+.template-section{
+    
+  
 
     h1,h2,h3,h4,h5,h6{
         font-weight: 600;
@@ -200,7 +204,7 @@ input[type="submit"]{
             }
             
             &:hover{
-                color: #000;
+                color: @moradoLetras;
             }
             
             
@@ -354,6 +358,8 @@ input[type="submit"]{
                 margin: 0 10px;
                 display: block;
                 img{
+                    max-width: 45px;
+                    width: 100%;
                     &:hover{
                         transform: scale(1.1);
                     } 
@@ -722,7 +728,7 @@ section{
    AMPARO
    ========================================================================== */
 
-#amparo{
+#amparo-intro{
     background: url(../img/amparo/intro.jpg) no-repeat center;
     padding: 150px 0;
     h1{
@@ -891,4 +897,12 @@ section{
             }
         }
     }
+}
+
+/* ==========================================================================
+   Blog
+   ========================================================================== */
+
+.mk-blog-modern-item .mk-blog-meta-wrapper {
+    font-size: 18px;    
 }

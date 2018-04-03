@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-    <section id="amparo" class="template-section">
+    <section id="amparo-intro" class="template-section">
         <h1>Amparo</h1>
     </section>
 

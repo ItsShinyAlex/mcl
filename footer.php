@@ -30,9 +30,9 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
        
         <div class="contenedor">
             <div class="redes flex">
-                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/linkedin.png" alt="Linkedin"></a>
+                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/icons/linkedin.svg" alt="Linkedin"></a>
             </div>
 
             <div class="enlaces flex">
