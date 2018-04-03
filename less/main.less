@@ -73,7 +73,7 @@
 @moradoFondo: #5b175e;
 @marino: #254e9c;
 @moradoLetras: #6a2c6d;
-@grisNavbar: #f9f8f8;
+@grisclaro: #f9f8f8;
 @grisFondo: #eeeeee;
 
 
@@ -105,6 +105,13 @@ input[type="submit"]{
 
 .text-center{
     text-align: center;
+}
+
+
+.text-justify-center{
+    text-align: justify;
+    text-justify: inter-word;
+    text-align-last: center;
 }
 
 .contenedor{
@@ -223,6 +230,9 @@ input[type="submit"]{
                         content: "";
                         padding-right: 0;
                     }
+                }
+                &:hover{
+                    color: @moradoLetras;
                 }
             }
             margin-bottom: 15px;
@@ -379,4 +389,117 @@ input[type="submit"]{
             font-size: 14px;        
     }
     
+}
+
+/* ==========================================================================
+   ACERCA DE
+   ========================================================================== */
+#acerca{
+    background: url(../img/acerca/intro.jpg) no-repeat center;
+    background-size: cover;
+    h1{
+        color: #fff;
+        text-align: center;
+        display: block;
+        padding: 120px 0;
+        font-size: 72px;
+        margin: 0;
+    }
+}
+
+#acercaMCL{
+    background-color: @grisclaro;
+    img{
+        max-width: 200px;
+        margin-bottom: 30px;
+    }
+   p{
+       display: block;
+        max-width: 800px;
+        margin: 10px auto;
+        text-align: justify;
+        text-justify: inter-word;
+        text-align-last: center;
+    }
+}
+
+@padding-texto: 100px 80px;
+
+#jerarquia{
+    .flex{
+        .columna{
+            padding: @padding-texto;
+            &:first-child{
+                background: url(../img/acerca/jerarquizacion.jpg) no-repeat;
+                background-size: cover;
+            } 
+          
+        }
+    }
+    
+    
+}
+
+#vision{
+    .flex{
+        .columna{
+            padding: @padding-texto;
+            &:last-child{
+                background: url(../img/acerca/vision.jpg) no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+#mision{
+    .flex{
+        .columna{
+            padding: @padding-texto;
+            
+            &:first-child{
+                background: url(../img/acerca/mision.jpg) no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}
+
+@ancho-parrafo: 1000px;
+
+#objetivos{
+    background: @marino;    
+  
+        p{
+            color: #fff;
+            text-align: center;
+            max-width: @ancho-parrafo;
+            margin: 0 auto;
+            font-style: italic;
+        }
+    
+}
+
+
+#valores{
+    background: url(../img/acerca/valores.jpg) no-repeat;
+    background-size: cover;    
+    
+    h2{
+        color: #fff;
+    }
+        p{
+            color: #fff;
+            max-width: @ancho-parrafo;
+            margin: 0 auto;
+        }
+    
+}
+
+#excelencia{
+    p{
+        max-width: @ancho-parrafo;
+        margin: 0 auto;
+        font-style: italic;
+    }
 }

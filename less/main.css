@@ -81,6 +81,11 @@ input[type="submit"].azul:hover {
 .text-center {
   text-align: center;
 }
+.text-justify-center {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: center;
+}
 .contenedor {
   max-width: 1100px;
   margin: 0 auto;
@@ -195,6 +200,9 @@ input[type="submit"].azul:hover {
   content: "";
   padding-right: 0;
 }
+.mk-header-toolbar .enlaces a:hover {
+  color: #6a2c6d;
+}
 /* ==========================================================================
    PRINCIPÁL
    ========================================================================== */
@@ -306,4 +314,82 @@ input[type="submit"].azul:hover {
 }
 #footer a.esbrillante {
   font-size: 14px;
+}
+/* ==========================================================================
+   ACERCA DE
+   ========================================================================== */
+#acerca {
+  background: url(../img/acerca/intro.jpg) no-repeat center;
+  background-size: cover;
+}
+#acerca h1 {
+  color: #fff;
+  text-align: center;
+  display: block;
+  padding: 120px 0;
+  font-size: 72px;
+  margin: 0;
+}
+#acercaMCL {
+  background-color: #f9f8f8;
+}
+#acercaMCL img {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+#acercaMCL p {
+  display: block;
+  max-width: 800px;
+  margin: 10px auto;
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: center;
+}
+#jerarquia .flex .columna {
+  padding: 100px 80px;
+}
+#jerarquia .flex .columna:first-child {
+  background: url(../img/acerca/jerarquizacion.jpg) no-repeat;
+  background-size: cover;
+}
+#vision .flex .columna {
+  padding: 100px 80px;
+}
+#vision .flex .columna:last-child {
+  background: url(../img/acerca/vision.jpg) no-repeat;
+  background-size: cover;
+}
+#mision .flex .columna {
+  padding: 100px 80px;
+}
+#mision .flex .columna:first-child {
+  background: url(../img/acerca/mision.jpg) no-repeat;
+  background-size: cover;
+}
+#objetivos {
+  background: #254e9c;
+}
+#objetivos p {
+  color: #fff;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-style: italic;
+}
+#valores {
+  background: url(../img/acerca/valores.jpg) no-repeat;
+  background-size: cover;
+}
+#valores h2 {
+  color: #fff;
+}
+#valores p {
+  color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+#excelencia p {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-style: italic;
 }
