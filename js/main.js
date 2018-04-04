@@ -14,7 +14,7 @@ window.onload = function() {
 };
 
 // JavaScript
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false });
 
 
       var hero = {

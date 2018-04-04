@@ -3,8 +3,8 @@
     get_header();
 ?>
 
-<section id="candado" class="template-section padding-100">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/AvisoPrivacidad/candado.jpg" alt="candado">
+<section id="candado" class="template-section">
+
 </section>
 
 <section id="aviso" class="template-section">

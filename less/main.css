@@ -703,6 +703,24 @@ section.estilo-uno .flex .columna {
   font-weight: normal;
 }
 /* ==========================================================================
+   Aviso de privacidad
+   ========================================================================== */
+#candado {
+  background: url(../img/AvisoPrivacidad/candado.jpg) no-repeat center;
+  background-size: cover;
+  padding: 225px 0;
+}
+#aviso.template-section p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 40px;
+}
+#aviso h1 {
+  color: #27509d;
+  margin-top: 85px;
+  margin-bottom: 78px;
+}
+/* ==========================================================================
    Blog
    ========================================================================== */
 .mk-blog-modern-item .mk-blog-meta-wrapper {
