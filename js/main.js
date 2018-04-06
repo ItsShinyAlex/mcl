@@ -1,4 +1,5 @@
 //Remover los title de los a
+
 window.onload = function() {
     var links = document.getElementsByTagName("a");
     for (var i = 0; i < links.length; i++) {
@@ -14,7 +15,7 @@ window.onload = function() {
 };
 
 // JavaScript
-window.sr = ScrollReveal({ reset: true });
+window.sr = ScrollReveal({ reset: false });
 
 
       var hero = {
@@ -104,8 +105,8 @@ window.sr = ScrollReveal({ reset: true });
         sr.reveal('section h1, section h2', titulo);
         sr.reveal('.animacion h3', subtituloH3);
         sr.reveal('.animacion h4', subtituloH4);
-        sr.reveal('section img, section input', imagenes);
-        sr.reveal('section p, .idiomas', contenido);
+        sr.reveal('.template-section img, .template-section input', imagenes);
+        sr.reveal('section p', contenido);
         sr.reveal('section .boton', contenido);
 
       function addCommasToNum( num ){

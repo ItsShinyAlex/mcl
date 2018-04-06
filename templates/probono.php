@@ -48,7 +48,7 @@
 
     <section id="impactar" class="template-section seccion-morada padding-100">
        <div class="contenedor">
-           <p class="text-justify-center">Cuando tomamos un caso <span>pro bono</span> (voluntariamente y sin retribución monetaria), más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas.</p>
+           <p class="text-center">Cuando tomamos un caso <span>pro bono</span> (voluntariamente y sin retribución monetaria), más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas.</p>
        </div>        
     </section>
     <?php 
