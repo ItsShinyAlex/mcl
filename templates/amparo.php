@@ -70,7 +70,7 @@
     
     <section id="redaccion" class="template-section estilo-uno">
         <div class="flex">           
-            <div class="columna">
+            <div class="columna align-self-center">
 
                 <p class="text-justify-center">En ese sentido, hemos descubierto que nuestra especialización para la redacción y tramitación o revisión de amparos o amparos adhesivos, y/o incidentes y/o recursos y/o memorándums y/o dictámenes dentro del amparo, así como, en su caso, la defensa oral de argumentos para el convencimiento de la autoridad juzgadora, en cualquier etapa de los juicios de amparo, hasta la ejecución de la sentencia; nuestra especialización, sea usted parte quejosa, tercera interesada o particular en calidad de autoridad responsable, ayuda no solo a obtener resultados favorables, sino términos más favorables respecto a los resultados favorables, y desde esa óptica, quizás podríamos contribuir a propiciar su hipotética victoria y/o el resarcimiento del o de los derechos humanos violados, y/o, en su caso, de la persona que representa.</p>
             </div>
@@ -80,7 +80,7 @@
     
     <section id="excelencia" class="template-section seccion-morada padding-100">
 
-        <p class="text-justify-center">Sobre estos temas, al margen de que nos elija o no, sugeriríamos que acuda ante una o un especialista tan pronto crea que una autoridad le ha violado un derecho humano, pues el plazo general para presentar la demanda de amparo es de quince días hábiles desde que la violación se cometió. </p>
+        <p class="text-center">Sobre estos temas, al margen de que nos elija o no, sugeriríamos que acuda ante una o un especialista tan pronto crea que una autoridad le ha violado un derecho humano, pues el plazo general para presentar la demanda de amparo es de quince días hábiles desde que la violación se cometió. </p>
 
     </section>
 

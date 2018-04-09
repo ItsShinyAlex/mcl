@@ -31,6 +31,7 @@
 }
 .mk-desktop-logo.dark-logo {
   height: 80%;
+  margin-left: 65px;
 }
 .flex {
   display: flex;
@@ -112,11 +113,11 @@ span input {
   font-weight: 600;
 }
 .template-section h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 .template-section p,
 .template-section input {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2em;
   margin-bottom: 15px;
 }
@@ -148,26 +149,30 @@ span input {
   bottom: 0;
   margin: auto;
   display: block;
-  height: 420px;
+  height: 260px;
 }
 #idioma img.logo {
-  max-width: 546px;
+  max-width: 410px;
   margin: 0 auto 40px;
   width: 100%;
   display: block;
 }
+#idioma .flex .columna {
+  padding: 0;
+  text-align: center;
+}
 #idioma .idiomas {
-  max-width: 690px;
-  margin: 0 auto;
+  max-width: 512px;
+  margin: 50px auto 0;
 }
 #idioma .idiomas a {
   font-family: 'Bell MT';
-  font-size: 48px;
+  font-size: 30px;
   font-weight: 600;
   padding: 20px 40px;
   text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
 }
-#idioma .idiomas a:first-letter {
+#idioma .idiomas a span {
   font-size: 1.2em;
 }
 #idioma .idiomas a:hover {
@@ -304,10 +309,10 @@ span input {
   padding: 0 10px;
   display: block;
   font-weight: 400;
-  border-right: 2px solid #fff;
 }
-#footer .flex.enlaces a:last-child {
-  border-right: none;
+#footer .flex.enlaces span {
+  color: #fff;
+  font-size: 1.6em;
 }
 #footer a {
   color: #fff;
@@ -362,12 +367,20 @@ span input {
   background: url(../img/acerca/jerarquizacion.jpg) no-repeat;
   background-size: cover;
 }
+#vision h2 {
+  text-align: center;
+  color: #6a2c6d;
+}
 #vision .flex .columna {
   padding: 100px 80px;
 }
 #vision .flex .columna:last-child {
   background: url(../img/acerca/vision.jpg) no-repeat;
   background-size: cover;
+}
+#mision h2 {
+  text-align: center;
+  color: #6a2c6d;
 }
 #mision .flex .columna {
   padding: 100px 80px;
@@ -387,6 +400,7 @@ section.estilo-uno .flex .columna {
   text-align: center;
   margin: 0 auto;
   font-style: italic;
+  font-size: 2em;
 }
 .seccion-azul p.medio {
   font-size: 36px;
@@ -407,6 +421,7 @@ section.estilo-uno .flex .columna {
   max-width: 1000px;
   margin: 0 auto;
   font-style: italic;
+  font-size: 1.8em;
 }
 /* ==========================================================================
    PRO BONO Y EQUIDAD DE GÉNERO
@@ -425,7 +440,7 @@ section.estilo-uno .flex .columna {
 }
 #firma {
   background: url(../img/probono/logo.jpg) no-repeat center;
-  background-size: 400px;
+  background-size: 280px;
 }
 #firma p {
   max-width: 1000px;
@@ -472,7 +487,7 @@ section.estilo-uno .flex .columna {
 .seccion-morada p {
   color: #fff;
   font-style: italic;
-  font-size: 36px;
+  font-size: 28px;
 }
 .seccion-morada p span {
   font-style: normal;
@@ -481,8 +496,9 @@ section.estilo-uno .flex .columna {
    Medios de control constitucional
    ========================================================================== */
 #constitucional {
-  background: url(../img/control/intro.jpg) no-repeat center;
-  padding: 150px 0;
+  background: url(../img/control/intro.jpg) no-repeat center -50px;
+  padding: 170px 0;
+  background-size: contain;
 }
 #constitucional h1 {
   text-align: center;
@@ -503,8 +519,9 @@ section.estilo-uno .flex .columna {
   margin: 0 auto;
 }
 #ademas {
-  background: url(../img/control/mexico.jpg) no-repeat center;
-  padding: 150px 0;
+  background: url(../img/control/mexico.jpg) no-repeat center top;
+  padding: 160px 0;
+  background-attachment: fixed;
 }
 #ademas p {
   width: 658px;
@@ -518,8 +535,8 @@ section.estilo-uno .flex .columna {
   text-align: center;
 }
 #controversias .fondo {
-  background: url(../img/control/reloj.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../img/control/reloj.jpg) no-repeat right;
+  background-size: contain;
 }
 #controversias .flex .columna {
   padding: 100px 80px;
@@ -528,13 +545,16 @@ section.estilo-uno .flex .columna {
    Derechos humanos y conflictos supranacionales
    ========================================================================== */
 #human {
-  background: url(../img/derechos/intro.jpg) no-repeat center;
-  padding: 150px 0;
+  background: url(../img/derechos/intro.jpg) no-repeat center top;
+  padding: 52px 0;
+  background-size: contain;
+  height: 393px;
 }
 #human h1 {
   text-align: center;
   color: #fff;
   font-size: 72px;
+  margin-top: 100px;
 }
 #proteccion h2 {
   color: #6a2c6d;
@@ -564,7 +584,8 @@ section.estilo-uno .flex .columna {
    ========================================================================== */
 #amparo-intro {
   background: url(../img/amparo/intro.jpg) no-repeat center;
-  padding: 150px 0;
+  background-attachment: fixed;
+  padding: 180px 0;
 }
 #amparo-intro h1 {
   text-align: center;
@@ -590,8 +611,8 @@ section.estilo-uno .flex .columna {
   background-size: cover;
 }
 #complejo .fondo {
-  background: url(../img/amparo/mano.jpg) center no-repeat;
-  background-size: contain;
+  background: url(../img/amparo/mano.jpg) center bottom no-repeat;
+  background-size: 37%;
 }
 #amparo-indirecto {
   background: url(../img/amparo/fondo.jpg) center no-repeat;
@@ -605,8 +626,11 @@ section.estilo-uno .flex .columna {
   background: #eeeeee;
 }
 #redaccion .fondo {
-  background: url(../img/amparo/sillon.jpg) center no-repeat;
+  background: url(../img/amparo/sillon.jpg) center bottom no-repeat;
   background-size: cover;
+}
+#redaccion .flex {
+  min-height: 650px;
 }
 /* ==========================================================================
    Contacto
@@ -627,11 +651,11 @@ section.estilo-uno .flex .columna {
 #contacto form textarea {
   background: #eeeeee;
   font-family: 'Bell MT';
-  font-size: 24px;
+  font-size: 18px;
 }
 #contacto form input[type="text"],
 #contacto form input[type="email"] {
-  height: 45px;
+  height: 35px;
 }
 #contacto form .checkbox-inline {
   font-family: 'Bell MT';

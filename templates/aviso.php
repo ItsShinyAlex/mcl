@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<section id="candado" class="template-section">
+<section id="candado" class="template-section padding-50">
 
 </section>
 

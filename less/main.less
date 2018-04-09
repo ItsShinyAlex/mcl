@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Bell MT';
     src: url('fonts/BellMTBold.woff2') format('woff2'),
-        url('fonts/BellMTBold.woff') format('woff');
+    url('fonts/BellMTBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Bell MT';
     src: url('fonts/BellMT.woff2') format('woff2'),
-        url('fonts/BellMT.woff') format('woff');
+    url('fonts/BellMT.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'Bell MT';
     src: url('fonts/BellMTItalic.woff2') format('woff2'),
-        url('fonts/BellMTItalic.woff') format('woff');
+    url('fonts/BellMTItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -25,7 +25,7 @@
 @font-face {
     font-family: 'Bell MT';
     src: url('fonts/BellMTItalic.woff2') format('woff2'),
-        url('fonts/BellMTItalic.woff') format('woff');
+    url('fonts/BellMTItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
@@ -33,37 +33,37 @@
 @font-face {
     font-family: 'Bell MT';
     src: url('fonts/BellMTBold.woff2') format('woff2'),
-        url('fonts/BellMTBold.woff') format('woff');
+    url('fonts/BellMTBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 // Fix logo SVG Header
-
 .mk-desktop-logo.dark-logo {
     height: 80%;
+    margin-left: 65px;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-wrap: wrap;
-    
-    &.center-h{
+
+    &.center-h {
         justify-content: center;
     }
-    
-    &.nowrap{
+
+    &.nowrap {
         flex-wrap: nowrap;
     }
-    
-    .columna{
+
+    .columna {
         width: 50%;
         padding: 0px 20px;
         box-sizing: border-box;
-        &.align-self-center{
+        &.align-self-center {
             align-self: center;
         }
-        &.align-self-end{
+        &.align-self-end {
             align-self: flex-end;
         }
     }
@@ -78,7 +78,7 @@
 
 
 .boton,
-input[type="submit"]{
+input[type="submit"] {
     display: inline-block;
     padding: 15px 20px;
     font-size: 2em;
@@ -86,91 +86,103 @@ input[type="submit"]{
     transition: all 0.3s ease-in-out;
     border: none;
     font-weight: 600;
-    &.azul{
+    &.azul {
         background-color: @marino;
         color: #fff;
-        &:hover{
+        &:hover {
             background-color: @moradoFondo;
         }
     }
 }
 
-.padding-100{
+.padding-100 {
     padding: 100px 0;
 }
 
-.padding-50{
+.padding-50 {
     padding: 50px 0;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
 
-.text-justify-center{
+.text-justify-center {
     text-align: justify;
     text-justify: inter-word;
     text-align-last: center;
 }
 
-.contenedor{
+.contenedor {
     max-width: 1100px;
     margin: 0 auto;
+} //Fuentes
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+span input {
+    font-family: 'Bell MT';
+    color: #000;
 }
 
+.template-section {
 
-  //Fuentes
-    h1,h2,h3,h4,h5,h6, p, a, div, span
-    input{
-    font-family: 'Bell MT';  
-    color: #000;
-    }
 
-.template-section{
-    
-  
 
-    h1,h2,h3,h4,h5,h6{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         font-weight: 600;
     }
 
-    h2{
-        font-size: 48px;
+    h2 {
+        font-size: 40px;
     }
 
-    p, input{
-        font-size: 24px;
+    p,
+    input {
+        font-size: 20px;
         line-height: 1.2em;
         margin-bottom: 15px;
-        &.justify{
+        &.justify {
             text-align: justify;
         }
     }
-    
-    
-    
-    img{
+
+
+
+    img {
         transition: all 0.3s ease-in-out;
-        &.center{
+        &.center {
             display: block;
             margin: 0 auto;
         }
     }
 }
+
 /* ==========================================================================
    IDIOMA
    ========================================================================== */
 
-.page-template-intro{
+.page-template-intro {
     background: url(../img/fondoInicio.png) center top;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
 }
 
-#idioma{
-    
+#idioma {
+
     position: fixed;
     left: 0;
     right: 0;
@@ -178,138 +190,146 @@ input[type="submit"]{
     bottom: 0;
     margin: auto;
     display: block;
-    height: 420px;
-    
-    img.logo{
-        max-width: 546px;
+    height: 260px;
+
+    img.logo {
+        max-width: 410px;
         margin: 0 auto 40px;
         width: 100%;
         display: block;
-        
+
     }
-    
-    .idiomas{
-        max-width: 690px;
-        margin: 0 auto;
-        
-        a{
+
+    .flex {
+        .columna {
+            padding: 0;
+            text-align: center;
+        }
+    }
+
+    .idiomas {
+        max-width: 512px;
+        margin: 50px auto 0;
+
+        a {
             font-family: 'Bell MT';
-            font-size: 48px;
+            font-size: 30px;
             font-weight: 600;
-            padding: 20px 40px;   
-            text-shadow: 2px 3px 4px rgba(0,0,0,0.2);
-            
-            &:first-letter{
+            padding: 20px 40px;
+            text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.2);
+
+            span {
                 font-size: 1.2em;
             }
-            
-            &:hover{
+
+            &:hover {
                 color: @moradoLetras;
             }
-            
-            
+
+
         }
     }
 }
 
-.mk-header-toolbar{
+.mk-header-toolbar {
     padding: 0;
-    .mk-header-toolbar-holder{
+    .mk-header-toolbar-holder {
         padding: 0;
     }
-     .enlaces{
-         justify-content: flex-end;
-            a{
-                padding: 0px;
-                display: block;
-                font-weight: 400;
-                font-size: 16px;
-               
-                &:after{
-                    content: '|';
-                    color: @marino;
-                    padding: 0 10px;
-                }
-                &:last-child{
-                    border-right: none;
-                    &:after{
-                        content: "";
-                        padding-right: 0;
-                    }
-                }
-                &:hover{
-                    color: @moradoLetras;
+    .enlaces {
+        justify-content: flex-end;
+        a {
+            padding: 0px;
+            display: block;
+            font-weight: 400;
+            font-size: 16px;
+
+            &:after {
+                content: '|';
+                color: @marino;
+                padding: 0 10px;
+            }
+            &:last-child {
+                border-right: none;
+                &:after {
+                    content: "";
+                    padding-right: 0;
                 }
             }
-            margin-bottom: 15px;
+            &:hover {
+                color: @moradoLetras;
+            }
         }
+        margin-bottom: 15px;
+    }
 }
 
 /*Menu*/
 
 .menu-hover-style-2 .main-navigation-ul > li.current-menu-item > a.menu-item-link,
-.menu-hover-style-2 .main-navigation-ul > li.current-menu-ancestor > a.menu-item-link{
+.menu-hover-style-2 .main-navigation-ul > li.current-menu-ancestor > a.menu-item-link {
     font-weight: 600;
 }
+
 /* ==========================================================================
    PRINCIPÁL
    ========================================================================== */
 
-#amparo{
-    background: @grisFondo;    
+#amparo {
+    background: @grisFondo;
     text-align: center;
-    .flex{
-        
-        img{
-           float: right;
+    .flex {
+
+        img {
+            float: right;
         }
     }
-    a.boton{
+    a.boton {
         margin-top: 30px;
     }
 }
 
-#mcl{
-     background: #f9f8f8;
-    .flex{
-        .columna{
+#mcl {
+    background: #f9f8f8;
+    .flex {
+        .columna {
             padding: 0;
-            &:first-child{
+            &:first-child {
                 padding: 10px;
-               
-                article{
+
+                article {
                     max-width: 500px;
                     float: right;
                 }
-                img{
+                img {
                     padding: 20px;
                     max-width: 220px;
                 }
-                h2{
+                h2 {
                     padding: 20px;
                 }
-                p{
+                p {
                     padding: 0px 20px;
                 }
             }
-            
-            &:last-child{
+
+            &:last-child {
                 background: url(../img/mcl/rey.png) no-repeat;
                 background-size: cover;
             }
         }
     }
-   
+
 }
 
-#pro{
-    h2{       
-        i{
+#pro {
+    h2 {
+        i {
             display: block;
         }
     }
-    
-    p{
+
+    p {
         max-width: 700px;
         margin: 10px auto;
         text-align: justify;
@@ -318,17 +338,15 @@ input[type="submit"]{
     }
 }
 
-#blog{
-    h2{
-
-    }
+#blog {
+    h2 {}
 }
 
-#suscribir{
+#suscribir {
     background: url(../img/mcl/suscribete.jpg) no-repeat center;
     background-size: cover;
-    
-    input[type="email"]{
+
+    input[type="email"] {
         background: none;
         width: 100%;
         max-width: 500px;
@@ -337,81 +355,83 @@ input[type="submit"]{
         border: 2px solid #bfbfbf;
         text-align: center;
     }
-    
-    input[type="submit"]{
+
+    input[type="submit"] {
         display: block;
         margin: 20px auto;
-        
+
     }
 }
 
 
-#footer{
+#footer {
     background: @marino;
     text-align: center;
-  
-    .flex{
+
+    .flex {
         justify-content: center;
-        
-        &.redes{
-            a{
+
+        &.redes {
+            a {
                 margin: 0 10px;
                 display: block;
-                img{
+                img {
                     max-width: 45px;
                     width: 100%;
-                    &:hover{
+                    &:hover {
                         transform: scale(1.1);
-                    } 
+                    }
                 }
             }
             margin-bottom: 15px;
         }
-        
-        &.enlaces{
-            a{
+
+        &.enlaces {
+            a {
                 padding: 0 10px;
                 display: block;
-                font-weight: 400;
-                border-right: 2px solid #fff;
-                &:last-child{
-                    border-right: none;
-                }
+                font-weight: 400;              
+            }
+            
+            span{
+                color: #fff;
+                font-size: 1.6em;
             }
             margin-bottom: 15px;
         }
     }
-    a{
+    a {
         color: #fff;
         font-size: 1.5em;
-        &:hover{
+        &:hover {
             color: #1ba8e4;
         }
     }
-    
-    p{
+
+    p {
         color: #fff;
     }
-    
-    .copyright{
-        p{
+
+    .copyright {
+        p {
             font-size: 18px;
         }
     }
-    
-    a.esbrillante{      
-            font-size: 14px;        
+
+    a.esbrillante {
+        font-size: 14px;
     }
-    
+
 }
 
 /* ==========================================================================
    ACERCA DE
    ========================================================================== */
-#acerca{
+
+#acerca {
     background: url(../img/acerca/intro.jpg) no-repeat center;
     background-size: cover;
-    h1{
+    h1 {
         color: #fff;
         text-align: center;
         display: block;
@@ -421,14 +441,14 @@ input[type="submit"]{
     }
 }
 
-#acercaMCL{
+#acercaMCL {
     background-color: @grisclaro;
-    img{
+    img {
         max-width: 200px;
         margin-bottom: 30px;
     }
-   p{
-       display: block;
+    p {
+        display: block;
         max-width: 800px;
         margin: 10px auto;
         text-align: justify;
@@ -439,26 +459,30 @@ input[type="submit"]{
 
 @padding-texto: 100px 80px;
 
-#jerarquia{
-    .flex{
-        .columna{
+#jerarquia {
+    .flex {
+        .columna {
             padding: @padding-texto;
-            &:first-child{
+            &:first-child {
                 background: url(../img/acerca/jerarquizacion.jpg) no-repeat;
                 background-size: cover;
-            } 
-          
+            }
+
         }
     }
-    
-    
+
+
 }
 
-#vision{
-    .flex{
-        .columna{
+#vision {
+    h2{
+        text-align: center;
+        color: @moradoLetras;
+    }
+    .flex {
+        .columna {
             padding: @padding-texto;
-            &:last-child{
+            &:last-child {
                 background: url(../img/acerca/vision.jpg) no-repeat;
                 background-size: cover;
             }
@@ -466,12 +490,16 @@ input[type="submit"]{
     }
 }
 
-#mision{
-    .flex{
-        .columna{
+#mision {
+    h2{
+        text-align: center;
+        color: @moradoLetras;
+    }
+    .flex {
+        .columna {
             padding: @padding-texto;
-            
-            &:first-child{
+
+            &:first-child {
                 background: url(../img/acerca/mision.jpg) no-repeat;
                 background-size: cover;
             }
@@ -479,11 +507,11 @@ input[type="submit"]{
     }
 }
 
-section{
-    &.estilo-uno{
-        .flex{
-        .columna{
-            padding: @padding-texto; 
+section {
+    &.estilo-uno {
+        .flex {
+            .columna {
+                padding: @padding-texto;
             }
         }
     }
@@ -493,42 +521,43 @@ section{
 @ancho-parrafo: 1000px;
 
 
-.seccion-azul{
-     background: @marino;    
-  
-        p{
-            color: #fff;
-            text-align: center;           
-            margin: 0 auto;
-            font-style: italic;  
-            
-            &.medio{
-                font-size: 36px;
-            }
+.seccion-azul {
+    background: @marino;
+
+    p {
+        color: #fff;
+        text-align: center;
+        margin: 0 auto;
+        font-style: italic;
+        font-size: 2em;
+        &.medio {
+            font-size: 36px;
         }
+    }
 }
 
 
-#valores{
+#valores {
     background: url(../img/acerca/valores.jpg) no-repeat;
-    background-size: cover;    
-    
-    h2{
+    background-size: cover;
+
+    h2 {
         color: #fff;
     }
-        p{
-            color: #fff;
-            max-width: @ancho-parrafo;
-            margin: 0 auto;
-        }
-    
+    p {
+        color: #fff;
+        max-width: @ancho-parrafo;
+        margin: 0 auto;
+    }
+
 }
 
-#excelencia{
-    p{
+#excelencia {
+    p {
         max-width: @ancho-parrafo;
         margin: 0 auto;
         font-style: italic;
+        font-size: 1.8em;
     }
 }
 
@@ -536,62 +565,62 @@ section{
    PRO BONO Y EQUIDAD DE GÉNERO
    ========================================================================== */
 
-#probono{
+#probono {
     background: url(../img/probono/intro.jpg) no-repeat center top;
     background-size: cover;
     padding: 80px 0 250px;
-    h1{
+    h1 {
         text-align: center;
         font-size: 72px;
-        i{
-            font-weight: 400;   
+        i {
+            font-weight: 400;
         }
     }
 }
 
-#firma{
+#firma {
     background: url(../img/probono/logo.jpg) no-repeat center;
-    background-size: 400px;
-    p{
-            
-            max-width: @ancho-parrafo;
-            margin: 0 auto;
-        }
-}
+    background-size: 280px;
+    p {
 
-#altruista{
-    background: url(../img/probono/fondo.jpg) no-repeat center top;
-    background-size: contain;
-    padding-bottom: 0;
-    p{
         max-width: @ancho-parrafo;
         margin: 0 auto;
     }
-    
-    .flex{
+}
+
+#altruista {
+    background: url(../img/probono/fondo.jpg) no-repeat center top;
+    background-size: contain;
+    padding-bottom: 0;
+    p {
+        max-width: @ancho-parrafo;
+        margin: 0 auto;
+    }
+
+    .flex {
         margin-top: 190px;
-        .probono{
+        .probono {
             position: relative;
             top: -100px;
         }
     }
-    .blanco{
+    .blanco {
         background: #fff;
         padding: 80px;
-        p{
+        p {
             max-width: 485px;
-            
+
         }
     }
 }
 
-#candidatos{
-     p{
+#candidatos {
+    p {
         max-width: 600px;
         margin: 0 auto;
     }
-    
-    .foto{
+
+    .foto {
         margin-top: 50px;
         background: url(../img/probono/pie.jpg) no-repeat center top;
         background-size: cover;
@@ -601,14 +630,14 @@ section{
     }
 }
 
-.seccion-morada{
+.seccion-morada {
     background: @moradoFondo;
-    
-    p{
+
+    p {
         color: #fff;
         font-style: italic;
-        font-size: 36px;
-        span{
+        font-size: 28px;
+        span {
             font-style: normal;
         }
     }
@@ -619,55 +648,59 @@ section{
    Medios de control constitucional
    ========================================================================== */
 
-#constitucional{
-    background: url(../img/control/intro.jpg) no-repeat center;
-    padding: 150px 0;
-    h1{
+#constitucional {
+    background: url(../img/control/intro.jpg) no-repeat center -50px;
+    padding: 170px 0;
+    background-size: contain;
+    
+    h1 {
         text-align: center;
         color: #fff;
         font-size: 72px;
     }
 }
 
-#acciones{
-     background: url(../img/probono/logo.jpg) no-repeat center 180px;
+#acciones {
+    background: url(../img/probono/logo.jpg) no-repeat center 180px;
     background-size: 220px;
-    h2{
+    h2 {
         color: @marino;
         text-align: center;
         margin-bottom: 50px;
     }
-    
-    p{
+
+    p {
         max-width: 673px;
         margin: 0 auto;
     }
 }
 
-#ademas{
-     background: url(../img/control/mexico.jpg) no-repeat center;
-    padding: 150px 0;
-    p{
+#ademas {
+    background: url(../img/control/mexico.jpg) no-repeat center top;
+    padding: 160px 0;
+    background-attachment: fixed;
+    
+    p {
         width: 658px;
         margin: 25px auto;
     }
 }
 
-#controversias{
+#controversias {
     background: @grisFondo;
-    h2{
+    h2 {
         color: @marino;
         text-align: center;
     }
-    
-    .fondo{
-        background: url(../img/control/reloj.jpg) no-repeat center;
-        background-size: cover;
+
+    .fondo {
+        background: url(../img/control/reloj.jpg) no-repeat right;
+        background-size: contain;
     }
-    
-    .flex{
-        .columna{
-             padding: @padding-texto;
+
+    .flex {
+        .columna {
+            padding: @padding-texto;
         }
     }
 }
@@ -676,40 +709,44 @@ section{
    Derechos humanos y conflictos supranacionales
    ========================================================================== */
 
-#human{
-    background: url(../img/derechos/intro.jpg) no-repeat center;
-    padding: 150px 0;
-    h1{
+#human {
+    background: url(../img/derechos/intro.jpg) no-repeat center top;
+    padding: 52px 0;
+    background-size: contain;
+    height: 393px;
+    
+    h1 {
         text-align: center;
         color: #fff;
         font-size: 72px;
+        margin-top: 100px;
     }
 }
 
-#proteccion{
-    h2{
+#proteccion {
+    h2 {
         color: @moradoLetras;
         text-align: center;
     }
-    
-    p{
+
+    p {
         max-width: 673px;
         margin: 25px auto;
     }
 }
 
-#especialistas{
-    .flex{
-        .columna{
-            &:first-child{
+#especialistas {
+    .flex {
+        .columna {
+            &:first-child {
                 background: @moradoFondo;
                 padding: @padding-texto;
-                p{
+                p {
                     color: #fff;
                 }
             }
-            
-            &:last-child{
+
+            &:last-child {
                 background: url(../img/derechos/especialistas.jpg) no-repeat center;
                 background-size: cover;
             }
@@ -717,8 +754,8 @@ section{
     }
 }
 
-#conflictos{
-    h2{
+#conflictos {
+    h2 {
         text-align: center;
         color: @moradoLetras;
     }
@@ -728,61 +765,66 @@ section{
    AMPARO
    ========================================================================== */
 
-#amparo-intro{
+#amparo-intro {
     background: url(../img/amparo/intro.jpg) no-repeat center;
-    padding: 150px 0;
-    h1{
+    background-attachment: fixed;
+    padding: 180px 0;
+    h1 {
         text-align: center;
         color: #fff;
         font-size: 72px;
     }
 }
 
-#que-es-amparo{
-    p{
+#que-es-amparo {
+    p {
         max-width: 673px;
         margin: 25px auto;
     }
 }
 
-#pretende{
+#pretende {
     background: #fff;
-    .fondo{
+    .fondo {
         background: url(../img/amparo/amparo.jpg) center no-repeat;
         background-size: cover;
     }
 }
 
-#tramita{
+#tramita {
     background: @grisFondo;
-    .fondo{
+    .fondo {
         background: url(../img/amparo/amparo2.jpg) center no-repeat;
-         background-size: cover;
+        background-size: cover;
     }
 }
 
-#complejo{
-    .fondo{
-        background: url(../img/amparo/mano.jpg) center no-repeat;
-         background-size: contain;
+#complejo {
+    .fondo {
+        background: url(../img/amparo/mano.jpg) center bottom no-repeat;
+        background-size: 37%;
     }
 }
 
-#amparo-indirecto{
+#amparo-indirecto {
     background: url(../img/amparo/fondo.jpg) center no-repeat;
     background-attachment: fixed;
     padding: 200px 0;
-    
-    p{
+
+    p {
         color: #fff;
     }
 }
 
-#redaccion{
+#redaccion {
     background: @grisFondo;
-    .fondo{
-        background: url(../img/amparo/sillon.jpg) center no-repeat;
+    .fondo {
+        background: url(../img/amparo/sillon.jpg) center bottom no-repeat;
         background-size: cover;
+    }
+    
+    .flex{
+        min-height: 650px;
     }
 }
 
@@ -790,81 +832,82 @@ section{
    Contacto
    ========================================================================== */
 
-#contacto{
-    
-    .padding-60{
-        padding: 0 30px; 
-    }   
-  
-    h1{
+#contacto {
+
+    .padding-60 {
+        padding: 0 30px;
+    }
+
+    h1 {
         font-size: 38px;
         text-align: center;
     }
-    
+
     img.contacto {
         width: 95%;
         max-width: 400px;
     }
-    
-    form{
+
+    form {
         input[type="text"],
         input[type="email"],
-        textarea{
+        textarea {
             background: @grisFondo;
             font-family: 'Bell MT';
-            font-size: 24px;           
+            font-size: 18px;
         }
-        
-       input[type="text"],
-        input[type="email"]{           
-            height: 45px;
+
+        input[type="text"],
+        input[type="email"] {
+            height: 35px;
         }
-        .checkbox-inline{
+        .checkbox-inline {
             font-family: 'Bell MT';
             font-size: 18px;
-            strong{
+            strong {
                 color: @moradoLetras;
             }
         }
-        input[type="submit"]{
+        input[type="submit"] {
             font-size: 1.8em;
-             font-family: 'Bell MT';
+            font-family: 'Bell MT';
             font-weight: 600;
             margin: 10px auto;
             display: block;
             padding: 5px 40px;
-            &:hover{
+            &:hover {
                 color: #fff;
             }
         }
     }
-    
-    p.aviso-legal{
+
+    p.aviso-legal {
         font-size: 18px;
         margin-top: 25px;
-        strong{
+        strong {
             color: @moradoLetras;
         }
     }
-    
-    .info-contacto{
+
+    .info-contacto {
         background: url(../img/MCL.png) no-repeat center;
     }
     .info-contacto,
-    .info-direccion{
-        .flex{
+    .info-direccion {
+        .flex {
             margin-bottom: 20px;
-            .columna{
-                &:first-child{
+            .columna {
+                &:first-child {
                     width: 80px;
-                    img{
+                    img {
                         max-width: 50px;
                         width: 100%;
                     }
                 }
-                &:last-child{
+                &:last-child {
                     width: 80%;
-                    p,a{
+                    p,
+                    a {
                         font-size: 25px;
                         color: @marino;
                         font-weight: 600;
@@ -873,22 +916,22 @@ section{
             }
         }
     }
-    
-    hr{
+
+    hr {
         background: @marino;
         height: 3px;
         margin: 40px 0;
     }
-    
-    .info-direccion{
-        .flex{
-            .columna{
-                h3{
+
+    .info-direccion {
+        .flex {
+            .columna {
+                h3 {
                     color: @marino;
                 }
-                &:last-child{
+                &:last-child {
                     width: 80%;
-                    p{
+                    p {
                         font-size: 18px;
                         color: #000;
                         font-weight: normal;
@@ -931,5 +974,8 @@ section{
    ========================================================================== */
 
 .mk-blog-modern-item .mk-blog-meta-wrapper {
-    font-size: 18px;    
+    font-size: 18px;
 }
+
+
+@import "responsive";

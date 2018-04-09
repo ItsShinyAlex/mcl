@@ -41,7 +41,7 @@
 
     <section id="objetivo" class="template-section seccion-morada padding-100">
         <div class="contenedor">
-            <p class="text-justify-center">El objeto de las controversias constitucionales es el de resolver cuál órgano resulta competente. Así, en la sentencia se llegará a la conclusión de cuál fue el órgano que actuó de manera indebida y fuera de su esfera de atribuciones, y, por tanto, se le asignará la aludida competencia al indicado.</p>
+            <p class="text-center">El objeto de las controversias constitucionales es el de resolver cuál órgano resulta competente. Así, en la sentencia se llegará a la conclusión de cuál fue el órgano que actuó de manera indebida y fuera de su esfera de atribuciones, y, por tanto, se le asignará la aludida competencia al indicado.</p>
         </div>
 
 

@@ -49,7 +49,7 @@
             <i>Pro bono y</i>equidad de género
         </h2>
         <p class="sup">Creemos en la constante necesidad de impulsar el estado de las cosas hacia adelante, y en la equidad de género, que, en lo que nos compete, desemboca en la autonomía de las personas respecto a la plena defensa de sus derechos y en el trato equitativo a quienes forman parte de nuestra firma.</p>
-        <p class="inf">Trabajamos bajo el principio referente a que la mejor forma de ayudarnos, es ayudando a los demás. Por eso, cuando tomamos un caso pro bono (voluntariamente y sin retribución monetaria), más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas en general. </p>
+        <p class="inf">Trabajamos bajo el principio referente a que la mejor forma de ayudarnos, es ayudando a los demás. Por eso, cuando tomamos un caso <i>pro bono</i> (voluntariamente y sin retribución monetaria), más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas en general. </p>
 
         <img class="center" src="<?php echo get_stylesheet_directory_uri(); ?>/img/mcl/equidadGenero.png" alt="balanza con hombre y mujer frente a la ciudad">
     </section>
@@ -79,7 +79,7 @@
                             </div>
                             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e942e1e67e8f86d86b4fddbf5_d8127974f7" tabindex="-1" value=""></div>
-                            <div class="clear"><input type="submit" value="Subscribirme" name="subscribe" id="mc-embedded-subscribe" class="boton azul"></div>
+                            <div class="clear"><input type="submit" value="Suscribirme" name="subscribe" id="mc-embedded-subscribe" class="boton azul"></div>
                         </div>
                     </form>
                 </div>

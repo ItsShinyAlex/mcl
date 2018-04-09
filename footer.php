@@ -36,8 +36,8 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
             </div>
 
             <div class="enlaces flex">
-                <a href="/contacto">Contáctenos</a>
-                <a href="/blog">Blog</a>
+                <a href="/contacto">Contáctenos</a> <span>|</span>
+                <a href="/blog">Blog</a> <span>|</span>
                 <a href="/aviso-de-privacidad">Aviso de Privacidad</a>
             </div>
 
@@ -46,7 +46,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
                 </p>
             </div>
             
-            <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" title="Diseño profesional de Sitios Web" class="esbrillante">Sitio Web diseñado por Esbrillante</a>
+            <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" title="Diseño profesional de Sitios Web" class="esbrillante">Sitio web diseñado por Esbrillante</a>
         </div>
     </footer>
 <?php endif; ?>
