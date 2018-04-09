@@ -40,7 +40,7 @@
         
         <p>De acuerdo con la fracción VI del artículo 16 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, el presente aviso de privacidad podrá ser modificado, y las modificaciones serán hechas de su conocimiento por el mismo medio en que se puso a su disposición, quedando incólumes sus derechos a tener acceso, a rectificar, a cancelar, a oponerse y/o a limitar cualquier cuestión concerniente al uso y/o divulgación de sus datos personales, como lo disponen los artículo 8 y 16, fracciones III y IV, del mismo cuerpo normativo, lo que además es de orden público y de observancia general en toda la república mexicana.</p>
         
-        <p>En caso de tener dudas y/o comentarios en relación con el presente aviso de privacidad, le reiteramos que puede escribirnos a la dirección de correo electrónico <a href="mailto:postandprivacymaster@magnacartalex.com" target="_top"><b>postandprivacymaster@magnacartalex.com</b></a>, donde con gusto le atenderemos. Gracias.</p>
+        <p class="last">En caso de tener dudas y/o comentarios en relación con el presente aviso de privacidad, le reiteramos que puede escribirnos a la dirección de correo electrónico <a href="mailto:postandprivacymaster@magnacartalex.com" target="_top"><b>postandprivacymaster@magnacartalex.com</b></a>, donde con gusto le atenderemos. Gracias.</p>
         
     </div>
 </section>

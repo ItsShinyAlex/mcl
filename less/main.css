@@ -739,6 +739,9 @@ section.estilo-uno .flex .columna {
   text-justify: inter-word;
   margin-bottom: 40px;
 }
+#aviso.template-section p.last {
+  margin-bottom: 155px;
+}
 #aviso h1 {
   color: #27509d;
   margin-top: 85px;
