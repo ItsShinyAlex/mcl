@@ -32,7 +32,7 @@
                                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/contacto/phone.svg" alt="">
                             </div>
                             <div class="columna">
-                                <a href="tel:55 9000 2393">+52 (55) 9000 2393</a>
+                                <a href="tel:55 7332 1461">+52 (55) 7332 1461</a>
                             </div>
                         </div>
 
@@ -83,7 +83,9 @@
                             </div>
                             <div class="columna">
                                 <h3 class="blue-contact">Oficina principal</h3>
-                                <p>Torre World Trade Center CDMX <br> Montecito 38 <br> Piso 32, oficina 7 <br> Colonia Nápoles <br> Demarcación territoral Benito Juárez <br> Ciudad de México <br> Código postal 03810 Estados Unidos Mexicanos</p>
+                                <p>                              
+Nuestra principal área de ejercicio lo es la Ciudad de México y la Corona Regional del Centro de México, también conocida como Megalópolis de México.  
+                                </p>
                             </div>
                         </div>
 
