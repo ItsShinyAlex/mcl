@@ -91,6 +91,7 @@ input[type="submit"].azul:hover {
   max-width: 1100px;
   margin: 0 auto;
 }
+body,
 h1,
 h2,
 h3,
@@ -100,6 +101,7 @@ h6,
 p,
 a,
 div,
+.rev-btn,
 span input {
   font-family: 'Bell MT';
   color: #000;

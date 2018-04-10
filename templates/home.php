@@ -3,22 +3,10 @@
     get_header();
 ?>
 
-    <section id="amparo" class="template-section">
+    <section id="amparo-slide">
         <div class="contenedor">
-            <div class="flex">
-                <div class="columna">
-                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/mcl/amparo.png" alt="Servicio de amparo">
-                </div>
-                <div class="columna align-self-center">
-                    <h2>¿Necesita un amparo?</h2>
-                    <p>Todo acto de autoridad violatorio de derechos humanos debe ser restituido o debe la autoridad cumplir con lo que el derecho exija.
-                    </p>
-
-                    <a href="/contacto" class="boton azul">Contáctenos</a>
-                </div>
-            </div>
+            <?php echo do_shortcode('[rev_slider alias="principal"]'); ?>
         </div>
-
     </section>
 
     <section id="mcl" class="template-section">
