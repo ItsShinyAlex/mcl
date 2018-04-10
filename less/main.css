@@ -755,3 +755,30 @@ section.estilo-uno .flex .columna {
 .mk-blog-modern-item .mk-blog-meta-wrapper {
   font-size: 18px;
 }
+#blog .the-title a {
+  letter-spacing: 1px;
+  font-size: 18px;
+  line-height: 18px;
+}
+#blog .margin-bot {
+  margin-bottom: 55px;
+}
+#blog .mk-blog-grid-item time a {
+  color: #999;
+  font-style: italic;
+  font-size: 16px;
+}
+#blog .mk-readmore {
+  line-height: 12px;
+  font-weight: 700;
+  font-size: 18px;
+}
+#blog .mk-blog-grid-item .mk-love-holder {
+  display: none;
+}
+#blog .image-hover-overlay {
+  display: none;
+}
+#blog .post-type-badge {
+  display: none;
+}

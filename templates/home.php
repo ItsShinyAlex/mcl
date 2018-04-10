@@ -43,8 +43,10 @@
     </section>
 
     <section id="blog" class="template-section padding-100">
-        <h2 class="text-center">Blog</h2>
-       
+        <h2 class="text-center margin-bot">Blog</h2>
+        <div class="contenedor">
+        	<?php echo do_shortcode ('[vc_row][vc_column][mk_blog style="grid" post_count="-1" exclude_post_format=""][/vc_column][/vc_row]'); ?>
+        </div>
     </section>
 
     <section id="suscribir" class="template-section padding-100">
