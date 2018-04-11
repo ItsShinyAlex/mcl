@@ -782,3 +782,9 @@ section.estilo-uno .flex .columna {
 #blog .post-type-badge {
   display: none;
 }
+#loop-3 .image-hover-overlay {
+  display: none;
+}
+#loop-3 .post-type-badge {
+  display: none;
+}
