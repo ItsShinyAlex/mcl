@@ -3,9 +3,10 @@
     get_header();
 ?>
 
-    <section id="amparo-slide">
+    <section id="amparo">
         <div class="contenedor">
             <?php echo do_shortcode('[rev_slider alias="principal"]'); ?>
+           
         </div>
     </section>
 
@@ -32,9 +33,9 @@
 
     </section>
 
-    <section id="pro" class="template-section padding-100">
+    <section id="pro" class="template-section padding-50">
         <h2 class="text-center">
-            <i>Pro bono y</i>equidad de género
+            <i>Pro bono </i>y equidad de género
         </h2>
         <p class="sup">Creemos en la constante necesidad de impulsar el estado de las cosas hacia adelante, y en la equidad de género, que, en lo que nos compete, desemboca en la autonomía de las personas respecto a la plena defensa de sus derechos y en el trato equitativo a quienes forman parte de nuestra firma.</p>
         <p class="inf">Trabajamos bajo el principio referente a que la mejor forma de ayudarnos, es ayudando a los demás. Por eso, cuando tomamos un caso <i>pro bono</i> (voluntariamente y sin retribución monetaria), más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas en general. </p>
@@ -42,7 +43,7 @@
         <img class="center" src="<?php echo get_stylesheet_directory_uri(); ?>/img/mcl/equidadGenero.png" alt="balanza con hombre y mujer frente a la ciudad">
     </section>
 
-    <section id="blog" class="template-section padding-100">
+    <section id="blog" class="template-section padding-50">
         <h2 class="text-center">Blog</h2>
        
     </section>
