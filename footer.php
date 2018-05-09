@@ -38,7 +38,7 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
             <div class="enlaces flex">
                 <a href="/contacto">Contáctenos</a> <span>|</span>
                 <a href="/blog">Blog</a> <span>|</span>
-                <a href="/aviso-de-privacidad">Aviso de Privacidad</a>
+                <a href="/aviso-de-privacidad">Aviso de privacidad</a>
             </div>
 
             <div class="copyright">

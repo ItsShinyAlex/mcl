@@ -3,24 +3,24 @@ msgstr ""
 "Project-Id-Version: Jupiter v5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-02 09:46+0200\n"
-"PO-Revision-Date: Fri Aug 05 2016 15:05:27 GMT-0500 (Central Daylight Time)\n"
+"PO-Revision-Date: 2018-04-18 16:20-0500\n"
 "Last-Translator: webmaster <webmaster@esbrillante.mx>\n"
 "Language-Team: Artbees <info@artbees.net>\n"
-"Language: Spanish (Mexico)\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Language: es_MX\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Loco - https://localise.biz/\n"
-"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
-"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
-"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
-"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
-"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;"
+"_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;"
+"_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;"
+"esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;"
+"comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Poedit-Basepath: .\n"
 "X-Textdomain-Support: yes\n"
-"X-Loco-Target-Locale: es_MX"
+"X-Loco-Target-Locale: es_MX\n"
 
 # @ mk_framework
 #: bbpress/bbpress-functions.php:302
@@ -46,13 +46,11 @@ msgstr ""
 # @ mk_framework
 #: bbpress/form-forum.php:45
 msgid ""
-"This forum is closed to new content, however your account still allows you "
-"to do so."
+"This forum is closed to new content, however your account still allows you to do so."
 msgstr ""
 
 # @ mk_framework
-#: bbpress/form-forum.php:53 bbpress/form-reply.php:42
-#: bbpress/form-topic.php:51
+#: bbpress/form-forum.php:53 bbpress/form-reply.php:42 bbpress/form-topic.php:51
 msgid "Your account has the ability to post unrestricted HTML content."
 msgstr ""
 
@@ -63,11 +61,10 @@ msgid "Forum Name (Maximum Length: %d):"
 msgstr ""
 
 # @ mk_framework
-#: bbpress/form-forum.php:91 bbpress/form-reply.php:73
-#: bbpress/form-topic.php:91
+#: bbpress/form-forum.php:91 bbpress/form-reply.php:73 bbpress/form-topic.php:91
 msgid ""
-"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
-"and attributes:"
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and "
+"attributes:"
 msgstr ""
 
 # @ mk_framework
@@ -89,8 +86,8 @@ msgstr ""
 # @ mk_framework
 #: bbpress/form-reply.php:34
 msgid ""
-"This topic is marked as closed to new replies, however your posting "
-"capabilities still allow you to do so."
+"This topic is marked as closed to new replies, however your posting capabilities "
+"still allow you to do so."
 msgstr ""
 
 # @ mk_framework
@@ -167,8 +164,8 @@ msgstr ""
 #: bbpress/form-topic-tag.php:101
 #, php-format
 msgid ""
-"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
-"be undone."
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot be "
+"undone."
 msgstr ""
 
 # @ mk_framework
@@ -180,8 +177,8 @@ msgstr ""
 # @ mk_framework
 #: bbpress/form-topic.php:43
 msgid ""
-"This forum is marked as closed to new topics, however your posting "
-"capabilities still allow you to do so."
+"This forum is marked as closed to new topics, however your posting capabilities "
+"still allow you to do so."
 msgstr ""
 
 # @ mk_framework
@@ -332,9 +329,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_advanced_gmaps/vc_map.php:235
 msgid ""
-"Sets the hue of the feature to match the hue of the color supplied. Note "
-"that the saturation and lightness of the feature is conserved, which means, "
-"the feature will not perfectly match the color supplied ."
+"Sets the hue of the feature to match the hue of the color supplied. Note that the "
+"saturation and lightness of the feature is conserved, which means, the feature will "
+"not perfectly match the color supplied ."
 msgstr ""
 
 # @ mk_framework
@@ -345,9 +342,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_advanced_gmaps/vc_map.php:252
 msgid ""
-"Shifts the saturation of colors by a percentage of the original value if "
-"decreasing and a percentage of the remaining value if increasing. Valid "
-"values: [-100, 100]."
+"Shifts the saturation of colors by a percentage of the original value if decreasing "
+"and a percentage of the remaining value if increasing. Valid values: [-100, 100]."
 msgstr ""
 
 # @ mk_framework
@@ -358,9 +354,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_advanced_gmaps/vc_map.php:269
 msgid ""
-"Shifts lightness of colors by a percentage of the original value if "
-"decreasing and a percentage of the remaining value if increasing. Valid "
-"values: [-100, 100]."
+"Shifts lightness of colors by a percentage of the original value if decreasing and "
+"a percentage of the remaining value if increasing. Valid values: [-100, 100]."
 msgstr ""
 
 # @ mk_framework
@@ -371,9 +366,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_animated_columns/vc_map.php:37
 msgid ""
-"If you do not see anything here, it means you have no animated columns yet. "
-"First you should create animated column post types here: Wordpress Side Menu "
-"> Animated Columns. "
+"If you do not see anything here, it means you have no animated columns yet. First "
+"you should create animated column post types here: Wordpress Side Menu > Animated "
+"Columns. "
 msgstr ""
 
 # @ mk_framework
@@ -422,29 +417,29 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_animated_columns/vc_map.php:97
 msgid ""
-"Columns background color will change to this color once the user's mouse "
-"rolls over on a particular column."
+"Columns background color will change to this color once the user's mouse rolls over "
+"on a particular column."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_animated_columns/vc_map.php:127
 msgid ""
-"Columns Icon color will change to this color once the user's mouse rolls "
-"over on a particular column."
+"Columns Icon color will change to this color once the user's mouse rolls over on a "
+"particular column."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_animated_columns/vc_map.php:135
 msgid ""
-"The color of title and description inside the column. Description text "
-"though, is 70% translucent."
+"The color of title and description inside the column. Description text though, is "
+"70% translucent."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_animated_columns/vc_map.php:142
 msgid ""
-"Column's title and description color will change to this color once the "
-"user's mouse rolls over on a particular column."
+"Column's title and description color will change to this color once the user's "
+"mouse rolls over on a particular column."
 msgstr ""
 
 # @ mk_framework
@@ -455,8 +450,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_animated_columns/vc_map.php:158
 msgid ""
-"Column's button color will change to this color once the user's mouse rolls "
-"over on a particular column."
+"Column's button color will change to this color once the user's mouse rolls over on "
+"a particular column."
 msgstr ""
 
 # @ mk_framework
@@ -526,9 +521,9 @@ msgstr ""
 #: components/shortcodes/mk_tooltip/vc_map.php:35
 #: components/shortcodes/mk_woocommerce_recent_carousel/vc_map.php:101
 msgid ""
-"If you wish to style particular content element differently, then use this "
-"field to add a class name and then refer to it in Custom CSS Shortcode or "
-"Masterkey Custom CSS option."
+"If you wish to style particular content element differently, then use this field to "
+"add a class name and then refer to it in Custom CSS Shortcode or Masterkey Custom "
+"CSS option."
 msgstr ""
 
 # @ mk_framework
@@ -582,8 +577,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_banner_builder/vc_map.php:26
 msgid ""
-"You can adjust a min height to avoid height changes between your slide items "
-"which may distract the viewer."
+"You can adjust a min height to avoid height changes between your slide items which "
+"may distract the viewer."
 msgstr ""
 
 # @ mk_framework
@@ -637,8 +632,7 @@ msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_blockquote/vc_map.php:3
-#: framework/metaboxes/metabox-posts.php:168
-#: framework/metaboxes/metabox-posts.php:278
+#: framework/metaboxes/metabox-posts.php:168 framework/metaboxes/metabox-posts.php:278
 msgid "Blockquote"
 msgstr ""
 
@@ -668,14 +662,13 @@ msgstr ""
 #: components/shortcodes/mk_ornamental_title/vc_map.php:78
 #: components/shortcodes/mk_title_box/vc_map.php:128
 msgid ""
-"You can choose a font for this shortcode, however using non-safe fonts can "
-"affect page load and performance."
+"You can choose a font for this shortcode, however using non-safe fonts can affect "
+"page load and performance."
 msgstr ""
 
 #: components/shortcodes/mk_blockquote/vc_map.php:46
 msgid ""
-"If you need to set a different size enable this option and set it from below "
-"option."
+"If you need to set a different size enable this option and set it from below option."
 msgstr ""
 
 # @ mk_framework
@@ -746,8 +739,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_blog/vc_map.php:36
 msgid ""
-"This option defines how many columns will be set in one row. Column only "
-"works for newspaper and grid styles."
+"This option defines how many columns will be set in one row. Column only works for "
+"newspaper and grid styles."
 msgstr ""
 
 # @ mk_framework
@@ -790,9 +783,9 @@ msgstr ""
 
 #: components/shortcodes/mk_blog/vc_map.php:138
 msgid ""
-"If you would like your Blog images to be retina compatible or just want to "
-"use it in fullwidth row, you may consider increasing the image size. This "
-"option will help you define the image quality manually."
+"If you would like your Blog images to be retina compatible or just want to use it "
+"in fullwidth row, you may consider increasing the image size. This option will help "
+"you define the image quality manually."
 msgstr ""
 
 # @ mk_framework
@@ -811,8 +804,8 @@ msgstr ""
 #: components/shortcodes/mk_products/vc_map.php:74
 msgid ""
 "How many Posts would you like to show? (-1 means unlimited, please note that "
-"unlimited will be overrided the limit you defined at : Wordpress Sidebar > "
-"Settings > Reading > Blog pages show at most.)"
+"unlimited will be overrided the limit you defined at : Wordpress Sidebar > Settings "
+"> Reading > Blog pages show at most.)"
 msgstr ""
 
 # @ mk_framework
@@ -831,9 +824,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_blog/vc_map.php:161
 msgid ""
-"Number of posts to displace or pass over, it means based on your order of "
-"the loop, this number will define how many posts to pass over and start from "
-"the nth number of the offset."
+"Number of posts to displace or pass over, it means based on your order of the loop, "
+"this number will define how many posts to pass over and start from the nth number "
+"of the offset."
 msgstr ""
 
 # @ mk_framework
@@ -864,8 +857,7 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_blog/vc_map.php:220
 msgid ""
-"Using this option you can disable Shocial Share and comments count from Blog "
-"loop."
+"Using this option you can disable Shocial Share and comments count from Blog loop."
 msgstr ""
 
 # @ mk_framework
@@ -876,8 +868,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_blog/vc_map.php:235
 msgid ""
-"If you enable this option instead of blog excerpt the full post content will "
-"be shown."
+"If you enable this option instead of blog excerpt the full post content will be "
+"shown."
 msgstr ""
 
 # @ mk_framework
@@ -885,8 +877,7 @@ msgstr ""
 #: components/shortcodes/mk_blog_showcase/vc_map.php:47
 #: components/shortcodes/mk_portfolio/vc_map.php:146
 msgid ""
-"Define the length of the excerpt by number of characters. Zero will disable "
-"excerpt."
+"Define the length of the excerpt by number of characters. Zero will disable excerpt."
 msgstr ""
 
 # @ mk_framework
@@ -950,9 +941,9 @@ msgstr ""
 #: components/shortcodes/mk_portfolio/vc_map.php:270
 #: components/shortcodes/mk_portfolio_carousel/vc_map.php:97
 msgid ""
-"Number of post to displace or pass over, it means based on your order of the "
-"loop, this number will define how many posts to pass over and start from the "
-"nth number of the offset."
+"Number of post to displace or pass over, it means based on your order of the loop, "
+"this number will define how many posts to pass over and start from the nth number "
+"of the offset."
 msgstr ""
 
 # @ mk_framework
@@ -1003,8 +994,7 @@ msgstr "2D"
 #: components/shortcodes/mk_button_gradient/vc_map.php:17
 #: components/shortcodes/mk_contact_form/vc_map.php:21
 #: components/shortcodes/mk_portfolio/vc_map.php:225
-#: framework/metaboxes/metabox-edge.php:286
-#: framework/metaboxes/metabox-edge.php:335
+#: framework/metaboxes/metabox-edge.php:286 framework/metaboxes/metabox-edge.php:335
 #: framework/metaboxes/metabox-pricing.php:425
 msgid "Outline"
 msgstr ""
@@ -1087,8 +1077,8 @@ msgstr ""
 #: components/shortcodes/mk_button/vc_map.php:137
 #: components/shortcodes/mk_button_gradient/vc_map.php:176
 msgid ""
-"If your want to use id for this button to refer it in your custom JS, fill "
-"this textbox."
+"If your want to use id for this button to refer it in your custom JS, fill this "
+"textbox."
 msgstr ""
 
 #: components/shortcodes/mk_button/vc_map.php:199
@@ -1209,10 +1199,8 @@ msgstr ""
 #: components/shortcodes/mk_flipbox/vc_map.php:264
 #: components/shortcodes/mk_page_section/vc_map.php:501
 #: components/shortcodes/mk_testimonials/vc_map.php:60
-#: framework/metaboxes/metabox-edge.php:266
-#: framework/metaboxes/metabox-edge.php:309
-#: framework/metaboxes/metabox-edge.php:358
-#: framework/metaboxes/metabox-edge.php:385
+#: framework/metaboxes/metabox-edge.php:266 framework/metaboxes/metabox-edge.php:309
+#: framework/metaboxes/metabox-edge.php:358 framework/metaboxes/metabox-edge.php:385
 #: framework/metaboxes/metabox-employee.php:86
 #: framework/metaboxes/metabox-pricing.php:261
 #: framework/metaboxes/metabox-pricing.php:291
@@ -1237,9 +1225,9 @@ msgstr ""
 #: components/shortcodes/mk_category/vc_map.php:42
 #: components/shortcodes/mk_portfolio/vc_map.php:293
 msgid ""
-"You will need to go to Wordpress Dashboard => Portfolios => Portfolio "
-"Categories. In the right hand find Slug column. you will need to add "
-"portfolio category slugs in this option. add comma to separate them."
+"You will need to go to Wordpress Dashboard => Portfolios => Portfolio Categories. "
+"In the right hand find Slug column. you will need to add portfolio category slugs "
+"in this option. add comma to separate them."
 msgstr ""
 
 #: components/shortcodes/mk_category/vc_map.php:61
@@ -1433,8 +1421,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_clients/vc_map.php:45
 msgid ""
-"Specify how many columns will be set in one row. This option works only for "
-"column style"
+"Specify how many columns will be set in one row. This option works only for column "
+"style"
 msgstr ""
 
 # @ mk_framework
@@ -1466,9 +1454,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_clients/vc_map.php:137
 msgid ""
-"Scale the background image to be as large as possible so that the background "
-"area is completely covered by the background image. Some parts of the "
-"background image may not be in view within the background positioning area"
+"Scale the background image to be as large as possible so that the background area "
+"is completely covered by the background image. Some parts of the background image "
+"may not be in view within the background positioning area"
 msgstr ""
 
 # @ mk_framework
@@ -1508,8 +1496,8 @@ msgstr ""
 #: components/shortcodes/mk_contact_form/vc_map.php:152
 #, php-format
 msgid ""
-"Which email would you like the contacts to be sent, if left empty emails "
-"will be sent to admin email : \"%s\""
+"Which email would you like the contacts to be sent, if left empty emails will be "
+"sent to admin email : \"%s\""
 msgstr ""
 
 # @ mk_framework
@@ -1551,8 +1539,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_countdown/vc_map.php:21
 msgid ""
-"Enter the due date for Event. eg : 12/24/2016 12:00:00 => month/day/year "
-"hour:minute:second"
+"Enter the due date for Event. eg : 12/24/2016 12:00:00 => month/day/year hour:"
+"minute:second"
 msgstr ""
 
 #: components/shortcodes/mk_custom_box/vc_map.php:17
@@ -1567,9 +1555,9 @@ msgstr ""
 #: components/shortcodes/mk_slideshow_box/vc_map.php:26
 #: framework/metaboxes/metabox-edge.php:122
 msgid ""
-"Scale the background image to be as large as possible so that the background "
-"area is completely covered by the background image. Some parts of the "
-"background image may not be in view within the background positioning area."
+"Scale the background image to be as large as possible so that the background area "
+"is completely covered by the background image. Some parts of the background image "
+"may not be in view within the background positioning area."
 msgstr ""
 
 # @ mk_framework
@@ -1646,8 +1634,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_custom_list/vc_map.php:19
 msgid ""
-"Add your unordered list into this textarea. Allowed Tags : "
-"[ul][li][strong][i][em][u][b][a][small]"
+"Add your unordered list into this textarea. Allowed Tags : [ul][li][strong][i][em]"
+"[u][b][a][small]"
 msgstr ""
 
 # @ mk_framework
@@ -1664,9 +1652,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_custom_list/vc_map.php:61
 msgid ""
-"Please note that align left and right will make the shortcode to float, "
-"therefore in order to keep your page elements from wrapping into each other "
-"you should add a padding divider shortcode right after this shortcode."
+"Please note that align left and right will make the shortcode to float, therefore "
+"in order to keep your page elements from wrapping into each other you should add a "
+"padding divider shortcode right after this shortcode."
 msgstr ""
 
 # @ mk_framework
@@ -1687,9 +1675,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_divider/vc_map.php:36
 msgid ""
-"There are 5 predefined and one user defined values for width. If you want to "
-"divide the page into 2 sections, you can simply place this shortcode into a "
-"row and enable 'Fullwidth Row'."
+"There are 5 predefined and one user defined values for width. If you want to divide "
+"the page into 2 sections, you can simply place this shortcode into a row and enable "
+"'Fullwidth Row'."
 msgstr ""
 
 # @ mk_framework
@@ -1705,15 +1693,15 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_divider/vc_map.php:245
 msgid ""
-"How much space would you like to have before divider? This value will be "
-"applied to top."
+"How much space would you like to have before divider? This value will be applied to "
+"top."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_divider/vc_map.php:256
 msgid ""
-"How much space would you like to have after divider? This value will be "
-"applied to bottom."
+"How much space would you like to have after divider? This value will be applied to "
+"bottom."
 msgstr ""
 
 # @ mk_framework
@@ -1759,32 +1747,32 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_edge_slider/vc_map.php:14
 msgid ""
-"If you are not using this slideshow as first element in content then disable "
-"this option. This option is useful only when Transparent Header style is "
-"enabled in this page, having this option enabled will allow the header skin "
-"follow slide item's => header skin."
+"If you are not using this slideshow as first element in content then disable this "
+"option. This option is useful only when Transparent Header style is enabled in this "
+"page, having this option enabled will allow the header skin follow slide item's => "
+"header skin."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_edge_slider/vc_map.php:22
 msgid ""
-"Choose it for a color behind the slides. Useful with some animation types "
-"where background is revealed."
+"Choose it for a color behind the slides. Useful with some animation types where "
+"background is revealed."
 msgstr ""
 
 #: components/shortcodes/mk_edge_slider/vc_map.php:30
 #: components/shortcodes/mk_page_section/vc_map.php:136
 msgid ""
-"Please note that Smooth Scroll option should be enabled for the parallax "
-"feature function correctly. Smooth Scroll option is loctated in Theme "
-"Options > General Settings > Global > Smooth Scroll."
+"Please note that Smooth Scroll option should be enabled for the parallax feature "
+"function correctly. Smooth Scroll option is loctated in Theme Options > General "
+"Settings > Global > Smooth Scroll."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_edge_slider/vc_map.php:63
 msgid ""
-"If you do not want full screen height slideshow disable this option. If you "
-"disable this option set the height of slideshow using below option."
+"If you do not want full screen height slideshow disable this option. If you disable "
+"this option set the height of slideshow using below option."
 msgstr ""
 
 # @ mk_framework
@@ -1831,15 +1819,13 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_edge_slider/vc_map.php:121
 #: framework/admin/theme-options/params/general_settings/social_networks.php:27
-#: framework/metaboxes/metabox-edge.php:298
-#: framework/metaboxes/metabox-edge.php:347
+#: framework/metaboxes/metabox-edge.php:298 framework/metaboxes/metabox-edge.php:347
 #: views/widgets/widgets-social-networks.php:293
 msgid "Rounded"
 msgstr ""
 
 # @ mk_framework
-#: components/shortcodes/mk_edge_slider/vc_map.php:122
-#: views/layout/breadcrumb.php:217
+#: components/shortcodes/mk_edge_slider/vc_map.php:122 views/layout/breadcrumb.php:217
 msgid "Split"
 msgstr ""
 
@@ -1854,10 +1840,9 @@ msgstr ""
 #: components/shortcodes/mk_employees/components/social.php:21
 #: components/shortcodes/mk_employees/components/social.php:24
 #: components/shortcodes/mk_employees/components/social.php:27
-#: views/singular/wp-single-employees.php:42
-#: views/singular/wp-single-employees.php:45
-#: views/singular/wp-single-employees.php:48
-#: views/singular/wp-single-employees.php:51 views/templates/wp-search.php:30
+#: views/singular/wp-single-employees.php:42 views/singular/wp-single-employees.php:45
+#: views/singular/wp-single-employees.php:48 views/singular/wp-single-employees.php:51
+#: views/templates/wp-search.php:30
 msgid "On"
 msgstr ""
 
@@ -1899,9 +1884,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_employees/vc_map.php:99
 msgid ""
-"Number of post to displace or pass over. It means based on the order of the "
-"loop, this number will define how many posts to pass over and start from the "
-"nth number of the offset."
+"Number of post to displace or pass over. It means based on the order of the loop, "
+"this number will define how many posts to pass over and start from the nth number "
+"of the offset."
 msgstr ""
 
 # @ mk_framework
@@ -1922,8 +1907,8 @@ msgstr ""
 
 #: components/shortcodes/mk_fancy_title/vc_map.php:22
 msgid ""
-"If enabled, all tags included in editor above (including br and p tags) will "
-"be stripped out, however shortcodes inserted will be executed."
+"If enabled, all tags included in editor above (including br and p tags) will be "
+"stripped out, however shortcodes inserted will be executed."
 msgstr ""
 
 # @ mk_framework
@@ -1931,8 +1916,8 @@ msgstr ""
 #: components/shortcodes/mk_ornamental_title/vc_map.php:35
 msgid ""
 "For SEO reasons you might need to define your titles tag names according to "
-"priority. Please note that H1 can only be used only once in a page due to "
-"the SEO reasons. So try to use lower than H2 to meet SEO best practices."
+"priority. Please note that H1 can only be used only once in a page due to the SEO "
+"reasons. So try to use lower than H2 to meet SEO best practices."
 msgstr ""
 
 #: components/shortcodes/mk_fancy_title/vc_map.php:167
@@ -1945,27 +1930,27 @@ msgstr ""
 
 #: components/shortcodes/mk_fancy_title/vc_map.php:181
 msgid ""
-"For screens smaller than 1280px. If value is zero the font size not going to "
-"be affected."
+"For screens smaller than 1280px. If value is zero the font size not going to be "
+"affected."
 msgstr ""
 
 #: components/shortcodes/mk_fancy_title/vc_map.php:198
 msgid ""
-"For screens between 768 and 1024px. If value is zero the font size not going "
-"to be affected."
+"For screens between 768 and 1024px. If value is zero the font size not going to be "
+"affected."
 msgstr ""
 
 #: components/shortcodes/mk_fancy_title/vc_map.php:215
 msgid ""
-"For screens smaller than 768px. If value is zero the font size not going to "
-"be affected."
+"For screens smaller than 768px. If value is zero the font size not going to be "
+"affected."
 msgstr ""
 
 #: components/shortcodes/mk_fancy_title/vc_map.php:232
 msgid ""
-"If hundred value is chosen, the default value set from theme options will be "
-"used. Use this option if you wish to override the line-height for this "
-"module by setting your own value."
+"If hundred value is chosen, the default value set from theme options will be used. "
+"Use this option if you wish to override the line-height for this module by setting "
+"your own value."
 msgstr ""
 
 # @ mk_framework
@@ -1973,8 +1958,7 @@ msgstr ""
 #: components/shortcodes/mk_icon_box2/vc_map.php:168
 #: components/shortcodes/mk_icon_box_gradient/vc_map.php:211
 #: components/shortcodes/mk_ornamental_title/vc_map.php:128
-#: framework/functions/vc-integration.php:16
-#: framework/metaboxes/metabox-edge.php:253
+#: framework/functions/vc-integration.php:16 framework/metaboxes/metabox-edge.php:253
 msgid "Normal"
 msgstr ""
 
@@ -2027,17 +2011,17 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_faq/vc_map.php:46
 msgid ""
-"Number of post to displace or pass over. It means based on your order of the "
-"loop, this number will define how many posts to pass over and start from the "
-"nth number of the offset."
+"Number of post to displace or pass over. It means based on your order of the loop, "
+"this number will define how many posts to pass over and start from the nth number "
+"of the offset."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_faq/vc_map.php:53
 msgid ""
-"You will need to go to Wordpress Dashboard => FAQ => FAQ Categories. In the "
-"right hand find Slug column. you will need to add FAQ category slugs in this "
-"option. add comma to separate them."
+"You will need to go to Wordpress Dashboard => FAQ => FAQ Categories. In the right "
+"hand find Slug column. you will need to add FAQ category slugs in this option. add "
+"comma to separate them."
 msgstr ""
 
 # @ mk_framework
@@ -2063,8 +2047,7 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_flexslider/vc_map.php:111
 msgid ""
-"Pause the slideshow when hovering over slider, then resume when no longer "
-"hovering"
+"Pause the slideshow when hovering over slider, then resume when no longer hovering"
 msgstr ""
 
 # @ mk_framework
@@ -2139,30 +2122,30 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_font_icons/vc_map.php:145
 msgid ""
-"You can give padding to the icon. this padding will be applied to left and "
-"right side of the icon"
+"You can give padding to the icon. this padding will be applied to left and right "
+"side of the icon"
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_font_icons/vc_map.php:156
 msgid ""
-"You can give padding to the icon. this padding will be applied to top and "
-"bottom of them icon"
+"You can give padding to the icon. this padding will be applied to top and bottom of "
+"them icon"
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_font_icons/vc_map.php:170
 msgid ""
-"If Circle Enabled you can set the rounded box background color using this "
-"color picker."
+"If Circle Enabled you can set the rounded box background color using this color "
+"picker."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_font_icons/vc_map.php:237
 msgid ""
-"Please note that align left and right will make the icons to float, "
-"therefore in order to keep your page elements from wrapping into each other "
-"you should add a padding divider shortcode right after the last icon."
+"Please note that align left and right will make the icons to float, therefore in "
+"order to keep your page elements from wrapping into each other you should add a "
+"padding divider shortcode right after the last icon."
 msgstr ""
 
 # @ mk_framework
@@ -2190,9 +2173,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_fullwidth_slideshow/vc_map.php:50
 msgid ""
-"The background-attachment property sets whether a background image is fixed "
-"or scrolls with the rest of the page. <a href='http://www.w3schools."
-"com/CSSref/pr_background-attachment.asp'>Read More</a>"
+"The background-attachment property sets whether a background image is fixed or "
+"scrolls with the rest of the page. <a href='http://www.w3schools.com/CSSref/"
+"pr_background-attachment.asp'>Read More</a>"
 msgstr ""
 
 # @ mk_framework
@@ -2205,8 +2188,7 @@ msgstr ""
 #: components/shortcodes/mk_fullwidth_slideshow/vc_map.php:131
 #: components/shortcodes/mk_image_slideshow/vc_map.php:104
 msgid ""
-"Pauses the slideshow when hovering over slider, then resumes when no longer "
-"hovering"
+"Pauses the slideshow when hovering over slider, then resumes when no longer hovering"
 msgstr ""
 
 # @ mk_framework
@@ -2223,14 +2205,14 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_gallery/vc_map.php:28
 msgid ""
-"Please add your links, If you use custom links the lightbox will be "
-"converted to external links. separate your URLs with comma ','"
+"Please add your links, If you use custom links the lightbox will be converted to "
+"external links. separate your URLs with comma ','"
 msgstr ""
 
 #: components/shortcodes/mk_gallery/vc_map.php:32
 msgid ""
-"In grid style you will need to set column and image heights. For Mansory "
-"Styles Structure see below image :</br><img src='"
+"In grid style you will need to set column and image heights. For Mansory Styles "
+"Structure see below image :</br><img src='"
 msgstr ""
 
 # @ mk_framework
@@ -2261,16 +2243,16 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_gallery/vc_map.php:143
 msgid ""
-"This title will be replaced with all captions you define in Wordpress media. "
-"If you just want to give one title for all gallery images you can use this "
-"option. Image alt tag will still follow the media section image alt field."
+"This title will be replaced with all captions you define in Wordpress media. If you "
+"just want to give one title for all gallery images you can use this option. Image "
+"alt tag will still follow the media section image alt field."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_gallery/vc_map.php:150
 msgid ""
-"Using this option you can enable / disable image hover captions. This option "
-"is disabled by default."
+"Using this option you can enable / disable image hover captions. This option is "
+"disabled by default."
 msgstr ""
 
 # @ mk_framework
@@ -2288,9 +2270,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_gallery/vc_map.php:167
 msgid ""
-"If you want gallery images to be retina compatible or you just want to use "
-"it in full width row, you may consider increasing the image size. This "
-"option will help you to manually define the image quality."
+"If you want gallery images to be retina compatible or you just want to use it in "
+"full width row, you may consider increasing the image size. This option will help "
+"you to manually define the image quality."
 msgstr ""
 
 # @ mk_framework
@@ -2342,8 +2324,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_icon_box/vc_map.php:100
 msgid ""
-"Enable this option if you want your icon to be contained by a circle. This "
-"option will only work for icon size of Small and Medium."
+"Enable this option if you want your icon to be contained by a circle. This option "
+"will only work for icon size of Small and Medium."
 msgstr ""
 
 # @ mk_framework
@@ -2369,8 +2351,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_icon_box/vc_map.php:165
 msgid ""
-"Optionally you can set a border for icon circle container. To disable border "
-"just leave this field blank."
+"Optionally you can set a border for icon circle container. To disable border just "
+"leave this field blank."
 msgstr ""
 
 # @ mk_framework
@@ -2405,31 +2387,29 @@ msgstr ""
 
 #: components/shortcodes/mk_image/vc_map.php:27
 msgid ""
-"Please note that image size option will work if the image is uploaded "
-"locally in this server. If it's hot-linked from different source you will "
-"get the full image size!"
+"Please note that image size option will work if the image is uploaded locally in "
+"this server. If it's hot-linked from different source you will get the full image "
+"size!"
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_image/vc_map.php:78
 #: components/shortcodes/mk_image_switch/vc_map.php:67
 msgid ""
-"If enabled max-width property will be added to image tag and you should "
-"enable this option if you are using SVG format in this image shortcode."
+"If enabled max-width property will be added to image tag and you should enable this "
+"option if you are using SVG format in this image shortcode."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_image/vc_map.php:85
-msgid ""
-"If you would like to have lightbox (image zoom in a frame) enable this "
-"option."
+msgid "If you would like to have lightbox (image zoom in a frame) enable this option."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_image/vc_map.php:92
 msgid ""
-"You can use this field to add your custom lightbox URL to appear in pop up "
-"box. it can be image SRC, youtube URL."
+"You can use this field to add your custom lightbox URL to appear in pop up box. it "
+"can be image SRC, youtube URL."
 msgstr ""
 
 # @ mk_framework
@@ -2448,9 +2428,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_image_switch/vc_map.php:60
 msgid ""
-"If you dont want to crop your image based on the dimensions you defined "
-"above disable this option. Only wdith will be used to give the image "
-"container max-width property."
+"If you dont want to crop your image based on the dimensions you defined above "
+"disable this option. Only wdith will be used to give the image container max-width "
+"property."
 msgstr ""
 
 # @ mk_framework
@@ -2462,8 +2442,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_imagebox/vc_map.php:25
 msgid ""
-"This option will give you the ability to turn on/off the slider "
-"next/previous navigation."
+"This option will give you the ability to turn on/off the slider next/previous "
+"navigation."
 msgstr ""
 
 # @ mk_framework
@@ -2474,16 +2454,16 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_imagebox/vc_map.php:59
 msgid ""
-"If Column based is selected from the option above, you will need to set in "
-"how many columns, image boxes will be showed up."
+"If Column based is selected from the option above, you will need to set in how many "
+"columns, image boxes will be showed up."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_imagebox/vc_map.php:96
 #: components/shortcodes/mk_tab_slider/vc_map.php:43
 msgid ""
-"If set to zero the autoplay will be disabled, any number above zeo will "
-"define the delay between each slide transition."
+"If set to zero the autoplay will be disabled, any number above zeo will define the "
+"delay between each slide transition."
 msgstr ""
 
 # @ mk_framework
@@ -2498,14 +2478,14 @@ msgstr ""
 #: components/shortcodes/mk_page_section/vc_map.php:208
 #: components/shortcodes/mk_page_title_box/vc_map.php:64
 msgid ""
-"Upload your video with .WebM extension. (Compatibility for Firefox4, Opera, "
-"and Chrome)"
+"Upload your video with .WebM extension. (Compatibility for Firefox4, Opera, and "
+"Chrome)"
 msgstr ""
 
 #: components/shortcodes/mk_imagebox_item/vc_map.php:51
 msgid ""
-"Upload your video with .OGV extension. (Compatibility for Firefox, Opera, "
-"and Chrome)"
+"Upload your video with .OGV extension. (Compatibility for Firefox, Opera, and "
+"Chrome)"
 msgstr ""
 
 # @ mk_framework
@@ -2531,8 +2511,7 @@ msgstr ""
 #: components/shortcodes/mk_laptop_slideshow/vc_map.php:63
 #: components/shortcodes/mk_lcd_slideshow/vc_map.php:50
 msgid ""
-"Pauses the slideshow when hovering over slider, then resume when no longer "
-"hovering"
+"Pauses the slideshow when hovering over slider, then resume when no longer hovering"
 msgstr ""
 
 # @ mk_framework
@@ -2603,8 +2582,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_milestone/vc_map.php:115
 msgid ""
-"Text Size will change based on \"Icon & Text Size\" option, however you can "
-"set a custom size using this option."
+"Text Size will change based on \"Icon & Text Size\" option, however you can set a "
+"custom size using this option."
 msgstr ""
 
 # @ mk_framework
@@ -2620,8 +2599,7 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_moving_image/vc_map.php:45
 msgid ""
-"For SEO purposes you may need to fill out the title and alt property for "
-"this image"
+"For SEO purposes you may need to fill out the title and alt property for this image"
 msgstr ""
 
 # @ mk_framework
@@ -2636,16 +2614,15 @@ msgstr ""
 
 #: components/shortcodes/mk_news/vc_map.php:53
 msgid ""
-"You will need to go to Wordpress Dashboard => News => News Categories. In "
-"the right hand find Slug column. you will need to add News category slugs in "
-"this option. Use comma to separate them."
+"You will need to go to Wordpress Dashboard => News => News Categories. In the right "
+"hand find Slug column. you will need to add News category slugs in this option. Use "
+"comma to separate them."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_news/vc_map.php:64
 msgid ""
-"This height will be applied to all posts including posts without a featured "
-"image."
+"This height will be applied to all posts including posts without a featured image."
 msgstr ""
 
 # @ mk_framework
@@ -2666,15 +2643,15 @@ msgstr ""
 #: components/shortcodes/mk_news_tab/vc_map.php:26
 #: components/shortcodes/vc_tabs/vc_map.php:65
 msgid ""
-"If enabled tabs functionality will removed in mobile devices, each tab and "
-"its content will be inserted below each other."
+"If enabled tabs functionality will removed in mobile devices, each tab and its "
+"content will be inserted below each other."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_ornamental_title/vc_map.php:160
 msgid ""
-"You can optionally select a pattern for this section background. This option "
-"only works when background image field is empty."
+"You can optionally select a pattern for this section background. This option only "
+"works when background image field is empty."
 msgstr ""
 
 #: components/shortcodes/mk_ornamental_title/vc_map.php:177
@@ -2713,10 +2690,10 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:25
 msgid ""
-"If you choose One Half layout, uploaded background image will be displayed "
-"in one half of the screen width. The shortcodes placed in this section will "
-"occupy the rest of the half (not screen wide, rather it will follow half of "
-"the main grid width)."
+"If you choose One Half layout, uploaded background image will be displayed in one "
+"half of the screen width. The shortcodes placed in this section will occupy the "
+"rest of the half (not screen wide, rather it will follow half of the main grid "
+"width)."
 msgstr ""
 
 #: components/shortcodes/mk_page_section/vc_map.php:49
@@ -2758,9 +2735,9 @@ msgstr ""
 #: components/shortcodes/mk_page_section/vc_map.php:75
 #: components/shortcodes/mk_page_title_box/vc_map.php:198
 msgid ""
-"This option sets whether the background image is fixed or scrolls with the "
-"rest of the page. <a href='http://www.w3schools.com/CSSref/pr_background-"
-"attachment.asp'>Read More</a>"
+"This option sets whether the background image is fixed or scrolls with the rest of "
+"the page. <a href='http://www.w3schools.com/CSSref/pr_background-attachment."
+"asp'>Read More</a>"
 msgstr ""
 
 # @ mk_framework
@@ -2783,9 +2760,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:234
 msgid ""
-"This Image will be showed up until video is loaded. If video is not "
-"supported or could not load on user's machine, the image will stay in "
-"background."
+"This Image will be showed up until video is loaded. If video is not supported or "
+"could not load on user's machine, the image will stay in background."
 msgstr ""
 
 # @ mk_framework
@@ -2825,8 +2801,7 @@ msgstr ""
 
 #: components/shortcodes/mk_page_section/vc_map.php:327
 msgid ""
-"The ending color for gradient fill overlay. Use only with gradient option "
-"selected."
+"The ending color for gradient fill overlay. Use only with gradient option selected."
 msgstr ""
 
 # @ mk_framework
@@ -2847,15 +2822,15 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:360
 msgid ""
-"When enabled, a light inner shadow appears inside the page section (below "
-"top border)."
+"When enabled, a light inner shadow appears inside the page section (below top "
+"border)."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:366
 msgid ""
-"If you choose left or right sidebar layout you can then assign a side bar in "
-"the next option or create a new custom sidebar in Theme Options"
+"If you choose left or right sidebar layout you can then assign a side bar in the "
+"next option or create a new custom sidebar in Theme Options"
 msgstr ""
 
 # @ mk_framework
@@ -2871,17 +2846,16 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:408
 msgid ""
-"If you enable this option page section content will be screen width full "
-"width."
+"If you enable this option page section content will be screen width full width."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:417
 msgid ""
 "Using this option you can make this page section's height to cover the whole "
-"visible screen height (Not document height). Please note that if the inner "
-"content is larger than the window height, this feature will be disabled. "
-"Full height is browser resize sensitive and completely responsive."
+"visible screen height (Not document height). Please note that if the inner content "
+"is larger than the window height, this feature will be disabled. Full height is "
+"browser resize sensitive and completely responsive."
 msgstr ""
 
 #: components/shortcodes/mk_page_section/vc_map.php:422
@@ -2901,8 +2875,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:443
 msgid ""
-"Note that this page section must be the first element in the page with full "
-"height enabled above."
+"Note that this page section must be the first element in the page with full height "
+"enabled above."
 msgstr ""
 
 # @ mk_framework
@@ -2950,8 +2924,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_section/vc_map.php:640
 msgid ""
-"Give your page section a unique ID. please note that this ID value should be "
-"used only once in a page."
+"Give your page section a unique ID. please note that this ID value should be used "
+"only once in a page."
 msgstr ""
 
 # @ mk_framework
@@ -2972,16 +2946,16 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_page_title_box/vc_map.php:77
 msgid ""
-"Upload your video with .OGV extension. (Compatibility for Firefox4, Opera, "
-"and Chrome)"
+"Upload your video with .OGV extension. (Compatibility for Firefox4, Opera, and "
+"Chrome)"
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_page_title_box/vc_map.php:167
 #: components/shortcodes/mk_slideshow_box/vc_map.php:85
 msgid ""
-"The overlay layer Color. You will need to change the alpha using this color "
-"picker to give an opacity to the color you choose."
+"The overlay layer Color. You will need to change the alpha using this color picker "
+"to give an opacity to the color you choose."
 msgstr ""
 
 # @ mk_framework
@@ -2996,9 +2970,9 @@ msgstr ""
 
 #: components/shortcodes/mk_page_title_box/vc_map.php:180
 msgid ""
-"Choose effects for your page title. Please note that Smooth Scroll option "
-"should be enabled for this feature function correctly. Smooth Scroll option "
-"is loctated in Theme Options > General Settings > Global > Smooth Scroll."
+"Choose effects for your page title. Please note that Smooth Scroll option should be "
+"enabled for this feature function correctly. Smooth Scroll option is loctated in "
+"Theme Options > General Settings > Global > Smooth Scroll."
 msgstr ""
 
 #: components/shortcodes/mk_photo_album/vc_map.php:3
@@ -3019,17 +2993,17 @@ msgstr ""
 #: components/shortcodes/mk_photo_album/vc_map.php:96
 #: components/shortcodes/mk_portfolio/vc_map.php:108
 msgid ""
-"If you would like your portfolio images to be retina compatible or just want "
-"to use it in fullwidth row, you may consider increasing the image size. This "
-"option will help you define the image quality manually. Please note that "
-"this option will not work for Masonry portfolio style."
+"If you would like your portfolio images to be retina compatible or just want to use "
+"it in fullwidth row, you may consider increasing the image size. This option will "
+"help you define the image quality manually. Please note that this option will not "
+"work for Masonry portfolio style."
 msgstr ""
 
 #: components/shortcodes/mk_photo_album/vc_map.php:180
 msgid ""
 "You will need to go to Wordpress Dashboard => Photo Albums => Photo Album "
-"Categories. In the right hand find Slug column. you will need to add Photo "
-"Album category slugs in this option. add comma to separate them."
+"Categories. In the right hand find Slug column. you will need to add Photo Album "
+"category slugs in this option. add comma to separate them."
 msgstr ""
 
 #: components/shortcodes/mk_photo_album/vc_map.php:243
@@ -3108,8 +3082,8 @@ msgstr ""
 #: components/shortcodes/mk_portfolio/vc_map.php:23
 #: components/shortcodes/mk_portfolio_carousel/vc_map.php:21
 msgid ""
-"This is what happens when user hovers over a portfolio item. Different "
-"animations and styles will be showed up on each scenario."
+"This is what happens when user hovers over a portfolio item. Different animations "
+"and styles will be showed up on each scenario."
 msgstr ""
 
 # @ mk_framework
@@ -3148,30 +3122,30 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_portfolio/vc_map.php:115
 msgid ""
-"If you enable this option the portfolio posts items will be viewed in the "
-"same page above the portfolio loop."
+"If you enable this option the portfolio posts items will be viewed in the same page "
+"above the portfolio loop."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_portfolio/vc_map.php:134
 msgid ""
-"How many columns you would like to show in one row? Please note that the "
-"actual size you will get will be different with 10px tolerance. 3, 4, 5, 6 "
-"column with sidebar layouts will be 2 columns."
+"How many columns you would like to show in one row? Please note that the actual "
+"size you will get will be different with 10px tolerance. 3, 4, 5, 6 column with "
+"sidebar layouts will be 2 columns."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_portfolio/vc_map.php:175
 msgid ""
-"If do not need portfolio single post you can remove permalink from image "
-"hover icon and title."
+"If do not need portfolio single post you can remove permalink from image hover icon "
+"and title."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_portfolio/vc_map.php:182
 msgid ""
-"If do not need portfolio single post you can remove zoom link from image "
-"hover icon and title."
+"If do not need portfolio single post you can remove zoom link from image hover icon "
+"and title."
 msgstr ""
 
 # @ mk_framework
@@ -3232,17 +3206,17 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_portfolio_carousel/vc_map.php:108
 msgid ""
-"If you want portfolio images to be retina compatible or you just want to use "
-"it in fullwidth row, you may consider increasing the image size. This option "
-"will help you define the image quality yourself."
+"If you want portfolio images to be retina compatible or you just want to use it in "
+"fullwidth row, you may consider increasing the image size. This option will help "
+"you define the image quality yourself."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_portfolio_carousel/vc_map.php:131
 msgid ""
-"You will need to go to Wordpress Dashboard => Portfolios => Portfolio "
-"Categories. In the right hand find Slug column. You will need to add "
-"portfolio category slugs in this optionand add comma to separate them."
+"You will need to go to Wordpress Dashboard => Portfolios => Portfolio Categories. "
+"In the right hand find Slug column. You will need to add portfolio category slugs "
+"in this optionand add comma to separate them."
 msgstr ""
 
 # @ mk_framework
@@ -3266,9 +3240,9 @@ msgstr ""
 #: components/shortcodes/mk_pricing_table/vc_map.php:25
 #: components/shortcodes/mk_pricing_table_2/vc_map.php:15
 msgid ""
-"Please add your 'offers' text. Note : List of offers must be an unordered "
-"list. If you dont need offers list, leave this field empty. The number of "
-"the list items should match the number of your pricing items list as well."
+"Please add your 'offers' text. Note : List of offers must be an unordered list. If "
+"you dont need offers list, leave this field empty. The number of the list items "
+"should match the number of your pricing items list as well."
 msgstr ""
 
 # @ mk_framework
@@ -3298,9 +3272,9 @@ msgstr ""
 
 #: components/shortcodes/mk_products/vc_map.php:63
 msgid ""
-"You will need to go to Wordpress Dashboard => Products => Categories. In the "
-"right hand find Slug column. you will need to add product category slugs in "
-"this option. add comma to separate them."
+"You will need to go to Wordpress Dashboard => Products => Categories. In the right "
+"hand find Slug column. you will need to add product category slugs in this option. "
+"add comma to separate them."
 msgstr ""
 
 # @ mk_framework
@@ -3393,8 +3367,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_skype/vc_map.php:14
 msgid ""
-"Please provide your skype number. Once user clicks on the link it will make "
-"a calls if user has already installed skype. Feel Free to make spaces."
+"Please provide your skype number. Once user clicks on the link it will make a calls "
+"if user has already installed skype. Feel Free to make spaces."
 msgstr ""
 
 # @ mk_framework
@@ -3425,10 +3399,10 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_slideshow_box/vc_map.php:113
 msgid ""
-"Using this option you can make this slideshow box's height to cover the "
-"whole visible screen height (Not document height). Please note that if the "
-"inner content is larger than the window height, this feature will be "
-"disabled. Full height is browser resize sensitive and completely responsive."
+"Using this option you can make this slideshow box's height to cover the whole "
+"visible screen height (Not document height). Please note that if the inner content "
+"is larger than the window height, this feature will be disabled. Full height is "
+"browser resize sensitive and completely responsive."
 msgstr ""
 
 # @ mk_framework
@@ -3439,8 +3413,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_slideshow_box/vc_map.php:123
 msgid ""
-"If you enable this option you're shortcodes within Slideshow Box will become "
-"full width"
+"If you enable this option you're shortcodes within Slideshow Box will become full "
+"width"
 msgstr ""
 
 # @ mk_framework
@@ -3498,15 +3472,15 @@ msgstr ""
 #: components/shortcodes/mk_social_networks/vc_map.php:319
 #: components/shortcodes/mk_social_networks/vc_map.php:326
 msgid ""
-"Enter the full URL of your corresponding social network. Include (http://). "
-"If left blank, this social network icon will not be shown."
+"Enter the full URL of your corresponding social network. Include (http://). If left "
+"blank, this social network icon will not be shown."
 msgstr ""
 
 #: components/shortcodes/mk_social_networks/vc_map.php:179
 msgid ""
-"Enter the full URL including 'http://'' for profile page or 'skype:USERNAME?"
-"call' for direct call (replace USERNAME with your own). If left blank, this "
-"social network icon will not be shown."
+"Enter the full URL including 'http://'' for profile page or 'skype:USERNAME?call' "
+"for direct call (replace USERNAME with your own). If left blank, this social "
+"network icon will not be shown."
 msgstr ""
 
 # @ mk_framework
@@ -3517,8 +3491,7 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_steps/vc_map.php:26
 msgid ""
-"How many steps for the whole process? Each represented in a circular "
-"container."
+"How many steps for the whole process? Each represented in a circular container."
 msgstr ""
 
 # @ mk_framework
@@ -3626,15 +3599,15 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_testimonials/vc_map.php:47
 msgid ""
-"If Column based is selected from the option above, you will need to set in "
-"how many columns, testimonials will be showed up."
+"If Column based is selected from the option above, you will need to set in how many "
+"columns, testimonials will be showed up."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_testimonials/vc_map.php:63
 msgid ""
-"This option is only for 'Simple Centered' style and you can use it when you "
-"need to place this shortcode inside a page section with dark background."
+"This option is only for 'Simple Centered' style and you can use it when you need to "
+"place this shortcode inside a page section with dark background."
 msgstr ""
 
 # @ mk_framework
@@ -3670,8 +3643,8 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_theatre_slider/vc_map.php:84
 msgid ""
-"This Image will shown until video load. in case of video is not supported or "
-"did not load the image will remain as fallback."
+"This Image will shown until video load. in case of video is not supported or did "
+"not load the image will remain as fallback."
 msgstr ""
 
 # @ mk_framework
@@ -3687,24 +3660,23 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_title_box/vc_map.php:16
 msgid ""
-"Allowed Tags [br] [strong] [i] [u] [b] [a] [small]. Please note that [p] "
-"tags will be striped out."
+"Allowed Tags [br] [strong] [i] [u] [b] [a] [small]. Please note that [p] tags will "
+"be striped out."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_title_box/vc_map.php:30
 msgid ""
-"The Highlight Background color. you can change color opacity from below "
-"option."
+"The Highlight Background color. you can change color opacity from below option."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/mk_title_box/vc_map.php:63
 msgid ""
-"Since every font family with differnt sizes need different line heights to "
-"get a nice looking highlighted titles you should set them manually. as a "
-"hint generally (font-size * 2) - 2 works in many cases, but you may need to "
-"give more space in between, so we opened your hands with this option. :) "
+"Since every font family with differnt sizes need different line heights to get a "
+"nice looking highlighted titles you should set them manually. as a hint generally "
+"(font-size * 2) - 2 works in many cases, but you may need to give more space in "
+"between, so we opened your hands with this option. :) "
 msgstr ""
 
 # @ mk_framework
@@ -3749,9 +3721,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_woocommerce_recent_carousel/vc_map.php:77
 msgid ""
-"How many Posts you would like to show? ( -1 means unlimited, please note "
-"that unlimited will be overridden by the limit you defined at : Wordpress "
-"Sidebar > Settings > Reading > Blog pages show at most.)"
+"How many Posts you would like to show? ( -1 means unlimited, please note that "
+"unlimited will be overridden by the limit you defined at : Wordpress Sidebar > "
+"Settings > Reading > Blog pages show at most.)"
 msgstr ""
 
 # @ mk_framework
@@ -3783,16 +3755,16 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/vc_accordions/vc_map.php:49
 msgid ""
-"Specify which toggle to be open by default when The page loads. please note "
-"that this value is zero based therefore zero is the first item. this option "
-"works when you have chosen [One Toggle Open At A Time] option from above "
-"setting. -1 will close all accordions on page load."
+"Specify which toggle to be open by default when The page loads. please note that "
+"this value is zero based therefore zero is the first item. this option works when "
+"you have chosen [One Toggle Open At A Time] option from above setting. -1 will "
+"close all accordions on page load."
 msgstr ""
 
 #: components/shortcodes/vc_accordions/vc_map.php:67
 msgid ""
-"If enabled accordion functionality will removed in mobile devices, each "
-"toggle and its content will be inserted below each other."
+"If enabled accordion functionality will removed in mobile devices, each toggle and "
+"its content will be inserted below each other."
 msgstr ""
 
 # @ mk_framework
@@ -3815,15 +3787,15 @@ msgstr ""
 #: components/shortcodes/vc_column/vc_map.php:74
 #: components/shortcodes/vc_column/vc_map.php:117
 msgid ""
-"Adjust column for different screen sizes. Control width, offset and "
-"visibility settings."
+"Adjust column for different screen sizes. Control width, offset and visibility "
+"settings."
 msgstr ""
 
 #: components/shortcodes/vc_column/vc_map.php:95
 #: components/shortcodes/vc_row_inner/vc_map.php:51
 msgid ""
-"Style particular content element differently - add a class name and refer to "
-"it in custom CSS."
+"Style particular content element differently - add a class name and refer to it in "
+"custom CSS."
 msgstr ""
 
 # @ mk_framework
@@ -3834,9 +3806,9 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/vc_column_text/vc_map.php:23
 msgid ""
-"You can optionally have global style title for this text block or leave this "
-"blank if you create your own title. Moreover you can disable this heading "
-"title's pattern divider using below option."
+"You can optionally have global style title for this text block or leave this blank "
+"if you create your own title. Moreover you can disable this heading title's pattern "
+"divider using below option."
 msgstr ""
 
 # @ mk_framework
@@ -3851,15 +3823,15 @@ msgstr ""
 
 #: components/shortcodes/vc_flickr/vc_map.php:21
 msgid ""
-"You must fill this field in order to get this shortcode working. You can "
-"obtain your API key from <a href=\"http://www.flickr.com/services/api/misc."
-"api_keys.html\">Flickr The App Garden</a>."
+"You must fill this field in order to get this shortcode working. You can obtain "
+"your API key from <a href=\"http://www.flickr.com/services/api/misc.api_keys.html"
+"\">Flickr The App Garden</a>."
 msgstr ""
 
 #: components/shortcodes/vc_flickr/vc_map.php:28
 msgid ""
-"To find your flickID visit <a href=\"http://idgettr.com/\" "
-"target=\"_blank\">idGettr</a>."
+"To find your flickID visit <a href=\"http://idgettr.com/\" target=\"_blank"
+"\">idGettr</a>."
 msgstr ""
 
 #: components/shortcodes/vc_flickr/vc_map.php:42
@@ -3876,15 +3848,14 @@ msgstr ""
 #: components/shortcodes/vc_row/vc_map.php:16
 #: components/shortcodes/vc_row_inner/vc_map.php:31
 msgid ""
-"When enabled, this row will no longer follow the main grid width and will "
-"stretch 100% to screen width."
+"When enabled, this row will no longer follow the main grid width and will stretch "
+"100% to screen width."
 msgstr ""
 
 #: components/shortcodes/vc_row/vc_map.php:23
 msgid ""
-"This option works if \"Full Width Row\" is enabled and it gives you the power "
-"to choose whether inside the row follows global grid width or be totally "
-"full width."
+"This option works if \"Full Width Row\" is enabled and it gives you the power to "
+"choose whether inside the row follows global grid width or be totally full width."
 msgstr ""
 
 #: components/shortcodes/vc_row/vc_map.php:36
@@ -3901,23 +3872,23 @@ msgstr ""
 #: components/shortcodes/vc_row/vc_map.php:43
 #: components/shortcodes/vc_row_inner/vc_map.php:24
 msgid ""
-"When enabled, this option attachs child columns to each other. In other "
-"words columns inside this row will be stuck to each other."
+"When enabled, this option attachs child columns to each other. In other words "
+"columns inside this row will be stuck to each other."
 msgstr ""
 
 #: components/shortcodes/vc_row/vc_map.php:54
 #: components/shortcodes/vc_row_inner/vc_map.php:42
 msgid ""
 "This option creates pading space inside columns. This option will work when "
-"'Attached Colums' option is enabled. Note that padding unit is by percent "
-"and will be applied to all directions."
+"'Attached Colums' option is enabled. Note that padding unit is by percent and will "
+"be applied to all directions."
 msgstr ""
 
 # @ mk_framework
 #: components/shortcodes/vc_row/vc_map.php:60
 msgid ""
-"This option comes handy when you are creating One page scroll website and "
-"here you can set ID which you used in your navigation anchor tag."
+"This option comes handy when you are creating One page scroll website and here you "
+"can set ID which you used in your navigation anchor tag."
 msgstr ""
 
 #: components/shortcodes/vc_row_inner/vc_map.php:17
@@ -3960,10 +3931,9 @@ msgstr ""
 #: components/shortcodes/vc_video/vc_map.php:21
 msgid ""
 "Link to the video. For YouTube HD videos add this snippet at the of a link "
-"\"&vq=1080\" (video quality set to 1080p). More about supported formats at <a "
-"href=\"http://codex.wordpress.org/Embeds#Okay."
-"2C_So_What_Sites_Can_I_Embed_From.3F\" target=\"_blank\">WordPress codex "
-"page</a>."
+"\"&vq=1080\" (video quality set to 1080p). More about supported formats at <a href="
+"\"http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F\" "
+"target=\"_blank\">WordPress codex page</a>."
 msgstr ""
 
 # @ mk_framework
@@ -3982,8 +3952,7 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/control-panel/logic/parsers.php:43
 msgid ""
-"Details are shown above. The importer will now try again with a different "
-"parser..."
+"Details are shown above. The importer will now try again with a different parser..."
 msgstr ""
 
 # @ mk_framework
@@ -4011,18 +3980,17 @@ msgstr ""
 
 #: framework/admin/control-panel/logic/theme-image-size.php:44
 msgid ""
-"In this page you can add custom image sizes to be used in various locations "
-"such as shortcodes as well as theme options."
+"In this page you can add custom image sizes to be used in various locations such as "
+"shortcodes as well as theme options."
 msgstr ""
 
 #: framework/admin/control-panel/logic/theme-image-size.php:45
 msgid ""
-"The tool below helps you to set your own image sizes using WordPress image "
-"resizer instead of third party libraries. One benefits of using WP Image "
-"Resizer is that you will be able to optimise images and get higher scores in "
-"google. Other solutions like BFI_Thumb (Which we use for hard corping "
-"images) generate only temporary images and tools like WP Smush will not "
-"optimize."
+"The tool below helps you to set your own image sizes using WordPress image resizer "
+"instead of third party libraries. One benefits of using WP Image Resizer is that "
+"you will be able to optimise images and get higher scores in google. Other "
+"solutions like BFI_Thumb (Which we use for hard corping images) generate only "
+"temporary images and tools like WP Smush will not optimize."
 msgstr ""
 
 #: framework/admin/control-panel/logic/theme-register.php:89
@@ -4032,8 +4000,8 @@ msgstr ""
 #: framework/admin/control-panel/logic/theme-status.php:183
 #, php-format
 msgid ""
-"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
-"target=\"_blank\">Increasing memory allocated to PHP</a>"
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" target="
+"\"_blank\">Increasing memory allocated to PHP</a>"
 msgstr ""
 
 #: framework/admin/control-panel/logic/theme-status.php:293
@@ -4044,8 +4012,8 @@ msgstr ""
 #: framework/admin/control-panel/logic/theme-status.php:590
 #, php-format
 msgid ""
-"Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - "
-"some gateway plugins which use SOAP may not work as expected."
+"Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled - some "
+"gateway plugins which use SOAP may not work as expected."
 msgstr ""
 
 #: framework/admin/control-panel/logic/theme-support.php:30
@@ -4065,24 +4033,23 @@ msgstr ""
 #: framework/admin/control-panel/logic/wordpress-importer.php:200
 #, php-format
 msgid ""
-"The export file could not be found at <code>%s</code>. It is likely that "
-"this was caused by a permissions problem."
+"The export file could not be found at <code>%s</code>. It is likely that this was "
+"caused by a permissions problem."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/control-panel/logic/wordpress-importer.php:216
 #, php-format
 msgid ""
-"This WXR file (version %s) may not be supported by this version of the "
-"importer. Please consider updating."
+"This WXR file (version %s) may not be supported by this version of the importer. "
+"Please consider updating."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/control-panel/logic/wordpress-importer.php:241
 #, php-format
 msgid ""
-"Failed to import author %s. Their posts will be attributed to the current "
-"user."
+"Failed to import author %s. Their posts will be attributed to the current user."
 msgstr ""
 
 # @ mk_framework
@@ -4093,19 +4060,18 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/control-panel/logic/wordpress-importer.php:268
 msgid ""
-"To make it easier for you to edit and save the imported content, you may "
-"want to reassign the author of the imported item to an existing user of this "
-"site. For example, you may want to import all the entries as "
-"<code>admin</code>s entries."
+"To make it easier for you to edit and save the imported content, you may want to "
+"reassign the author of the imported item to an existing user of this site. For "
+"example, you may want to import all the entries as <code>admin</code>s entries."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/control-panel/logic/wordpress-importer.php:270
 #, php-format
 msgid ""
-"If a new user is created by WordPress, a new password will be randomly "
-"generated and the new user&#8217;s role will be set as %s. Manually changing "
-"the new user&#8217;s details will be necessary."
+"If a new user is created by WordPress, a new password will be randomly generated "
+"and the new user&#8217;s role will be set as %s. Manually changing the new "
+"user&#8217;s details will be necessary."
 msgstr ""
 
 # @ mk_framework
@@ -4127,8 +4093,8 @@ msgstr ""
 #: framework/admin/control-panel/logic/wordpress-importer.php:375
 #, php-format
 msgid ""
-"Failed to create new user for %s. Their posts will be attributed to the "
-"current user."
+"Failed to create new user for %s. Their posts will be attributed to the current "
+"user."
 msgstr ""
 
 # @ mk_framework
@@ -4175,16 +4141,15 @@ msgstr ""
 #: framework/admin/control-panel/logic/wordpress-importer.php:1041
 #, php-format
 msgid ""
-"A new version of this importer is available. Please update to version %s to "
-"ensure compatibility with newer export files."
+"A new version of this importer is available. Please update to version %s to ensure "
+"compatibility with newer export files."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/control-panel/logic/wordpress-importer.php:1056
 msgid ""
-"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
-"the posts, pages, comments, custom fields, categories, and tags into this "
-"site."
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the "
+"posts, pages, comments, custom fields, categories, and tags into this site."
 msgstr ""
 
 # @ mk_framework
@@ -4202,9 +4167,9 @@ msgstr ""
 
 #: framework/admin/control-panel/views/header.php:25
 msgid ""
-"You are awesome! You are now equipped with arguably the most powerful "
-"WordPress Website builder. To enjoy the full experience we strongly "
-"recommend to register your product."
+"You are awesome! You are now equipped with arguably the most powerful WordPress "
+"Website builder. To enjoy the full experience we strongly recommend to register "
+"your product."
 msgstr ""
 
 #: framework/admin/control-panel/views/template-callout.php:3
@@ -4219,16 +4184,16 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/general/icon-library.php:1917
 msgid ""
-"Search and find your desired icon and paste its <strong>class name</strong> "
-"to the <strong>text field</strong> provided in shortcode options. You will "
-"need character code for custom list shortcode!"
+"Search and find your desired icon and paste its <strong>class name</strong> to the "
+"<strong>text field</strong> provided in shortcode options. You will need character "
+"code for custom list shortcode!"
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/general/mega-menu.php:39
 msgid ""
-"Your server is running Suhosin, and your current maxvars settings may limit "
-"the number of menu items you can save."
+"Your server is running Suhosin, and your current maxvars settings may limit the "
+"number of menu items you can save."
 msgstr ""
 
 # @ mk_framework
@@ -4349,15 +4314,14 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/custom_css.php:10
 msgid ""
-"You can write your own custom css, this way you wont need to modify Theme "
-"CSS files."
+"You can write your own custom css, this way you wont need to modify Theme CSS files."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/custom_js.php:10
 msgid ""
-"You can write your own custom Javascript here in textarea. So you wont need "
-"to modify theme files."
+"You can write your own custom Javascript here in textarea. So you wont need to "
+"modify theme files."
 msgstr ""
 
 #: framework/admin/theme-options/params/advanced/manage_theme.php:9
@@ -4370,12 +4334,12 @@ msgid ""
 "rankings.\n"
 "            Before enabling this option make sure that you have : <br />\n"
 "            1- Properly formatted coding tags. <br />\n"
-"            2- Powerful hosting. This option consumes server resources "
-"greedily.  <br />\n"
-"            3- Proper Caching and Minifying plug-ins. We also recommend "
-"Super Cache and Super Minify plug-ins, which is free.<br />\n"
-"            This feature is yet in beta stage. Do not use this in a "
-"production website.\n"
+"            2- Powerful hosting. This option consumes server resources greedily.  "
+"<br />\n"
+"            3- Proper Caching and Minifying plug-ins. We also recommend Super Cache "
+"and Super Minify plug-ins, which is free.<br />\n"
+"            This feature is yet in beta stage. Do not use this in a production "
+"website.\n"
 "            "
 msgstr ""
 
@@ -4383,9 +4347,9 @@ msgstr ""
 #: framework/admin/theme-options/params/advanced/manage_theme.php:23
 #, c-format
 msgid ""
-"If you enable this option pre-minified theme Java Script files will be "
-"renderred in front-end. Minified JS is 30%-40% smaller in file size which "
-"will improve page speed."
+"If you enable this option pre-minified theme Java Script files will be renderred in "
+"front-end. Minified JS is 30%-40% smaller in file size which will improve page "
+"speed."
 msgstr ""
 
 # @ mk_framework
@@ -4397,9 +4361,8 @@ msgstr ""
 #: framework/admin/theme-options/params/advanced/manage_theme.php:30
 #, c-format
 msgid ""
-"If you enable this option pre-minified theme CSS files will be renderred in "
-"front-end. Minified CSS is 30%-40% smaller in file size which will improve "
-"page speed."
+"If you enable this option pre-minified theme CSS files will be renderred in front-"
+"end. Minified CSS is 30%-40% smaller in file size which will improve page speed."
 msgstr ""
 
 #: framework/admin/theme-options/params/advanced/manage_theme.php:36
@@ -4408,9 +4371,9 @@ msgstr ""
 
 #: framework/admin/theme-options/params/advanced/manage_theme.php:37
 msgid ""
-"Disabling this option will remove \"ver\" query string from JS and CSS files. "
-"For More info Please <a target=\"_blank\" href=\"https://developers.google."
-"com/speed/docs/best-practices/caching#LeverageProxyCaching\">Read Here</a>."
+"Disabling this option will remove \"ver\" query string from JS and CSS files. For "
+"More info Please <a target=\"_blank\" href=\"https://developers.google.com/speed/"
+"docs/best-practices/caching#LeverageProxyCaching\">Read Here</a>."
 msgstr ""
 
 # @ mk_framework
@@ -4448,8 +4411,7 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/manage_theme.php:81
 msgid ""
-"If you will not use Pricing Tables post type feature simply disable this "
-"option."
+"If you will not use Pricing Tables post type feature simply disable this option."
 msgstr ""
 
 # @ mk_framework
@@ -4480,8 +4442,7 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/manage_theme.php:116
 msgid ""
-"If you will not use Edge Slideshow post type feature simply disable this "
-"option."
+"If you will not use Edge Slideshow post type feature simply disable this option."
 msgstr ""
 
 # @ mk_framework
@@ -4492,8 +4453,7 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/manage_theme.php:123
 msgid ""
-"If you will not use Banner Builder post type feature simply disable this "
-"option."
+"If you will not use Banner Builder post type feature simply disable this option."
 msgstr ""
 
 # @ mk_framework
@@ -4509,30 +4469,29 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/manage_theme.php:139
 msgid ""
-"If you will not use Animated Columns post type feature simply disable this "
-"option."
+"If you will not use Animated Columns post type feature simply disable this option."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/advanced/twitter_api.php:6
 msgid ""
 "<ol style=\"list-style-type:decimal !important;\">\n"
-"  <li>Go to \"<a target=\"_blank\" href=\"https://dev.twitter.com/apps\">https:"
-"//dev.twitter.com/apps</a>,\" login with your twitter account and click "
-"\"Create a new application\".</li>\n"
-"  <li>Fill out the required fields, accept the rules of the road, and then "
-"click on the \"Create your Twitter application\" button. You will not need a "
-"callback URL for this app, so feel free to leave it blank.</li>\n"
-"  <li>Once the app has been created, click the \"Create my access token\" "
-"button.</li>\n"
+"  <li>Go to \"<a target=\"_blank\" href=\"https://dev.twitter.com/apps\">https://"
+"dev.twitter.com/apps</a>,\" login with your twitter account and click \"Create a "
+"new application\".</li>\n"
+"  <li>Fill out the required fields, accept the rules of the road, and then click on "
+"the \"Create your Twitter application\" button. You will not need a callback URL "
+"for this app, so feel free to leave it blank.</li>\n"
+"  <li>Once the app has been created, click the \"Create my access token\" button.</"
+"li>\n"
 "  <li>You are done! You will need the following data later on:</ol>"
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/archive.php:10
 msgid ""
-"This option allows you to define the layout of blog Archive page as full "
-"width without sidebar, left sidebar or right sidebar."
+"This option allows you to define the layout of blog Archive page as full width "
+"without sidebar, left sidebar or right sidebar."
 msgstr ""
 
 # @ mk_framework
@@ -4563,12 +4522,11 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/news.php:10
 msgid ""
-"News Slug is the text that is displyed in the URL (e.g. www.domain."
-"com/<strong>news-posts</strong>/morbi-et-diam-massa/). As shown in the "
-"example, it is set to 'news-posts' by default but you can change it to "
-"anything to suite your preference. However you should not have the same slug "
-"in any page or other post slug and if so the pagination will return 404 "
-"error naturally due to the internal conflicts."
+"News Slug is the text that is displyed in the URL (e.g. www.domain.com/<strong>news-"
+"posts</strong>/morbi-et-diam-massa/). As shown in the example, it is set to 'news-"
+"posts' by default but you can change it to anything to suite your preference. "
+"However you should not have the same slug in any page or other post slug and if so "
+"the pagination will return 404 error naturally due to the internal conflicts."
 msgstr ""
 
 # @ mk_framework
@@ -4579,8 +4537,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/search.php:10
 msgid ""
-"This option allows you to define the layout of search results page as full "
-"width without sidebar, left sidebar or right sidebar."
+"This option allows you to define the layout of search results page as full width "
+"without sidebar, left sidebar or right sidebar."
 msgstr ""
 
 # @ mk_framework
@@ -4606,16 +4564,15 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:21
 msgid ""
-"This option allows you to define the page layout of Blog Single page as full "
-"width without sidebar, left sidebar or right sidebar."
+"This option allows you to define the page layout of Blog Single page as full width "
+"without sidebar, left sidebar or right sidebar."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:44
 msgid ""
-"If you do not want to set a featured image (in case of sound post type : "
-"Audio player, in case of video post type : Video Player) kindly disable it "
-"here."
+"If you do not want to set a featured image (in case of sound post type : Audio "
+"player, in case of video post type : Video Player) kindly disable it here."
 msgstr ""
 
 # @ mk_framework
@@ -4627,45 +4584,45 @@ msgstr ""
 #: framework/admin/theme-options/params/blog/single.php:65
 #: framework/metaboxes/metabox-posts.php:361
 msgid ""
-"Using this option you can show/hide extra information about the blog or post,"
-" such as Author, Date Created, etc..."
+"Using this option you can show/hide extra information about the blog or post, such "
+"as Author, Date Created, etc..."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:72
 msgid ""
-"Using this option you can Enable/Disable social share section from blog "
-"archive and single pages."
+"Using this option you can Enable/Disable social share section from blog archive and "
+"single pages."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:79
 msgid ""
-"Using this option you can turn on/off the navigation arrows when viewing the "
-"blog single page."
+"Using this option you can turn on/off the navigation arrows when viewing the blog "
+"single page."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:86
 msgid ""
-"You can enable or disable the about author box from here. You can modify "
-"about author information from your profile settings. Besides, if you add "
-"your website URL, your email address and twitter account from extra profile "
-"information they will be displayed as an icon link."
+"You can enable or disable the about author box from here. You can modify about "
+"author information from your profile settings. Besides, if you add your website "
+"URL, your email address and twitter account from extra profile information they "
+"will be displayed as an icon link."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:93
 msgid ""
-"Using this option you can Show/Hide meta tags that you have set in Tags meta "
-"box inside each post."
+"Using this option you can Show/Hide meta tags that you have set in Tags meta box "
+"inside each post."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/blog/single.php:100
 msgid ""
-"Using this option you can Show/Hide Recommended Posts section inside your "
-"single post item."
+"Using this option you can Show/Hide Recommended Posts section inside your single "
+"post item."
 msgstr ""
 
 # @ mk_framework
@@ -4676,8 +4633,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/ecommerce/general.php:10
 msgid ""
-"This option will turn your shop to catalog mode. So users will not be able "
-"to shop in your site."
+"This option will turn your shop to catalog mode. So users will not be able to shop "
+"in your site."
 msgstr ""
 
 # @ mk_framework
@@ -4713,8 +4670,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/ecommerce/general.php:61
 msgid ""
-"If you would like to show some small description for products loop enable "
-"this option."
+"If you would like to show some small description for products loop enable this "
+"option."
 msgstr ""
 
 # @ mk_framework
@@ -4725,8 +4682,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/custom_sidebar.php:11
 msgid ""
-"Enter a name for new sidebar. It must be a valid name which starts with a "
-"letter, followed by letters, numbers, spaces, or underscores"
+"Enter a name for new sidebar. It must be a valid name which starts with a letter, "
+"followed by letters, numbers, spaces, or underscores"
 msgstr ""
 
 # @ mk_framework
@@ -4737,9 +4694,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/footer.php:18
 msgid ""
-"If this option is enabled, the footer content will be in main grid (the "
-"width is defined in theme general settings), else it will be fullwdith "
-"screen wide."
+"If this option is enabled, the footer content will be in main grid (the width is "
+"defined in theme general settings), else it will be fullwdith screen wide."
 msgstr ""
 
 # @ mk_framework
@@ -4770,8 +4726,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/footer.php:107
 msgid ""
-"This option allows you to enable a custom navigation on the left section of "
-"custom footer."
+"This option allows you to enable a custom navigation on the left section of custom "
+"footer."
 msgstr ""
 
 # @ mk_framework
@@ -4788,17 +4744,17 @@ msgstr ""
 #: framework/admin/theme-options/params/general_settings/global.php:27
 #, c-format
 msgid ""
-"Using this option you can define the width of the content. please note that "
-"its in percent, lets say if you set it 60%, sidebar will occupy 40% of the "
-"main conent space."
+"Using this option you can define the width of the content. please note that its in "
+"percent, lets say if you set it 60%, sidebar will occupy 40% of the main conent "
+"space."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/global.php:38
 msgid ""
 "This option will decide when responsive state of content will be triggered. "
-"Different elements in your website such as sidebars will stack on window "
-"sizes smaller than the one you choose here."
+"Different elements in your website such as sidebars will stack on window sizes "
+"smaller than the one you choose here."
 msgstr ""
 
 # @ mk_framework
@@ -4809,11 +4765,11 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/global.php:49
 msgid ""
-"This value defines when Main Navigation should viewed as Responsive "
-"Navigation. Default is 1140px but if your Navigation items fits in header in "
-"smaller widths you can change this value. For example if you wish to view "
-"your website in iPad and see Main Navigtion as you see in desktop, then you "
-"should change this value to any size below 1020px."
+"This value defines when Main Navigation should viewed as Responsive Navigation. "
+"Default is 1140px but if your Navigation items fits in header in smaller widths you "
+"can change this value. For example if you wish to view your website in iPad and see "
+"Main Navigtion as you see in desktop, then you should change this value to any size "
+"below 1020px."
 msgstr ""
 
 # @ mk_framework
@@ -4835,10 +4791,9 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/global.php:88
 msgid ""
-"If you want to use typekit in your site simply enter The Type Kit ID you get "
-"from Typekit site. <a target='_blank' href='http://help.typekit."
-"com/customer/portal/articles/6840-using-typekit-with-wordpress-com'>Read "
-"More</a>"
+"If you want to use typekit in your site simply enter The Type Kit ID you get from "
+"Typekit site. <a target='_blank' href='http://help.typekit.com/customer/portal/"
+"articles/6840-using-typekit-with-wordpress-com'>Read More</a>"
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/global.php:95
@@ -4853,8 +4808,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/global.php:111
 msgid ""
-"You can disable breadcrumb navigation globally using this option, or you may "
-"need to disable it in a page locally."
+"You can disable breadcrumb navigation globally using this option, or you may need "
+"to disable it in a page locally."
 msgstr ""
 
 # @ mk_framework
@@ -4870,8 +4825,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/global.php:125
 msgid ""
-"Using this option you can modify the quaity of the built-in image cropper "
-"script theme uses."
+"Using this option you can modify the quaity of the built-in image cropper script "
+"theme uses."
 msgstr ""
 
 # @ mk_framework
@@ -4886,17 +4841,16 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/header.php:10
 msgid ""
-"using this option you can choose your header style, elements align and "
-"toggle off/on header toolbar."
+"using this option you can choose your header style, elements align and toggle off/"
+"on header toolbar."
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:41
 msgid ""
-"Side Dashboard Style is managed from Widgets and you should add your content "
-"into Side Dashboard widget area. However the Fullscreen Menu feeds from "
-"appearance > Menus. You need build a menu and assign it to fullscreen "
-"location. Be noted that you can not completely disable secondary navigation "
-"in header style 3!"
+"Side Dashboard Style is managed from Widgets and you should add your content into "
+"Side Dashboard widget area. However the Fullscreen Menu feeds from appearance > "
+"Menus. You need build a menu and assign it to fullscreen location. Be noted that "
+"you can not completely disable secondary navigation in header style 3!"
 msgstr ""
 
 # @ mk_framework
@@ -4910,8 +4864,8 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:64
 msgid ""
-"Enable this option if you would like to have secondary menu in both header "
-"style 1 & 2."
+"Enable this option if you would like to have secondary menu in both header style 1 "
+"& 2."
 msgstr ""
 
 # @ mk_framework
@@ -4932,8 +4886,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/header.php:145
 msgid ""
-"This option will fit the header and header toolbar into main grid container "
-"which you define in global settings."
+"This option will fit the header and header toolbar into main grid container which "
+"you define in global settings."
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:153
@@ -4941,9 +4895,7 @@ msgid "Using this option you can hide logo for header."
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:161
-msgid ""
-"You may need to hide Main Navigation and this option will give you this "
-"power."
+msgid "You may need to hide Main Navigation and this option will give you this power."
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:168
@@ -4952,9 +4904,9 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:169
 msgid ""
-"If enabled logo will be in the middle of the navigation. make sure you have "
-"\"even\" main menu items for correct alignment. This option will be only "
-"working with header style 1"
+"If enabled logo will be in the middle of the navigation. make sure you have \"even"
+"\" main menu items for correct alignment. This option will be only working with "
+"header style 1"
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:177
@@ -4970,18 +4922,18 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:201
 msgid ""
-"You can change responsive header height using this option (default:90px). "
-"This option will only change the header height on screen width you define in "
-"Theme Settings => Global Settings => Main Navigation Threshold Width."
+"You can change responsive header height using this option (default:90px). This "
+"option will only change the header height on screen width you define in Theme "
+"Settings => Global Settings => Main Navigation Threshold Width."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/header.php:213
 msgid ""
-"Using this option you can define how you would like the header transform "
-"from normal to sticky state. If 'Slide Down' is selected, then you can "
-"choose the offset location where the sticky header will be revealed while "
-"scrolling down (Check option below)."
+"Using this option you can define how you would like the header transform from "
+"normal to sticky state. If 'Slide Down' is selected, then you can choose the offset "
+"location where the sticky header will be revealed while scrolling down (Check "
+"option below)."
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:220
@@ -4992,8 +4944,8 @@ msgstr ""
 #: framework/admin/theme-options/params/general_settings/header.php:227
 #: framework/metaboxes/metabox-skinning.php:161
 msgid ""
-"Set this option to decide when the sticky state of header will trigger. This "
-"option does not apply to header style No2."
+"Set this option to decide when the sticky state of header will trigger. This option "
+"does not apply to header style No2."
 msgstr ""
 
 # @ mk_framework
@@ -5077,8 +5029,8 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:272
 msgid ""
-"If you dont want to show sart a tour link leave this field blank. This link "
-"will be added to the header right section in header style 1"
+"If you dont want to show sart a tour link leave this field blank. This link will be "
+"added to the header right section in header style 1"
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header.php:279
@@ -5088,9 +5040,9 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/header_toolbar.php:11
 msgid ""
-"If you enable this option today's date will be displayed on header toolbar. "
-"make sure your hosting server date configurations works as expected "
-"otherwise you might need to fix in hosting settings."
+"If you enable this option today's date will be displayed on header toolbar. make "
+"sure your hosting server date configurations works as expected otherwise you might "
+"need to fix in hosting settings."
 msgstr ""
 
 # @ mk_framework
@@ -5115,21 +5067,21 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/header_toolbar.php:54
 msgid ""
-"Please read <a href=\"http://artbees.net/themes/docs/how-to-get-your-"
-"mailchimp-form-url/\" target=\"_blank\">this article for more infomation</a>"
+"Please read <a href=\"http://artbees.net/themes/docs/how-to-get-your-mailchimp-form-"
+"url/\" target=\"_blank\">this article for more infomation</a>"
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/logos.php:10
 msgid ""
-"Using this option, You can upload your own custom favicon. <a "
-"target=\"_blank\" href=\"http://favicon.cc\">Generate Favicon</a>"
+"Using this option, You can upload your own custom favicon. <a target=\"_blank\" "
+"href=\"http://favicon.cc\">Generate Favicon</a>"
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/logos.php:17
 msgid ""
-"This logo will be used as your default logo, and if the transparent header "
-"is enabled and your header skin is dark."
+"This logo will be used as your default logo, and if the transparent header is "
+"enabled and your header skin is dark."
 msgstr ""
 
 # @ mk_framework
@@ -5139,29 +5091,29 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/logos.php:24
 msgid ""
-"This logo will be used when the transparent header is enabled and your "
-"header skin is light."
+"This logo will be used when the transparent header is enabled and your header skin "
+"is light."
 msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/logos.php:31
 msgid ""
-"Use this option to upload the logo which will be used when the header is on "
-"sticky state."
+"Use this option to upload the logo which will be used when the header is on sticky "
+"state."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/logos.php:38
 #: framework/metaboxes/metabox-skinning.php:90
 msgid ""
-"Use this option to change your logo for mobile devices if your logo width is "
-"quite long to fit in mobile device screen."
+"Use this option to change your logo for mobile devices if your logo width is quite "
+"long to fit in mobile device screen."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/logos.php:45
 msgid ""
-"This will appear in the sub-footer section. Your image should not exceed 150 "
-"* 60 pixels."
+"This will appear in the sub-footer section. Your image should not exceed 150 * 60 "
+"pixels."
 msgstr ""
 
 # @ mk_framework
@@ -5207,8 +5159,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/preloader.php:11
 msgid ""
-"You can enable preloader globally for all pages of the site, or enable it "
-"from page/post metaboxes for a specific page."
+"You can enable preloader globally for all pages of the site, or enable it from page/"
+"post metaboxes for a specific page."
 msgstr ""
 
 # @ mk_framework
@@ -5237,8 +5189,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/quick_contact.php:7
 msgid ""
-"Quick Contact is a floating contact form accessible by a button that will be "
-"always stick to the website's bottom right section."
+"Quick Contact is a floating contact form accessible by a button that will be always "
+"stick to the website's bottom right section."
 msgstr ""
 
 # @ mk_framework
@@ -5252,22 +5204,21 @@ msgstr ""
 
 #: framework/admin/theme-options/params/general_settings/quick_contact.php:18
 msgid ""
-"You can disable Quick Contact Form on Blog & News Sinle Post using this "
-"option."
+"You can disable Quick Contact Form on Blog & News Sinle Post using this option."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/quick_contact.php:32
 msgid ""
-"This email will be used for sending this form's inqueries. Admin's email "
-"will be used as default email."
+"This email will be used for sending this form's inqueries. Admin's email will be "
+"used as default email."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/quick_contact.php:41
 msgid ""
-"We're not around right now. But you can send us an email and we'll get back "
-"to you, asap."
+"We're not around right now. But you can send us an email and we'll get back to you, "
+"asap."
 msgstr ""
 
 # @ mk_framework
@@ -5278,8 +5229,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/social_networks.php:10
 msgid ""
-"Using this option you can set the social network icons location in header or "
-"simply disable them."
+"Using this option you can set the social network icons location in header or simply "
+"disable them."
 msgstr ""
 
 # @ mk_framework
@@ -5290,8 +5241,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/social_networks.php:22
 msgid ""
-"Don't use Simple Rounded, Square Pointed & Square Rounded styles within "
-"Header Toolbar"
+"Don't use Simple Rounded, Square Pointed & Square Rounded styles within Header "
+"Toolbar"
 msgstr ""
 
 # @ mk_framework
@@ -5314,15 +5265,15 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/social_networks.php:37
 msgid ""
-"Icon size will be used for outline styles: Simple Rounded, Square Pointed & "
-"Square Rounde."
+"Icon size will be used for outline styles: Simple Rounded, Square Pointed & Square "
+"Rounde."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/social_networks.php:49
 msgid ""
-"Select your social website and enter the full URL to your profile on the "
-"site, then click on add new button. then hit save settings."
+"Select your social website and enter the full URL to your profile on the site, then "
+"click on add new button. then hit save settings."
 msgstr ""
 
 # @ mk_framework
@@ -5333,26 +5284,26 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/portfolio/archive.php:10
 msgid ""
-"This option allows you to define the layout of Portfolio Archive page as "
-"full width without sidebar, left sidebar or right sidebar."
+"This option allows you to define the layout of Portfolio Archive page as full width "
+"without sidebar, left sidebar or right sidebar."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/portfolio/single.php:10
 msgid ""
-"Portfolio Slug is the text that is displyed in the URL (e.g. www.domain."
-"com/<strong>portfolio-posts</strong>/morbi-et-diam-massa/). As shown in the "
-"example, it is set to 'portfolio-posts' by default but you can change it to "
-"anything to suite your preference. However you should not have the same slug "
-"in any page or other post slug and if so the pagination will return 404 "
-"error naturally due to the internal conflicts."
+"Portfolio Slug is the text that is displyed in the URL (e.g. www.domain.com/"
+"<strong>portfolio-posts</strong>/morbi-et-diam-massa/). As shown in the example, it "
+"is set to 'portfolio-posts' by default but you can change it to anything to suite "
+"your preference. However you should not have the same slug in any page or other "
+"post slug and if so the pagination will return 404 error naturally due to the "
+"internal conflicts."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/portfolio/single.php:17
 msgid ""
-"This option allows you to define the page layout of Portfolio Single page as "
-"full width without sidebar, left sidebar or right sidebar."
+"This option allows you to define the page layout of Portfolio Single page as full "
+"width without sidebar, left sidebar or right sidebar."
 msgstr ""
 
 # @ mk_framework
@@ -5385,8 +5336,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/portfolio/single.php:68
 msgid ""
-"This option allows you to enable or disable the comment section on your "
-"single portfolio page."
+"This option allows you to enable or disable the comment section on your single "
+"portfolio page."
 msgstr ""
 
 # @ mk_framework
@@ -5397,10 +5348,9 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/backgrounds.php:6
 msgid ""
-"In this section you can modify all the backgrounds of your site including "
-"header, page, body, footer. Here, you can set the layout you would like your "
-"site to look like, then click on different layout sections to add/create "
-"different backgrounds."
+"In this section you can modify all the backgrounds of your site including header, "
+"page, body, footer. Here, you can set the layout you would like your site to look "
+"like, then click on different layout sections to add/create different backgrounds."
 msgstr ""
 
 # @ mk_framework
@@ -5413,8 +5363,8 @@ msgstr ""
 #: framework/admin/theme-options/params/styling/backgrounds.php:10
 #: framework/metaboxes/metabox-skinning.php:187
 msgid ""
-"Choose between a full or a boxed layout to set how your website's layout "
-"will look like."
+"Choose between a full or a boxed layout to set how your website's layout will look "
+"like."
 msgstr ""
 
 # @ mk_framework
@@ -5427,8 +5377,8 @@ msgstr ""
 #: framework/admin/theme-options/params/styling/backgrounds.php:22
 #: framework/metaboxes/metabox-skinning.php:205
 msgid ""
-"You can have a outer shadow around the box. using this option you in can "
-"modify its range size"
+"You can have a outer shadow around the box. using this option you in can modify its "
+"range size"
 msgstr ""
 
 # @ mk_framework
@@ -5588,8 +5538,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/header.php:21
 msgid ""
-"The opacity of the sticky header section (after scroll header will be fixed "
-"to the top of window)."
+"The opacity of the sticky header section (after scroll header will be fixed to the "
+"top of window)."
 msgstr ""
 
 # @ mk_framework
@@ -5610,9 +5560,9 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/header.php:43
 msgid ""
-"In all header styles this option will add/remove border bottom color to "
-"header section. This option will also add Main Navigation wrapper top border "
-"in header style 2."
+"In all header styles this option will add/remove border bottom color to header "
+"section. This option will also add Main Navigation wrapper top border in header "
+"style 2."
 msgstr ""
 
 # @ mk_framework
@@ -5623,8 +5573,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/header.php:50
 msgid ""
-"This border color will be used for sticky header border color. If left blank "
-"above option will used instead."
+"This border color will be used for sticky header border color. If left blank above "
+"option will used instead."
 msgstr ""
 
 # @ mk_framework
@@ -5684,8 +5634,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/main_navigation.php:25
 msgid ""
-"This option will put your main navigation in a colored container. Use this "
-"option in header style #2"
+"This option will put your main navigation in a colored container. Use this option "
+"in header style #2"
 msgstr ""
 
 # @ mk_framework
@@ -5702,8 +5652,8 @@ msgstr ""
 #: framework/admin/theme-options/params/styling/main_navigation.php:38
 msgid ""
 "The Main Menu hover & current menu item hover skin color. This color will be "
-"applied to the hover style you have chosen in above option (Header Main "
-"Navigation Hover Style)."
+"applied to the hover style you have chosen in above option (Header Main Navigation "
+"Hover Style)."
 msgstr ""
 
 # @ mk_framework
@@ -5714,8 +5664,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/main_navigation.php:45
 msgid ""
-"This option will only work for main navigation hover style 3 current item "
-"text color and style 4 current & hover text color."
+"This option will only work for main navigation hover style 3 current item text "
+"color and style 4 current & hover text color."
 msgstr ""
 
 # @ mk_framework
@@ -5779,8 +5729,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/main_navigation.php:120
 msgid ""
-"Using this option you can change mega menu vertical dividers color. If you "
-"dont want those dividers simply clear the option value."
+"Using this option you can change mega menu vertical dividers color. If you dont "
+"want those dividers simply clear the option value."
 msgstr ""
 
 # @ mk_framework
@@ -5791,8 +5741,8 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/styling/main_navigation.php:128
 msgid ""
-"If this option left blank 'Top Level Text Color' option will be used instead."
-" This option is useful for header style 2."
+"If this option left blank 'Top Level Text Color' option will be used instead. This "
+"option is useful for header style 2."
 msgstr ""
 
 # @ mk_framework
@@ -5837,10 +5787,10 @@ msgstr ""
 
 #: framework/admin/theme-options/params/typography/blog.php:22
 msgid ""
-"This option will let you change the line height of texts in site. Please "
-"note that some elements has their own direct line height property, so you "
-"can not change them from here. The unit is in 'em'.<br />If zero chosen the "
-"default body line height size will be used. "
+"This option will let you change the line height of texts in site. Please note that "
+"some elements has their own direct line height property, so you can not change them "
+"from here. The unit is in 'em'.<br />If zero chosen the default body line height "
+"size will be used. "
 msgstr ""
 
 #: framework/admin/theme-options/params/typography/blog.php:39
@@ -5863,9 +5813,9 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/typography/fonts.php:11
 msgid ""
-"Please choose the safe font family. This font family will be used as backup "
-"font (If the below none-safe fonts failed to load for any reason) and be "
-"applied to all site elements."
+"Please choose the safe font family. This font family will be used as backup font "
+"(If the below none-safe fonts failed to load for any reason) and be applied to all "
+"site elements."
 msgstr ""
 
 # @ mk_framework
@@ -5889,17 +5839,17 @@ msgstr ""
 #: framework/admin/theme-options/params/typography/fonts.php:56
 #: framework/admin/theme-options/params/typography/fonts.php:103
 msgid ""
-"Please choose your desired character sets hers as a comma separated list. "
-"This option is going to work if you choose Google Fonts and need to have "
-"glyphs other than English."
+"Please choose your desired character sets hers as a comma separated list. This "
+"option is going to work if you choose Google Fonts and need to have glyphs other "
+"than English."
 msgstr ""
 
 # @ mk_framework
 #: framework/admin/theme-options/params/typography/fonts.php:73
 #: framework/admin/theme-options/params/typography/fonts.php:119
 msgid ""
-"Please choose elements that you would to set for the above font family. "
-"setting it to Body will affect all elements."
+"Please choose elements that you would to set for the above font family. setting it "
+"to Body will affect all elements."
 msgstr ""
 
 # @ mk_framework
@@ -5917,8 +5867,8 @@ msgstr ""
 #: framework/admin/theme-options/params/typography/fonts.php:143
 #: framework/admin/theme-options/params/typography/fonts.php:166
 msgid ""
-"Please choose elements that you would to set for the above font family. "
-"setting it to Body will set it all elements."
+"Please choose elements that you would to set for the above font family. setting it "
+"to Body will set it all elements."
 msgstr ""
 
 # @ mk_framework
@@ -5979,9 +5929,9 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/typography/general.php:22
 msgid ""
-"This option will let you change the line height of texts in site. Please "
-"note that some elements has their own direct line height property, so you "
-"can not change them from here. The unit is in 'em'"
+"This option will let you change the line height of texts in site. Please note that "
+"some elements has their own direct line height property, so you can not change them "
+"from here. The unit is in 'em'"
 msgstr ""
 
 #: framework/admin/theme-options/params/typography/general.php:38
@@ -5995,8 +5945,7 @@ msgstr ""
 # @ mk_framework
 #: framework/admin/theme-options/params/typography/general.php:49
 msgid ""
-"This option will let you change the line height of paragraphs. The unit is "
-"in 'em'"
+"This option will let you change the line height of paragraphs. The unit is in 'em'"
 msgstr ""
 
 # @ mk_framework
@@ -6174,9 +6123,9 @@ msgstr ""
 # @ default
 #: framework/functions/bfi_cropping.php:145
 msgid ""
-"The server does not have ImageMagick or GD installed and/or enabled! Any of "
-"these libraries are required for WordPress to be able to resize images. "
-"Please contact your server administrator to enable this before continuing."
+"The server does not have ImageMagick or GD installed and/or enabled! Any of these "
+"libraries are required for WordPress to be able to resize images. Please contact "
+"your server administrator to enable this before continuing."
 msgstr ""
 
 # @ default
@@ -6221,8 +6170,7 @@ msgid "..."
 msgstr ""
 
 # @ mk_framework
-#: framework/functions/post-pagination.php:119
-#: views/global/loop-pagination.php:27
+#: framework/functions/post-pagination.php:119 views/global/loop-pagination.php:27
 msgid "of"
 msgstr ""
 
@@ -6242,21 +6190,20 @@ msgstr ""
 # @ mk_framework
 #: framework/functions/vc-integration.php:37
 msgid ""
-"Viewport animation will be triggered when this element is being viewed while "
-"you scroll page down. Choose the type of animation from this list. please "
-"note that this only works in moderns. This feature is disabled in touch "
-"devices to increase browsing speed."
+"Viewport animation will be triggered when this element is being viewed while you "
+"scroll page down. Choose the type of animation from this list. please note that "
+"this only works in moderns. This feature is disabled in touch devices to increase "
+"browsing speed."
 msgstr ""
 
 #: framework/functions/vc-integration.php:58
 msgid ""
-"You can make this element invisible for a particular device (screen "
-"resolution) or set it to All to be visible for all devices.<br> Important : "
-"Device detection is based on <strong>Device Screen Width</strong> and we can "
-"not clearly define the sort of device whether its a tablet or small laptop. "
-"This option mostly helps to organise your content on smaller devices (e.g. "
-"remove large content for mobiles) and it does not specifically help you to "
-"determine the type of device."
+"You can make this element invisible for a particular device (screen resolution) or "
+"set it to All to be visible for all devices.<br> Important : Device detection is "
+"based on <strong>Device Screen Width</strong> and we can not clearly define the "
+"sort of device whether its a tablet or small laptop. This option mostly helps to "
+"organise your content on smaller devices (e.g. remove large content for mobiles) "
+"and it does not specifically help you to determine the type of device."
 msgstr ""
 
 # @ mk_framework
@@ -6272,8 +6219,7 @@ msgstr ""
 # @ mk_framework
 #: framework/helpers/main-nav-walker.php:306
 msgid ""
-"The description will be displayed in the menu if the current theme supports "
-"it."
+"The description will be displayed in the menu if the current theme supports it."
 msgstr ""
 
 # @ mk_framework
@@ -6294,8 +6240,8 @@ msgstr ""
 # @ mk_framework
 #: framework/helpers/main-nav-walker.php:360
 msgid ""
-"This option will allow you add custom styles (background position, "
-"background repeat,..) to your mega menu main container."
+"This option will allow you add custom styles (background position, background "
+"repeat,..) to your mega menu main container."
 msgstr ""
 
 # @ mk_framework
@@ -6330,12 +6276,9 @@ msgstr[1] ""
 #: framework/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:348
 #: framework/includes/tgm-plugin-activation/request-plugins.php:105
 #, php-format
-msgid ""
-"Sorry, but you do not have the correct permissions to install the %1$s "
-"plugin."
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
 msgid_plural ""
-"Sorry, but you do not have the correct permissions to install the %1$s "
-"plugins."
+"Sorry, but you do not have the correct permissions to install the %1$s plugins."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -6344,11 +6287,11 @@ msgstr[1] ""
 #: framework/includes/tgm-plugin-activation/request-plugins.php:110
 #, php-format
 msgid ""
-"The following plugin needs to be updated to its latest version to ensure "
-"maximum compatibility with this theme: %1$s."
+"The following plugin needs to be updated to its latest version to ensure maximum "
+"compatibility with this theme: %1$s."
 msgid_plural ""
-"The following plugins need to be updated to their latest version to ensure "
-"maximum compatibility with this theme: %1$s."
+"The following plugins need to be updated to their latest version to ensure maximum "
+"compatibility with this theme: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -6365,8 +6308,7 @@ msgstr[1] ""
 #, php-format
 msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
 msgid_plural ""
-"Sorry, but you do not have the correct permissions to update the %1$s "
-"plugins."
+"Sorry, but you do not have the correct permissions to update the %1$s plugins."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -6392,11 +6334,9 @@ msgstr[1] ""
 #: framework/includes/tgm-plugin-activation/request-plugins.php:135
 #, php-format
 msgid ""
-"Sorry, but you do not have the correct permissions to activate the %1$s "
-"plugin."
+"Sorry, but you do not have the correct permissions to activate the %1$s plugin."
 msgid_plural ""
-"Sorry, but you do not have the correct permissions to activate the %1$s "
-"plugins."
+"Sorry, but you do not have the correct permissions to activate the %1$s plugins."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -6449,8 +6389,8 @@ msgstr ""
 #: framework/includes/tgm-plugin-activation/request-plugins.php:158
 #, php-format
 msgid ""
-"Plugin not activated. A higher version of %s is needed for this theme. "
-"Please update the plugin."
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
 msgstr ""
 
 # @ mk_framework
@@ -6537,8 +6477,8 @@ msgstr ""
 # @ mk_framework
 #: framework/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:3369
 msgid ""
-"The installation and activation process is starting. This process may take a "
-"while on some hosts, so please be patient."
+"The installation and activation process is starting. This process may take a while "
+"on some hosts, so please be patient."
 msgstr ""
 
 # @ mk_framework
@@ -6561,8 +6501,8 @@ msgstr ""
 # @ mk_framework
 #: framework/includes/tgm-plugin-activation/class-tgm-plugin-activation.php:3375
 msgid ""
-"The installation process is starting. This process may take a while on some "
-"hosts, so please be patient."
+"The installation process is starting. This process may take a while on some hosts, "
+"so please be patient."
 msgstr ""
 
 # @ mk_framework
@@ -6584,8 +6524,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-animated-columns.php:41
 msgid ""
-"This image will be scaled down to the size you choose in animated column "
-"shortcode options."
+"This image will be scaled down to the size you choose in animated column shortcode "
+"options."
 msgstr ""
 
 # @ mk_framework
@@ -6607,18 +6547,18 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-clients.php:25
 msgid ""
-"Please use the featured image metabox to upload your Clients Logo and then "
-"assign to the post. The image width should not exceed 170px and height is "
-"depending on your shortcode settings, default is 110px though you can change "
-"height from 50 to 300"
+"Please use the featured image metabox to upload your Clients Logo and then assign "
+"to the post. The image width should not exceed 170px and height is depending on "
+"your shortcode settings, default is 110px though you can change height from 50 to "
+"300"
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-edge.php:17
 msgid ""
 "Using this option you can define specific animations for the content of this "
-"slider. This option will affect custom content that you create from above WP "
-"editor or the built-in captions and buttons."
+"slider. This option will affect custom content that you create from above WP editor "
+"or the built-in captions and buttons."
 msgstr ""
 
 # @ mk_framework
@@ -6659,8 +6599,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-edge.php:106
 msgid ""
-"Upload slideshow image. Image will fit to the container size however for "
-"better quality in all browsers recommded size is 1920px * 1080px."
+"Upload slideshow image. Image will fit to the container size however for better "
+"quality in all browsers recommded size is 1920px * 1080px."
 msgstr ""
 
 # @ mk_framework
@@ -6681,8 +6621,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-edge.php:194
 msgid ""
-"You can define the content width based on percent. Please note that this "
-"width will be defined percent width of main grid. default : 70%"
+"You can define the content width based on percent. Please note that this width will "
+"be defined percent width of main grid. default : 70%"
 msgstr ""
 
 # @ mk_framework
@@ -6733,8 +6673,7 @@ msgid "Button 1 Corner Style"
 msgstr ""
 
 # @ mk_framework
-#: framework/metaboxes/metabox-edge.php:297
-#: framework/metaboxes/metabox-edge.php:346
+#: framework/metaboxes/metabox-edge.php:297 framework/metaboxes/metabox-edge.php:346
 msgid "Pointed"
 msgstr ""
 
@@ -6750,14 +6689,14 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-edge.php:380
 msgid ""
-"If this slide image or video is dark color then you should choose light "
-"otherwise dark."
+"If this slide image or video is dark color then you should choose light otherwise "
+"dark."
 msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:20
 msgid ""
-"If you enable this option, This employee member will have a single post so "
-"you can add extra content in above editor."
+"If you enable this option, This employee member will have a single post so you can "
+"add extra content in above editor."
 msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:32
@@ -6766,15 +6705,14 @@ msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:52
 msgid ""
-"Upload an image for single post > style 3 layout > header hero background "
-"image. Best image size for this field is 1920px * 550px.  (Specific to style "
-"3)"
+"Upload an image for single post > style 3 layout > header hero background image. "
+"Best image size for this field is 1920px * 550px.  (Specific to style 3)"
 msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:66
 msgid ""
-"choose a color for single post > style 3 layout > header hero background "
-"color. (Specific to style 3)"
+"choose a color for single post > style 3 layout > header hero background color. "
+"(Specific to style 3)"
 msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:79
@@ -6783,9 +6721,9 @@ msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:93
 msgid ""
-"Optionally you can add URL to this memeber such as a detailed page. Please "
-"note that this option will only work when you dont enable single employee "
-"page in above option."
+"Optionally you can add URL to this memeber such as a detailed page. Please note "
+"that this option will only work when you dont enable single employee page in above "
+"option."
 msgstr ""
 
 # @ mk_framework
@@ -6795,8 +6733,8 @@ msgstr ""
 
 #: framework/metaboxes/metabox-employee.php:114
 msgid ""
-"This text will be shown in employees loop. To show content in single "
-"employee, you should add your content into above WP editor."
+"This text will be shown in employees loop. To show content in single employee, you "
+"should add your content into above WP editor."
 msgstr ""
 
 # @ mk_framework
@@ -6816,8 +6754,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-employee.php:167
 msgid ""
-"Please Use the featured image metabox to upload your employee photo and then "
-"assign to the post."
+"Please Use the featured image metabox to upload your employee photo and then assign "
+"to the post."
 msgstr ""
 
 # @ mk_framework
@@ -6833,8 +6771,7 @@ msgstr ""
 #: framework/metaboxes/metabox-footer-widgets.php:50
 #: framework/metaboxes/metabox-footer-widgets.php:59
 msgid ""
-"Choose which widget area you would like to show in this column for this "
-"post/page"
+"Choose which widget area you would like to show in this column for this post/page"
 msgstr ""
 
 # @ mk_framework
@@ -6916,9 +6853,8 @@ msgstr ""
 #: framework/metaboxes/metabox-pages.php:56
 #: framework/metaboxes/metabox-portfolios.php:51
 msgid ""
-"This option will enable preloader for this post only. if you would like to "
-"enable it throughout the site consider option in General => Site Preloader "
-"=> Preloader."
+"This option will enable preloader for this post only. if you would like to enable "
+"it throughout the site consider option in General => Site Preloader => Preloader."
 msgstr ""
 
 # @ mk_framework
@@ -6933,8 +6869,8 @@ msgstr ""
 #: framework/metaboxes/metabox-portfolios.php:71
 #: framework/metaboxes/metabox-posts.php:71
 msgid ""
-"You can add a custom title for this page. (This option have NOTHING to do "
-"with title  &lt;title&gt; tag inside HTML.)"
+"You can add a custom title for this page. (This option have NOTHING to do with "
+"title  &lt;title&gt; tag inside HTML.)"
 msgstr ""
 
 # @ mk_framework
@@ -6962,25 +6898,24 @@ msgstr ""
 #: framework/metaboxes/metabox-portfolios.php:95
 #: framework/metaboxes/metabox-posts.php:94
 msgid ""
-"Choose which menu location to be used in this page. If left blank, Primary "
-"Menu will be used. You should first <a target='_blank' href='"
+"Choose which menu location to be used in this page. If left blank, Primary Menu "
+"will be used. You should first <a target='_blank' href='"
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-pages.php:121
 #: framework/metaboxes/metabox-portfolios.php:112
 msgid ""
-"You can create a custom sidebar, under Sidebar option and then assign the "
-"custom sidebar here to this post. later on you can customize which widgets "
-"to show up."
+"You can create a custom sidebar, under Sidebar option and then assign the custom "
+"sidebar here to this post. later on you can customize which widgets to show up."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:15
 msgid ""
-"Please choose this page's layout. If you choose 'Default' then you may "
-"modify it from Theme Settings => Portfolio => Portfolio Single Post => "
-"Portfolio Single Layout."
+"Please choose this page's layout. If you choose 'Default' then you may modify it "
+"from Theme Settings => Portfolio => Portfolio Single Post => Portfolio Single "
+"Layout."
 msgstr ""
 
 # @ mk_framework
@@ -6994,27 +6929,26 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:133
 msgid ""
-"If you may choose to change the permalink to a page, post or external URL. "
-"If left empty the single post permalink will be used instead."
+"If you may choose to change the permalink to a page, post or external URL. If left "
+"empty the single post permalink will be used instead."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:171
 #: framework/metaboxes/metabox-posts.php:341
 msgid ""
-"Please fill this option with the required ID. you can find the ID from the "
-"link parameters as examplified below:<br /> http://www.youtube.com/watch?"
-"v=<strong>ID</strong><br />https://vimeo.com/<strong>ID</strong><br />http:"
-"//www.dailymotion.com/embed/video/<strong>ID</strong>"
+"Please fill this option with the required ID. you can find the ID from the link "
+"parameters as examplified below:<br /> http://www.youtube.com/watch?v=<strong>ID</"
+"strong><br />https://vimeo.com/<strong>ID</strong><br />http://www.dailymotion.com/"
+"embed/video/<strong>ID</strong>"
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:184
 msgid ""
-"Make your hand picked images larger, wider or taller. Masonry loop style "
-"image size. First value represents horizontal wideness, second value how "
-"tall the item is. X * X is regular item width and height (will occupy one "
-"fifth of a column)."
+"Make your hand picked images larger, wider or taller. Masonry loop style image "
+"size. First value represents horizontal wideness, second value how tall the item "
+"is. X * X is regular item width and height (will occupy one fifth of a column)."
 msgstr ""
 
 # @ mk_framework
@@ -7040,56 +6974,54 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:210
 msgid ""
-"If you do not want to set a featured image inside single portfolio kindly "
-"disable it here. If you post type is video, featured video player will be "
-"disabled."
+"If you do not want to set a featured image inside single portfolio kindly disable "
+"it here. If you post type is video, featured video player will be disabled."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:218
 msgid ""
-"If you do not want to show similar posts section inside single portfolio "
-"kindly disable it here."
+"If you do not want to show similar posts section inside single portfolio kindly "
+"disable it here."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:226
 msgid ""
-"If you do not want to show Social share & love post feature int this post "
-"disable this option."
+"If you do not want to show Social share & love post feature int this post disable "
+"this option."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-portfolios.php:234
 msgid ""
-"This content will be used in ajax portfolio and if left blank the main "
-"content above will be used instead. Please note that ajax content will not "
-"accept fullwidth rows or page sections. So if you are using these in single "
-"portfolio main content then use this field for ajax content."
+"This content will be used in ajax portfolio and if left blank the main content "
+"above will be used instead. Please note that ajax content will not accept fullwidth "
+"rows or page sections. So if you are using these in single portfolio main content "
+"then use this field for ajax content."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-posts.php:15
 msgid ""
-"Please choose the layout of this page. If you choose 'Default' then you may "
-"modify it from Theme Settings => Blog/News => Blog Single Post => Single "
-"Layout."
+"Please choose the layout of this page. If you choose 'Default' then you may modify "
+"it from Theme Settings => Blog/News => Blog Single Post => Single Layout."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-posts.php:52
 msgid ""
-"This option will enable preloader for this post only. If you would like to "
-"enable it throughout the site consider setting the option in General => Site "
-"Preloader => Preloader."
+"This option will enable preloader for this post only. If you would like to enable "
+"it throughout the site consider setting the option in General => Site Preloader => "
+"Preloader."
 msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:115
 msgid ""
-"You can create a custom sidebar, under Sidebar option and then assign the "
-"custom sidebar here to this post. later on you can customize which widgets "
-"to show up. <a target=\"blank\" href=\"https://artbees.net/themes/video/jupiter-"
-"widgets-custom-sidebars/\">CLICK HERE</a> for more information."
+"You can create a custom sidebar, under Sidebar option and then assign the custom "
+"sidebar here to this post. later on you can customize which widgets to show up. <a "
+"target=\"blank\" href=\"https://artbees.net/themes/video/jupiter-widgets-custom-"
+"sidebars/\">CLICK HERE</a> for more information."
 msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:145
@@ -7121,29 +7053,29 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-posts.php:190
 msgid ""
-"This option allows you to choose how the blog loop item be displayed. This "
-"option only applies to Classic style."
+"This option allows you to choose how the blog loop item be displayed. This option "
+"only applies to Classic style."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-posts.php:208
 msgid ""
-"Upload MP3 your file or paste the full URL for external files. This file "
-"formated needed for Safari, Internet Explorer, Chrome. "
+"Upload MP3 your file or paste the full URL for external files. This file formated "
+"needed for Safari, Internet Explorer, Chrome. "
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-posts.php:223
 msgid ""
-"Upload OGG your file or paste the full URL for external files. This file "
-"formated needed for Firefox, Opera, Chrome. "
+"Upload OGG your file or paste the full URL for external files. This file formated "
+"needed for Firefox, Opera, Chrome. "
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-posts.php:237
 msgid ""
-"Fill this Field If you would like to state the author of the audio file you "
-"are about to post."
+"Fill this Field If you would like to state the author of the audio file you are "
+"about to post."
 msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:248
@@ -7152,14 +7084,14 @@ msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:249
 msgid ""
-"Paste embed iframe or Wordpress shortcode. Please note that using this "
-"option will ignore above options related to hosted audio player."
+"Paste embed iframe or Wordpress shortcode. Please note that using this option will "
+"ignore above options related to hosted audio player."
 msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:264
 msgid ""
-"Sample url should look like : https://twitter."
-"com/artbees_design/status/643400273923309568."
+"Sample url should look like : https://twitter.com/artbees_design/"
+"status/643400273923309568."
 msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:279
@@ -7176,8 +7108,8 @@ msgstr ""
 
 #: framework/metaboxes/metabox-posts.php:354
 msgid ""
-"This option will disable post featured image, video, audio and gallery "
-"(portfolio post type)."
+"This option will disable post featured image, video, audio and gallery (portfolio "
+"post type)."
 msgstr ""
 
 # @ mk_framework
@@ -7238,8 +7170,8 @@ msgstr ""
 #: framework/metaboxes/metabox-pricing.php:108
 #: framework/metaboxes/metabox-pricing.php:206
 msgid ""
-"You can learn more on documentation on how to make a sample pricing table "
-"list. switch to Text mode to see html code."
+"You can learn more on documentation on how to make a sample pricing table list. "
+"switch to Text mode to see html code."
 msgstr ""
 
 #: framework/metaboxes/metabox-pricing.php:315
@@ -7254,15 +7186,15 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-skinning.php:19
 msgid ""
-"You should enable this option if you want to override global background "
-"values defined in Theme Options."
+"You should enable this option if you want to override global background values "
+"defined in Theme Options."
 msgstr ""
 
 # @ mk_framework
 #: framework/metaboxes/metabox-skinning.php:27
 msgid ""
-"Using this option you can choose your header style, elements align and "
-"toggle off/on header toolbar."
+"Using this option you can choose your header style, elements align and toggle off/"
+"on header toolbar."
 msgstr ""
 
 # @ mk_framework
@@ -7273,8 +7205,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-skinning.php:51
 msgid ""
-"This logo will be used when transparent header is enabled and your header "
-"skin is dark."
+"This logo will be used when transparent header is enabled and your header skin is "
+"dark."
 msgstr ""
 
 # @ mk_framework
@@ -7285,8 +7217,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-skinning.php:64
 msgid ""
-"This logo will be used when transparent header is enabled and your header is "
-"light skin."
+"This logo will be used when transparent header is enabled and your header is light "
+"skin."
 msgstr ""
 
 # @ mk_framework
@@ -7317,11 +7249,11 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-skinning.php:117
 msgid ""
-"If this option is enabled, transparent header background will be removed, "
-"main navigation as well as other header elements will be controlled by below "
-"option. Edge Slider and Edge One Pager shortcodes slides will also be able "
-"to control header skin. If disabled none of these will be applied to header "
-"background and its elements."
+"If this option is enabled, transparent header background will be removed, main "
+"navigation as well as other header elements will be controlled by below option. "
+"Edge Slider and Edge One Pager shortcodes slides will also be able to control "
+"header skin. If disabled none of these will be applied to header background and its "
+"elements."
 msgstr ""
 
 # @ mk_framework
@@ -7336,10 +7268,10 @@ msgstr ""
 
 #: framework/metaboxes/metabox-skinning.php:148
 msgid ""
-"This border will appear in the bottom of the transparent header. Please note "
-"that this options has nothing to do with \"header bottom border\" and \"Header "
-"Border Bottom Color\" and this border will only appear in transparent header "
-"(will disappear in sticky header)."
+"This border will appear in the bottom of the transparent header. Please note that "
+"this options has nothing to do with \"header bottom border\" and \"Header Border "
+"Bottom Color\" and this border will only appear in transparent header (will "
+"disappear in sticky header)."
 msgstr ""
 
 # @ mk_framework
@@ -7374,8 +7306,8 @@ msgstr ""
 # @ mk_framework
 #: framework/metaboxes/metabox-tab-slider.php:29
 msgid ""
-"This text will be used in tab section. If left blank the above icon will be "
-"used as tab text."
+"This text will be used in tab section. If left blank the above icon will be used as "
+"tab text."
 msgstr ""
 
 # @ mk_framework
@@ -7414,8 +7346,7 @@ msgstr ""
 
 # @ mk_framework
 #: views/blog/components/blog-single-bold-share.php:20
-#: views/blog/components/blog-single-meta.php:60
-#: views/singular/wp-single-news.php:19
+#: views/blog/components/blog-single-meta.php:60 views/singular/wp-single-news.php:19
 msgid "Print"
 msgstr ""
 
@@ -7499,9 +7430,7 @@ msgid "Enable Map Type Control"
 msgstr ""
 
 #: views/widgets/widgets-instagram-feeds.php:42
-msgid ""
-"Your UserId must be digits, review your widget options and resolve the "
-"issues!"
+msgid "Your UserId must be digits, review your widget options and resolve the issues!"
 msgstr ""
 
 # @ mk_framework
@@ -7546,8 +7475,8 @@ msgstr ""
 
 #: views/widgets/widgets-twitter-feeds.php:159
 msgid ""
-"First Please refer to Theme Options > Advanced > Twitter API and complete "
-"the process in order to authenticate."
+"First Please refer to Theme Options > Advanced > Twitter API and complete the "
+"process in order to authenticate."
 msgstr ""
 
 # @ mk_framework
@@ -7878,8 +7807,8 @@ msgstr ""
 #: components/shortcodes/vc_flickr/vc_map.php:88
 #: components/shortcodes/vc_video/vc_map.php:29
 msgid ""
-"If you wish to style particular content element differently, then use this "
-"field to add a class name and then refer to it in your CSS file."
+"If you wish to style particular content element differently, then use this field to "
+"add a class name and then refer to it in your CSS file."
 msgstr ""
 
 # @ mk_framework
@@ -8401,7 +8330,7 @@ msgstr ""
 #: components/shortcodes/mk_news/components/read-more.php:1
 #: views/widgets/widgets-news-slider.php:77
 msgid "Read more"
-msgstr ""
+msgstr "Más"
 
 # @ mk_framework
 #: components/shortcodes/mk_blog_showcase/vc_map.php:3
@@ -8423,8 +8352,7 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_button/vc_map.php:16
 #: components/shortcodes/mk_button_gradient/vc_map.php:16
-#: framework/metaboxes/metabox-edge.php:287
-#: framework/metaboxes/metabox-edge.php:336
+#: framework/metaboxes/metabox-edge.php:287 framework/metaboxes/metabox-edge.php:336
 #: framework/metaboxes/metabox-pricing.php:422
 msgid "Flat"
 msgstr ""
@@ -8659,12 +8587,9 @@ msgstr ""
 #: components/shortcodes/mk_icon_box_gradient/vc_map.php:212
 #: components/shortcodes/mk_page_section/vc_map.php:500
 #: components/shortcodes/mk_testimonials/vc_map.php:61
-#: framework/functions/vc-integration.php:15
-#: framework/metaboxes/metabox-edge.php:254
-#: framework/metaboxes/metabox-edge.php:265
-#: framework/metaboxes/metabox-edge.php:310
-#: framework/metaboxes/metabox-edge.php:359
-#: framework/metaboxes/metabox-edge.php:386
+#: framework/functions/vc-integration.php:15 framework/metaboxes/metabox-edge.php:254
+#: framework/metaboxes/metabox-edge.php:265 framework/metaboxes/metabox-edge.php:310
+#: framework/metaboxes/metabox-edge.php:359 framework/metaboxes/metabox-edge.php:386
 #: framework/metaboxes/metabox-employee.php:85
 #: framework/metaboxes/metabox-pricing.php:260
 #: framework/metaboxes/metabox-pricing.php:290
@@ -9947,29 +9872,29 @@ msgstr ""
 
 #: components/shortcodes/mk_header/vc_map.php:69
 #: framework/admin/theme-options/params/general_settings/global.php:72
-#: framework/metaboxes/metabox-pages.php:112
-#: framework/metaboxes/metabox-posts.php:106 functions.php:134
+#: framework/metaboxes/metabox-pages.php:112 framework/metaboxes/metabox-posts.php:106
+#: functions.php:134
 msgid "Seventh Navigation"
 msgstr ""
 
 #: components/shortcodes/mk_header/vc_map.php:70
 #: framework/admin/theme-options/params/general_settings/global.php:73
-#: framework/metaboxes/metabox-pages.php:113
-#: framework/metaboxes/metabox-posts.php:107 functions.php:135
+#: framework/metaboxes/metabox-pages.php:113 framework/metaboxes/metabox-posts.php:107
+#: functions.php:135
 msgid "Eighth Navigation"
 msgstr ""
 
 #: components/shortcodes/mk_header/vc_map.php:71
 #: framework/admin/theme-options/params/general_settings/global.php:74
-#: framework/metaboxes/metabox-pages.php:114
-#: framework/metaboxes/metabox-posts.php:108 functions.php:136
+#: framework/metaboxes/metabox-pages.php:114 framework/metaboxes/metabox-posts.php:108
+#: functions.php:136
 msgid "Ninth Navigation"
 msgstr ""
 
 #: components/shortcodes/mk_header/vc_map.php:72
 #: framework/admin/theme-options/params/general_settings/global.php:75
-#: framework/metaboxes/metabox-pages.php:115
-#: framework/metaboxes/metabox-posts.php:109 functions.php:137
+#: framework/metaboxes/metabox-pages.php:115 framework/metaboxes/metabox-posts.php:109
+#: functions.php:137
 msgid "tenth Navigation"
 msgstr ""
 
@@ -10271,8 +10196,7 @@ msgstr ""
 # @ mk_framework
 #: components/shortcodes/mk_imagebox_item/vc_map.php:16
 #: components/shortcodes/mk_page_title_box/vc_map.php:41
-#: framework/metaboxes/metabox-edge.php:41
-#: framework/metaboxes/metabox-posts.php:164
+#: framework/metaboxes/metabox-edge.php:41 framework/metaboxes/metabox-posts.php:164
 msgid "Video"
 msgstr ""
 
@@ -13388,8 +13312,7 @@ msgid "Typography / Sidebar"
 msgstr ""
 
 # @ mk_framework
-#: framework/custom-post-types/config.php:27
-#: framework/custom-post-types/config.php:68
+#: framework/custom-post-types/config.php:27 framework/custom-post-types/config.php:68
 msgid "Client Name"
 msgstr ""
 
@@ -13542,8 +13465,7 @@ msgid "Default - Medium Size"
 msgstr ""
 
 # @ mk_framework
-#: framework/functions/post-pagination.php:119
-#: views/global/loop-pagination.php:25
+#: framework/functions/post-pagination.php:119 views/global/loop-pagination.php:25
 msgid "page"
 msgstr ""
 
@@ -13942,8 +13864,7 @@ msgid "Button 1 Style"
 msgstr ""
 
 # @ mk_framework
-#: framework/metaboxes/metabox-edge.php:299
-#: framework/metaboxes/metabox-edge.php:348
+#: framework/metaboxes/metabox-edge.php:299 framework/metaboxes/metabox-edge.php:348
 msgid "Full Rounded"
 msgstr ""
 
@@ -13953,8 +13874,7 @@ msgid "Button 1 Skin"
 msgstr ""
 
 # @ mk_framework
-#: framework/metaboxes/metabox-edge.php:311
-#: framework/metaboxes/metabox-edge.php:360
+#: framework/metaboxes/metabox-edge.php:311 framework/metaboxes/metabox-edge.php:360
 #: framework/metaboxes/metabox-tab-slider.php:42
 msgid "Theme Skin Color"
 msgstr ""
@@ -14794,9 +14714,9 @@ msgstr ""
 # @ mk_framework
 #: woocommerce/order/form-tracking.php:17
 msgid ""
-"To track your order please enter your Order ID in the box below and press "
-"return. This was given to you on your receipt and in the confirmation email "
-"you should have received."
+"To track your order please enter your Order ID in the box below and press return. "
+"This was given to you on your receipt and in the confirmation email you should have "
+"received."
 msgstr ""
 
 # @ mk_framework
@@ -14826,17 +14746,16 @@ msgstr ""
 #: framework/admin/control-panel/logic/theme-status.php:605
 #, php-format
 msgid ""
-"Your server does not have the <a href=\"%s\">DOMDocument</a> class enabled - "
-"HTML/Multipart emails, and also some extensions, will not work without "
-"DOMDocument."
+"Your server does not have the <a href=\"%s\">DOMDocument</a> class enabled - HTML/"
+"Multipart emails, and also some extensions, will not work without DOMDocument."
 msgstr ""
 
 #: framework/admin/control-panel/logic/theme-status.php:621
 #, php-format
 msgid ""
 "Your server does not support the <a href=\"%s\">gzopen</a> function - this is "
-"required to use the GeoIP database from MaxMind. The API fallback will be "
-"used instead for geolocation."
+"required to use the GeoIP database from MaxMind. The API fallback will be used "
+"instead for geolocation."
 msgstr ""
 
 # @ mk_framework
@@ -15058,8 +14977,7 @@ msgid "Website:"
 msgstr "Sitio Web"
 
 # @ mk_framework
-#: bbpress/form-forum.php:147 bbpress/form-reply.php:134
-#: bbpress/form-topic.php:175
+#: bbpress/form-forum.php:147 bbpress/form-reply.php:134 bbpress/form-topic.php:175
 #: components/shortcodes/mk_contact_form/mk_contact_form.php:29
 #, fuzzy
 msgid "Submit"
@@ -15072,8 +14990,7 @@ msgid "Name:"
 msgstr "Nombre"
 
 # @ mk_framework
-#: bbpress/form-topic-tag.php:88
-#: framework/admin/control-panel/logic/functions.php:237
+#: bbpress/form-topic-tag.php:88 framework/admin/control-panel/logic/functions.php:237
 #: framework/admin/control-panel/logic/theme-image-size.php:113
 #, fuzzy
 msgid "Delete"
@@ -15088,8 +15005,7 @@ msgstr "Nombre de usuario"
 
 # @ mk_framework
 #: bbpress/form-user-login.php:22 views/header/toolbar/login.php:45
-#: woocommerce/global/form-login.php:26
-#: woocommerce/myaccount/form-login.php:38
+#: woocommerce/global/form-login.php:26 woocommerce/myaccount/form-login.php:38
 #: woocommerce/myaccount/form-login.php:88
 #, fuzzy
 msgid "Password"
@@ -15120,8 +15036,7 @@ msgid "Email (Required)"
 msgstr "Email*"
 
 # @ mk_framework
-#: comments.php:109
-#: components/shortcodes/mk_contact_form/mk_contact_form.php:177
+#: comments.php:109 components/shortcodes/mk_contact_form/mk_contact_form.php:177
 #: components/shortcodes/mk_contact_form/mk_contact_form.php:227
 #: components/shortcodes/mk_contact_info/vc_map.php:59
 #, fuzzy
@@ -15130,15 +15045,13 @@ msgstr "Página Web"
 
 # @ mk_framework
 #: comments.php:116
-#, fuzzy
 msgid "LEAVE YOUR COMMENT"
-msgstr "¿QUÉ OPINAS?"
+msgstr " Su comentario"
 
 # @ mk_framework
 #: comments.php:119
-#, fuzzy
 msgid "POST COMMENT"
-msgstr "PUBLICAR COMENTARIO"
+msgstr "Publicar"
 
 # @ mk_framework
 #: components/shortcodes/mk_advanced_gmaps/vc_map.php:7
@@ -15344,9 +15257,8 @@ msgstr "Fecha"
 #: components/shortcodes/mk_news_tab/mk_news_tab.php:85
 #: components/shortcodes/mk_news_tab/mk_news_tab.php:92
 #: components/shortcodes/mk_products/mk_products.php:214
-#, fuzzy
 msgid "Read More"
-msgstr "Ver más"
+msgstr "Más"
 
 # @ mk_framework
 #: components/shortcodes/mk_blog/loop-styles/modern.php:46
@@ -15364,8 +15276,7 @@ msgstr "VER MÁS"
 #: framework/custom-post-types/config.php:264
 #: framework/custom-post-types/config.php:350
 #: framework/custom-post-types/config.php:424
-#: framework/custom-post-types/config.php:604
-#: framework/metaboxes/metabox-tax.php:29
+#: framework/custom-post-types/config.php:604 framework/metaboxes/metabox-tax.php:29
 #, fuzzy
 msgid "Thumbnail"
 msgstr "Miniatura"
@@ -15524,12 +15435,11 @@ msgstr "Descripción"
 #: components/shortcodes/vc_twitter/vc_map.php:39
 #, fuzzy
 msgid ""
-"If you wish to style particular content element differently, then use this "
-"field to add a class name and then refer to it in your css file."
+"If you wish to style particular content element differently, then use this field to "
+"add a class name and then refer to it in your css file."
 msgstr ""
-"Si quieres aplicar un estilo CSS distinto a un elemento del contenido, "
-"introduce el nombre de la clase CSS en este campo y llámala desde tu archivo "
-"CSS"
+"Si quieres aplicar un estilo CSS distinto a un elemento del contenido, introduce el "
+"nombre de la clase CSS en este campo y llámala desde tu archivo CSS"
 
 # @ mk_framework
 #: components/shortcodes/mk_contact_form/mk_contact_form.php:36
@@ -15656,8 +15566,7 @@ msgstr "Formulario de Contacto"
 # @ mk_framework
 #: components/shortcodes/mk_contact_form/vc_map.php:149
 #: components/shortcodes/mk_contact_info/vc_map.php:29
-#: views/singular/wp-single-news.php:20
-#: views/widgets/widgets-contact-form.php:40
+#: views/singular/wp-single-news.php:20 views/widgets/widgets-contact-form.php:40
 #, fuzzy
 msgid "Email"
 msgstr "Correo electrónico"
@@ -15731,10 +15640,8 @@ msgstr "Color"
 #: components/shortcodes/mk_icon_box_gradient/vc_map.php:208
 #: components/shortcodes/mk_ornamental_title/vc_map.php:127
 #: components/shortcodes/mk_ornamental_title/vc_map.php:144
-#: framework/functions/vc-integration.php:12
-#: framework/metaboxes/metabox-edge.php:21
-#: framework/metaboxes/metabox-edge.php:249
-#: framework/metaboxes/metabox-posts.php:19
+#: framework/functions/vc-integration.php:12 framework/metaboxes/metabox-edge.php:21
+#: framework/metaboxes/metabox-edge.php:249 framework/metaboxes/metabox-posts.php:19
 #, fuzzy
 msgid "Default"
 msgstr "Por defecto"
@@ -15766,8 +15673,7 @@ msgstr "Altura"
 #: components/shortcodes/mk_image_slideshow/vc_map.php:25
 #: components/shortcodes/mk_swipe_slideshow/vc_map.php:18
 #: components/shortcodes/vc_column/vc_map.php:62
-#: components/shortcodes/vc_column/vc_map.php:105
-#: views/widgets/widgets-video.php:102
+#: components/shortcodes/vc_column/vc_map.php:105 views/widgets/widgets-video.php:102
 #, fuzzy
 msgid "Width"
 msgstr "Anchura"
@@ -15794,8 +15700,7 @@ msgstr "Vertical"
 #: components/shortcodes/mk_imagebox_item/vc_map.php:15
 #: components/shortcodes/mk_ornamental_title/vc_map.php:43
 #: components/shortcodes/mk_page_title_box/vc_map.php:40
-#: framework/metaboxes/metabox-edge.php:40
-#: framework/metaboxes/metabox-posts.php:163
+#: framework/metaboxes/metabox-edge.php:40 framework/metaboxes/metabox-posts.php:163
 #, fuzzy
 msgid "Image"
 msgstr "Imagen"
@@ -16133,8 +16038,7 @@ msgstr "Te recomendamos las siguientes publicaciones"
 
 # @ mk_framework
 #: framework/admin/theme-options/params/general_settings/header_toolbar.php:32
-#: framework/metaboxes/metabox-employee.php:121
-#: views/header/toolbar/subscribe.php:23
+#: framework/metaboxes/metabox-employee.php:121 views/header/toolbar/subscribe.php:23
 #, fuzzy
 msgid "Email Address"
 msgstr "Dirección de email"
@@ -16270,21 +16174,18 @@ msgid "Author Name"
 msgstr "Nombre del autor:"
 
 # @ mk_framework
-#: searchform.php:2 views/templates/wp-404.php:6
-#: views/templates/wp-search.php:7
+#: searchform.php:2 views/templates/wp-404.php:6 views/templates/wp-search.php:7
 #, fuzzy
 msgid "Search site"
 msgstr "Buscar en el sitio"
 
 # @ mk_framework
 #: views/blog/components/blog-similar-posts.php:104
-#, fuzzy
 msgid "Recent Posts"
-msgstr "Publicaciones recientes"
+msgstr "Recientes"
 
 # @ mk_framework
-#: views/blog/components/blog-single-content.php:21
-#: views/singular/wp-page.php:27
+#: views/blog/components/blog-single-content.php:21 views/singular/wp-page.php:27
 #, fuzzy
 msgid "Pages:"
 msgstr "Páginas:"
@@ -16315,8 +16216,7 @@ msgstr "Cerrar sesión"
 
 # @ mk_framework
 #: views/header/toolbar/login.php:35 woocommerce/global/form-login.php:38
-#: woocommerce/myaccount/form-login.php:27
-#: woocommerce/myaccount/form-login.php:49
+#: woocommerce/myaccount/form-login.php:27 woocommerce/myaccount/form-login.php:49
 #, fuzzy
 msgid "Login"
 msgstr "Identificarse"
@@ -16348,8 +16248,7 @@ msgid "Shop"
 msgstr "Tienda"
 
 # @ mk_framework
-#: views/widgets/widgets-contact-form.php:83
-#: views/widgets/widgets-contact-info.php:94
+#: views/widgets/widgets-contact-form.php:83 views/widgets/widgets-contact-info.php:94
 #, fuzzy
 msgid "Email:"
 msgstr "Email:"
@@ -16496,12 +16395,11 @@ msgstr "Actualizar Totales"
 #: woocommerce/checkout/cart-errors.php:18
 #, fuzzy
 msgid ""
-"There are some issues with the items in your cart (shown above). Please go "
-"back to the cart page and resolve these issues before checking out."
+"There are some issues with the items in your cart (shown above). Please go back to "
+"the cart page and resolve these issues before checking out."
 msgstr ""
-"Hay algunos inconvenientes con los artículos en su carrito (mostrados "
-"arriba). Por favor regresa al carrito y resuelve los inconvenientes antes de "
-"pasar a pagar."
+"Hay algunos inconvenientes con los artículos en su carrito (mostrados arriba). Por "
+"favor regresa al carrito y resuelve los inconvenientes antes de pasar a pagar."
 
 # @ mk_framework
 #: woocommerce/checkout/cart-errors.php:22
@@ -16553,15 +16451,13 @@ msgid "Username or email"
 msgstr "Nombre de usuario o correo electrónico"
 
 # @ mk_framework
-#: woocommerce/global/form-login.php:36
-#: woocommerce/myaccount/form-login.php:47
+#: woocommerce/global/form-login.php:36 woocommerce/myaccount/form-login.php:47
 #, fuzzy
 msgid "Remember me"
 msgstr "Recordarme"
 
 # @ mk_framework
-#: woocommerce/global/form-login.php:42
-#: woocommerce/myaccount/form-login.php:52
+#: woocommerce/global/form-login.php:42 woocommerce/myaccount/form-login.php:52
 #, fuzzy
 msgid "Lost your password?"
 msgstr "¿Olvidaste la contraseña?"
@@ -16632,8 +16528,7 @@ msgstr "Confirmar nueva contraseña"
 
 # @ mk_framework
 #: woocommerce/myaccount/form-edit-address.php:14
-#: woocommerce/myaccount/my-address.php:19
-#: woocommerce/myaccount/my-address.php:25
+#: woocommerce/myaccount/my-address.php:19 woocommerce/myaccount/my-address.php:25
 #, fuzzy
 msgid "Billing Address"
 msgstr "Dirección de Facturación"
@@ -16667,8 +16562,8 @@ msgstr "Anti-spam"
 #: woocommerce/myaccount/form-lost-password.php:22
 #, fuzzy
 msgid ""
-"Lost your password? Please enter your username or email address. You will "
-"receive a link to create a new password via email."
+"Lost your password? Please enter your username or email address. You will receive a "
+"link to create a new password via email."
 msgstr ""
 "¿Perdiste tu constraseña? Por favor introduce tu nombre de usuario o correo "
 "electronico. Recibirás un enlace para crear una contraseña nueva por correo "
@@ -16783,7 +16678,7 @@ msgstr "Deja un comentario"
 msgid "Comments"
 msgid_plural "Showing %1$s comments"
 msgstr[0] "Comentarios"
-msgstr[1] ""
+msgstr[1] "Hay  %1$s comentarios"
 
 # @ mk_framework
 #: components/shortcodes/mk_advanced_gmaps/vc_map.php:132
@@ -16848,16 +16743,14 @@ msgstr "Tipografía"
 # @ mk_framework
 #: components/shortcodes/mk_blog/components/meta.php:9
 #: views/blog/components/blog-single-bold-hero.php:35
-#: views/blog/components/blog-single-meta.php:25
-#: views/templates/wp-search.php:26
+#: views/blog/components/blog-single-meta.php:25 views/templates/wp-search.php:26
 msgid "By"
 msgstr "Por"
 
 # @ mk_framework
 #: components/shortcodes/mk_blog/components/meta.php:13
-#: views/blog/components/blog-single-meta.php:29
-#: views/templates/wp-search.php:38 views/templates/wp-search.php:41
-#: views/templates/wp-search.php:44
+#: views/blog/components/blog-single-meta.php:29 views/templates/wp-search.php:38
+#: views/templates/wp-search.php:41 views/templates/wp-search.php:44
 msgid "In"
 msgstr "En"
 
@@ -16901,16 +16794,14 @@ msgstr "128"
 # @ mk_framework
 #: components/shortcodes/mk_icon_box2/vc_map.php:166
 #: components/shortcodes/mk_icon_box_gradient/vc_map.php:209
-#: framework/functions/vc-integration.php:17
-#: framework/metaboxes/metabox-edge.php:251
+#: framework/functions/vc-integration.php:17 framework/metaboxes/metabox-edge.php:251
 msgid "Bold"
 msgstr "Negrita"
 
 # @ mk_framework
 #: components/shortcodes/mk_icon_box2/vc_map.php:167
 #: components/shortcodes/mk_icon_box_gradient/vc_map.php:210
-#: framework/functions/vc-integration.php:18
-#: framework/metaboxes/metabox-edge.php:252
+#: framework/functions/vc-integration.php:18 framework/metaboxes/metabox-edge.php:252
 msgid "Bolder"
 msgstr "Negrota"
 
@@ -16974,8 +16865,7 @@ msgid "Upload"
 msgstr "Subir"
 
 # @ mk_framework
-#: views/header/global/responsive-menu.php:37
-#: views/header/global/search.php:18
+#: views/header/global/responsive-menu.php:37 views/header/global/search.php:18
 msgid "Search.."
 msgstr "Buscar..."
 
@@ -17015,21 +16905,16 @@ msgid "Send message"
 msgstr "Enviar mensaje"
 
 # @ mk_framework
-#: views/widgets/widgets-contact-form.php:81
-#: views/widgets/widgets-contact-info.php:74
-#: views/widgets/widgets-flickr-feeds.php:67
-#: views/widgets/widgets-gmap.php:112
+#: views/widgets/widgets-contact-form.php:81 views/widgets/widgets-contact-info.php:74
+#: views/widgets/widgets-flickr-feeds.php:67 views/widgets/widgets-gmap.php:112
 #: views/widgets/widgets-news-slider.php:129
 #: views/widgets/widgets-popular-posts.php:158
 #: views/widgets/widgets-recent-portfolio.php:172
 #: views/widgets/widgets-recent-posts.php:159
-#: views/widgets/widgets-related-posts.php:170
-#: views/widgets/widgets-slideshow.php:78
-#: views/widgets/widgets-social-networks.php:271
-#: views/widgets/widgets-subnav.php:63
+#: views/widgets/widgets-related-posts.php:170 views/widgets/widgets-slideshow.php:78
+#: views/widgets/widgets-social-networks.php:271 views/widgets/widgets-subnav.php:63
 #: views/widgets/widgets-testimonials.php:102
-#: views/widgets/widgets-twitter-feeds.php:145
-#: views/widgets/widgets-video.php:84
+#: views/widgets/widgets-twitter-feeds.php:145 views/widgets/widgets-video.php:84
 msgid "Title:"
 msgstr "Título:"
 

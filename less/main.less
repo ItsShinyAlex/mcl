@@ -75,13 +75,19 @@
 @moradoLetras: #6a2c6d;
 @grisclaro: #f9f8f8;
 @grisFondo: #eeeeee;
+@texto: 20px;
 
+
+.texto-azul {
+    color: @marino;
+}
 
 .boton,
-input[type="submit"] {
+input[type="submit"],
+.mk-button {
     display: inline-block;
     padding: 15px 20px;
-    font-size: 2em;
+    font-size: 2em !important;
     font-weight: 600px;
     transition: all 0.3s ease-in-out;
     border: none;
@@ -92,6 +98,18 @@ input[type="submit"] {
         &:hover {
             background-color: @moradoFondo;
         }
+    }
+}
+
+.mk-button {
+    text-transform: lowercase;
+    padding: 10px 20px;
+    font-size: 1.2em !important;
+    &:first-letter {
+        text-transform: uppercase;
+    }
+    &:hover {
+        background-color: @marino !important;
     }
 }
 
@@ -117,7 +135,7 @@ input[type="submit"] {
 .contenedor {
     max-width: 1100px;
     margin: 0 auto;
-} 
+}
 
 //Fuentes
 body,
@@ -134,6 +152,14 @@ div,
 span input {
     font-family: 'Bell MT';
     color: #000;
+}
+
+.widget .mk-searchform .text-input,
+.mk-search-loop .widget_search p,
+#mk-sidebar .widgettitle,
+#mk-sidebar .widget a,
+.widget_recent_comments .recentcomments{
+    font-size: 20px;
 }
 
 .template-section {
@@ -173,6 +199,22 @@ span input {
         }
     }
 }
+
+/*Texto buscador */
+
+.mk-fullscreen-search-overlay .mk-fullscreen-search-wrapper p { 
+    text-transform: none;
+    font-size: @texto;
+}
+
+/*Ocultar elementos*/
+
+.search-result-item .search-loop-meta,
+#mk-page-introduce.intro-left{
+    display: none;
+}
+
+
 
 /* ==========================================================================
    IDIOMA
@@ -273,6 +315,7 @@ span input {
 .menu-hover-style-2 .main-navigation-ul > li.current-menu-item > a.menu-item-link,
 .menu-hover-style-2 .main-navigation-ul > li.current-menu-ancestor > a.menu-item-link {
     font-weight: 600;
+    font-size: @texto;
 }
 
 /* ==========================================================================
@@ -282,16 +325,16 @@ span input {
 #amparo {
     background: @grisFondo;
     text-align: center;
-    
+
     a.boton {
         margin-top: 30px;
     }
-    
-    h2{
+
+    h2 {
         font-weight: 600;
     }
-    
-    p{
+
+    p {
         font-size: 20px;
         line-height: 1em;
     }
@@ -351,17 +394,24 @@ span input {
 }
 
 #suscribir {
-    background: url(../img/mcl/suscribete.jpg) no-repeat center;
+    background: url(../img/mcl/suscribete.jpg) no-repeat 0px;
+
     background-size: cover;
+    min-height: 248px;
+    h2 {
+        margin-top: 26px;
+        margin-bottom: 0;
+    }
 
     input[type="email"] {
         background: none;
         width: 100%;
-        max-width: 500px;
+        max-width: 450px;
         margin: 0 auto;
         display: block;
         border: 2px solid #bfbfbf;
         text-align: center;
+
     }
 
     input[type="submit"] {
@@ -398,10 +448,10 @@ span input {
             a {
                 padding: 0 10px;
                 display: block;
-                font-weight: 400;              
+                font-weight: 400;
             }
-            
-            span{
+
+            span {
                 color: #fff;
                 font-size: 1.6em;
             }
@@ -465,7 +515,7 @@ span input {
     }
 }
 
-@padding-texto: 100px 80px;
+@padding-texto: 190px 80px;
 
 #jerarquia {
     .flex {
@@ -483,7 +533,7 @@ span input {
 }
 
 #vision {
-    h2{
+    h2 {
         text-align: center;
         color: @moradoLetras;
     }
@@ -499,7 +549,7 @@ span input {
 }
 
 #mision {
-    h2{
+    h2 {
         text-align: center;
         color: @moradoLetras;
     }
@@ -508,7 +558,7 @@ span input {
             padding: @padding-texto;
 
             &:first-child {
-                background: url(../img/acerca/mision.jpg) no-repeat;
+                background: url(../img/acerca/mision.jpg) no-repeat center;
                 background-size: cover;
             }
         }
@@ -548,6 +598,7 @@ section {
 #valores {
     background: url(../img/acerca/valores.jpg) no-repeat;
     background-size: cover;
+    min-height: 350px;
 
     h2 {
         color: #fff;
@@ -660,7 +711,7 @@ section {
     background: url(../img/control/intro.jpg) no-repeat center -50px;
     padding: 170px 0;
     background-size: contain;
-    
+
     h1 {
         text-align: center;
         color: #fff;
@@ -687,7 +738,7 @@ section {
     background: url(../img/control/mexico.jpg) no-repeat center top;
     padding: 160px 0;
     background-attachment: fixed;
-    
+
     p {
         width: 658px;
         margin: 25px auto;
@@ -708,7 +759,7 @@ section {
 
     .flex {
         .columna {
-            padding: @padding-texto;
+            padding: 112px 80px;
         }
     }
 }
@@ -722,7 +773,7 @@ section {
     padding: 52px 0;
     background-size: contain;
     height: 393px;
-    
+
     h1 {
         text-align: center;
         color: #fff;
@@ -808,9 +859,17 @@ section {
 }
 
 #complejo {
+    padding-top: 50px;
     .fondo {
         background: url(../img/amparo/mano.jpg) center bottom no-repeat;
         background-size: 37%;
+    }
+    
+    .flex{
+        .columna{
+            padding-top: 90px;
+            padding-bottom: 90px;
+        }
     }
 }
 
@@ -827,12 +886,13 @@ section {
 #redaccion {
     background: @grisFondo;
     .fondo {
-        background: url(../img/amparo/sillon.jpg) center bottom no-repeat;
+//        background: url(../img/amparo/sillon.jpg) center -189px no-repeat;
+        background: url(../img/amparo/sillon.jpg) center -210px no-repeat;
         background-size: cover;
     }
-    
-    .flex{
-        min-height: 650px;
+
+    .flex {
+        min-height: 800px;
     }
 }
 
@@ -853,7 +913,7 @@ section {
 
     img.contacto {
         width: 95%;
-        max-width: 400px;
+        max-width: 450px;
     }
 
     form {
@@ -953,27 +1013,26 @@ section {
 /* ==========================================================================
    Aviso de privacidad
    ========================================================================== */
-#candado{
+
+#candado {
     background: url(../img/AvisoPrivacidad/candado.jpg) no-repeat center;
     background-size: cover;
     padding: 225px 0;
 }
 
-#aviso
-{
-    &.template-section{
-        p{     
+#aviso {
+    &.template-section {
+        p {
             text-align: justify;
             text-justify: inter-word;
             margin-bottom: 40px;
-            
-            &.last{
-                margin-bottom:  155px;
+
+            &.last {
+                margin-bottom: 155px;
             }
-        }   
+        }
     }
-    h1
-    {
+    h1 {
         color: #27509d;
         margin-top: 85px;
         margin-bottom: 78px;
@@ -984,9 +1043,103 @@ section {
    Blog
    ========================================================================== */
 
+/*Ajuste de tamaño de fuente*/
+
+.mk-similiar-title,
+.similar-post-title,
+.blog-comment-title,
+#respond .respond-heading{
+    font-size: @texto;
+}
+
+/*Desactivar uppercase*/
+#respond input#submit,
+#respond .respond-heading,
+#comments .blog-comment-title,
+.similar-post-title,
+.mk-similiar-title,
+.master-holder h2,
+#mk-sidebar div.widgettitle{
+    text-transform: none;
+}
+
+#respond input#submit {
+    padding: 20px 15px;
+    font-size: 24px !important;    
+}
+
+form#commentform .comment-textarea textarea {
+    width: 100%;
+    font-size: 18px;
+}
+
+.mk-blog-grid-item .blog-grid-footer {
+    display: none;
+}
+
+
 .mk-blog-modern-item .mk-blog-meta-wrapper {
     font-size: 18px;
 }
+
+.mk-blog-grid-item .the-excerpt {
+    min-height: 169px;
+}
+
+
+.the-title a{
+    text-transform: none;
+}
+#blog {
+    .the-title a {
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .margin-bot {
+        margin-bottom: 55px;
+    }
+
+    .mk-blog-grid-item time a {
+        color: #999;
+        font-style: italic;
+        font-size: 16px;
+    }
+
+    .mk-readmore {
+        line-height: 12px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .mk-blog-grid-item .mk-love-holder {
+        display: none;
+    }
+
+    .image-hover-overlay {
+        display: none;
+    }
+    .post-type-badge {
+        display: none;
+    }
+}
+
+#loop-3 {
+
+    .image-hover-overlay {
+        display: none;
+    }
+    .post-type-badge {
+        display: none;
+    }
+
+}
+
+
+
+
+
 
 
 @import "responsive";

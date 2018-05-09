@@ -102,12 +102,12 @@ window.sr = ScrollReveal({ reset: false });
 
              
         //Animación en general
-        sr.reveal('section h1, section h2', titulo);
+        sr.reveal('.template-section h1, .template-section h2', titulo);
         sr.reveal('.animacion h3', subtituloH3);
         sr.reveal('.animacion h4', subtituloH4);
         sr.reveal('.template-section img, .template-section input', imagenes);
-        sr.reveal('section p', contenido);
-        sr.reveal('section .boton', contenido);
+        sr.reveal('.template-section p', contenido);
+        sr.reveal('.template-section .boton', contenido);
 
       function addCommasToNum( num ){
         return num.toString().replace( /\B(?=(\d{3})+(?!\d))/g, "," )
