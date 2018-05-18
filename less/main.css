@@ -165,8 +165,11 @@ span input {
 }
 /*Ocultar elementos*/
 .search-result-item .search-loop-meta,
-#mk-page-introduce.intro-left {
+#mk-page-introduce.intro-left,
+.ocultar {
   display: none;
+  z-index: -10;
+  visibility: hidden;
 }
 /* ==========================================================================
    IDIOMA
@@ -210,6 +213,7 @@ span input {
 }
 #idioma .idiomas a span {
   font-size: 1.2em;
+  text-transform: uppercase;
 }
 #idioma .idiomas a:hover {
   color: #6a2c6d;
@@ -362,7 +366,7 @@ span input {
 }
 #footer a {
   color: #fff;
-  font-size: 1.5em;
+  font-size: 20px;
 }
 #footer a:hover {
   color: #1ba8e4;
@@ -714,6 +718,7 @@ section.estilo-uno .flex .columna {
 #contacto form .checkbox-inline {
   font-family: 'Bell MT';
   font-size: 17px;
+  line-height: 1.1em;
 }
 #contacto form .checkbox-inline strong {
   color: #6a2c6d;
@@ -768,6 +773,10 @@ section.estilo-uno .flex .columna {
   background: #254e9c;
   height: 3px;
   margin: 40px 0;
+}
+#contacto h2 {
+  margin-left: 30px;
+  margin-bottom: 40px;
 }
 #contacto .info-direccion .flex .columna h3 {
   color: #254e9c;

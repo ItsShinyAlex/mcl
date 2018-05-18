@@ -48,6 +48,8 @@ $disable_mobile = ($mk_options['footer_disable_mobile'] == 'true' ) ? $mk_footer
             
             <a href="https://esbrillante.mx/diseno-de-paginas-web-profesionales-empresas/" title="Diseño profesional de Sitios Web" class="esbrillante">Sitio web diseñado por Esbrillante</a>
         </div>
+
+        <div id="idioma" class="ocultar"></div>
     </footer>
 <?php endif; ?>
 

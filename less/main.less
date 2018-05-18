@@ -210,8 +210,11 @@ span input {
 /*Ocultar elementos*/
 
 .search-result-item .search-loop-meta,
-#mk-page-introduce.intro-left{
+#mk-page-introduce.intro-left,
+.ocultar{
     display: none;
+    z-index: -10;
+    visibility: hidden;
 }
 
 
@@ -266,6 +269,7 @@ span input {
 
             span {
                 font-size: 1.2em;
+                text-transform: uppercase;
             }
 
             &:hover {
@@ -460,7 +464,7 @@ span input {
     }
     a {
         color: #fff;
-        font-size: 1.5em;
+        font-size: 20px;
         &:hover {
             color: #1ba8e4;
         }
@@ -932,6 +936,7 @@ section {
         .checkbox-inline {
             font-family: 'Bell MT';
             font-size: 17px;
+            line-height: 1.1em;
             strong {
                 color: @moradoLetras;
             }
@@ -989,6 +994,11 @@ section {
         background: @marino;
         height: 3px;
         margin: 40px 0;
+    }
+    
+    h2{
+        margin-left: 30px;
+        margin-bottom: 40px;
     }
 
     .info-direccion {

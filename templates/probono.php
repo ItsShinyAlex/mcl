@@ -38,7 +38,7 @@
 
     <section id="candidatos" class="template-section">
         <div class="contenedor">
-            <p class="text-justify-center">Trabajamos bajo el principio referente a que, la mejor forma de ayudarnos, lo es ayudando a las demás personas. Siendo así, creemos, somos conscientes, que, si bien un caso llevado sin honorarios, puede favorecer a la persona y a su núcleo social más inmediato, un caso que propicie el mejoramiento de las maquinarias, de los procedimientos o de las instituciones del Estado, puede beneficiar a un universo mayor de personas. Por eso, cuando tomamos un caso <i>pro bono</i>, más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas en general.</p>
+            <p class="text-justify-center">Trabajamos bajo el principio referente a que, la mejor forma de ayudarnos, lo es ayudando a las demás personas. Siendo así, creemos, somos conscientes, que, si bien un caso llevado sin honorarios, puede favorecer a la persona y a su núcleo social más inmediato, un caso que propicie el mejoramiento de las maquinarias, de los procedimientos o de las instituciones del Estado, puede beneficiar a un universo mayor de personas. Por eso, cuando tomamos un caso <i>pro bono,</i> más que defender a una persona en particular, pretendemos impactar positivamente a todas las personas en general.</p>
         </div>
         
         <div class="foto">
